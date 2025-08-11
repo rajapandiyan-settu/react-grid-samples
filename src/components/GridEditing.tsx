@@ -65,18 +65,13 @@ function GridEditing() {
                         allowSorting={true}
                         allowPaging={true}
                         allowFiltering={true}
+                        allowSearching={true}
                         toolbar={['Add', 'Edit', 'Delete', 'Update', 'Cancel', 'Search']}
                         editSettings={editSettings}
                         onLoad={load}
-                        onCreated={created}
-                        // onHeaderCellInfo={headerCellInfo}
-                        // onRowDataBound={rowDataBound}
-                        // onQueryCellInfo={queryCellInfo}
-                        onBeforeDataBound={beforeDataBound}
-                        onDataBound={dataBound}
-                        onBeginEdit={beginEdit}
-                        onActionBegin={actionBegin}
-                        onActionComplete={actionComplete}
+                        onGridInit={created}
+                        onDataLoadStart={beforeDataBound}
+                        onDataLoaded={dataBound}
                         height={300}
                         // width={1000}
                     >

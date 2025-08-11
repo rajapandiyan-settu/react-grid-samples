@@ -16,6 +16,7 @@ function GridAggregate() {
           allowSorting={true}
           allowPaging={true}
           allowFiltering={true}
+          allowSearching={true}
           toolbar={['Add', 'Edit', 'Delete', 'Update', 'Cancel', 'Search']}
           editSettings={{ allowAdding: true, allowDeleting: true, allowEditing: true }}
           height={300}

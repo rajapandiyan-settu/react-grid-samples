@@ -292,21 +292,17 @@ function GridColumn() {
                         allowFiltering={true}
                         allowSorting={true}
                         allowSelection={true}
+                        allowSearching={true}
                         height={300}
                         width={'970'}
                         toolbar={['Add', 'Edit', 'Delete', 'Update', 'Cancel', 'Search']}
                         editSettings={{ allowAdding: true, allowDeleting: true, allowEditing: true }}
                         onLoad={load}
-                        onCreated={created}
-                        // onHeaderCellInfo={headerCellInfo}
-                        // onRowDataBound={rowDataBound}
-                        // onQueryCellInfo={queryCellInfo}
-                        onBeforeDataBound={beforeDataBound}
-                        onDataBound={dataBound}
-                        onPageChanging={pageChanging}
-                        onActionBegin={actionBegin}
-                        onPageChanged={pageChanged}
-                        onActionComplete={actionComplete}
+                        onGridInit={created}
+                        onDataLoadStart={beforeDataBound}
+                        onDataLoaded={dataBound}
+                        onPageChangeStart={pageChanging}
+                        onPageChangeComplete={pageChanged}
                     >
                         <Columns>
                             <Column field='OrderID' headerText='Order ID' isPrimaryKey={true} validationRules={{ required: true }} 

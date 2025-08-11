@@ -205,19 +205,15 @@ function GridFiltering() {
                         allowPaging={true}
                         allowFiltering={allowFiltering}
                         filterSettings={filterSettings}
+                        allowSearching={true}
                         toolbar={['Add', 'Edit', 'Delete', 'Update', 'Cancel', 'Search']}
                         editSettings={{ allowAdding: true, allowDeleting: true, allowEditing: true }}
                         onLoad={load}
-                        onCreated={created}
-                        // onHeaderCellInfo={headerCellInfo}
-                        // onRowDataBound={rowDataBound}
-                        // onQueryCellInfo={queryCellInfo}
-                        onBeforeDataBound={beforeDataBound}
-                        onDataBound={dataBound}
-                        onFiltering={filtering}
-                        onActionBegin={actionBegin}
-                        onFiltered={filtered}
-                        onActionComplete={actionComplete}
+                        onGridInit={created}
+                        onDataLoadStart={beforeDataBound}
+                        onDataLoaded={dataBound}
+                        onFilterStart={filtering}
+                        onFilterComplete={filtered}
                         height={300}
                         // width={900}
                     >

@@ -160,14 +160,8 @@ function AllFeatures() {
     const pageChanging = (args: any) => {
         console.log('pageChanging', args);
     }
-    const actionBegin = (args: any) => {
-        console.log('actionBegin', args);
-    }
     const pageChanged = (args: any) => {
         console.log('pageChanged', args);
-    }
-    const actionComplete = (args: any) => {
-        console.log('actionComplete', args);
     }
 
     const footerMax = (props: any) => {
@@ -827,19 +821,15 @@ function AllFeatures() {
                         enableStickyHeader={enableStickyHeader}
                         rowHeight={rowHeight}
                         textWrapSettings={textWrapSettings as TextWrapSettingsModel}
+                        allowSearching={true}
                         toolbar={['Add', 'Edit', 'Delete', 'Update', 'Cancel', 'Search']}
                         editSettings={editSettings}
                         onLoad={load}
-                        onCreated={created}
-                        // onHeaderCellInfo={headerCellInfo}
-                        // onRowDataBound={rowDataBound}
-                        // onQueryCellInfo={queryCellInfo}
-                        onBeforeDataBound={beforeDataBound}
-                        onDataBound={dataBound}
-                        onPageChanging={pageChanging}
-                        onActionBegin={actionBegin}
-                        onPageChanged={pageChanged}
-                        onActionComplete={actionComplete}
+                        onGridInit={created}
+                        onDataLoadStart={beforeDataBound}
+                        onDataLoaded={dataBound}
+                        onPageChangeStart={pageChanging}
+                        onPageChangeComplete={pageChanged}
                     >
                         <Columns>
                             <Column field='OrderID' headerText='Order ID' isPrimaryKey={true} validationRules={{ required: true }}

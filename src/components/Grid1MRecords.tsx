@@ -102,13 +102,18 @@ function Grid1MRecords() {
               allowSorting={true}
               allowPaging={true}
               allowFiltering={true}
+              allowSearching={true}
               pageSettings={paseSettings}
               toolbar={['Add', 'Edit', 'Delete', 'Update', 'Cancel', 'Search']}
               editSettings={{ allowAdding: true, allowDeleting: true, allowEditing: true }}
               height={270}
               onLoad={load}
-              onDataBound={dataBound}
-              onActionBegin={actionBegin}
+              onDataLoadStart={dataBound}
+              onPageChangeStart={actionBegin}
+              onSortStart={actionBegin}
+              onSearchStart={actionBegin}
+              onFilterStart={actionBegin}
+
             >
               <Columns>
                 <Column field='SNo' headerText='SNO' isPrimaryKey={true} validationRules={{ required: true }} width='100' />

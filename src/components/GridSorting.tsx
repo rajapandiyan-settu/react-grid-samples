@@ -151,19 +151,15 @@ function GridSorting() {
                         sortSettings={sortSettings}
                         allowPaging={true}
                         allowFiltering={true}
+                        allowSearching={true}
                         toolbar={['Add', 'Edit', 'Delete', 'Update', 'Cancel', 'Search']}
                         editSettings={{ allowAdding: true, allowDeleting: true, allowEditing: true }}
                         onLoad={load}
-                        onCreated={created}
-                        // onHeaderCellInfo={headerCellInfo}
-                        // onRowDataBound={rowDataBound}
-                        // onQueryCellInfo={queryCellInfo}
-                        onBeforeDataBound={beforeDataBound}
-                        onDataBound={dataBound}
-                        onSorting={sorting}
-                        onActionBegin={actionBegin}
-                        onSorted={sorted}
-                        onActionComplete={actionComplete}
+                        onGridInit={created}
+                        onDataLoadStart={beforeDataBound}
+                        onDataLoaded={dataBound}
+                        onSortStart={sorting}
+                        onSortComplete={sorted}
                         height={300}
                     >
                         <Columns>

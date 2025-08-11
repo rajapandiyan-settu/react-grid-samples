@@ -7,7 +7,7 @@ import { Button } from "@syncfusion/react-buttons";
 
 function GridSearching() {
     const gridRef = useRef<GridRef>(null);
-    const [toolbar, setToolbar] = useState(['Add', 'Edit', 'Delete', 'Update', 'Cancel', 'Search']);
+    const [allowSearch, setAllowSearch] = useState(true);
     const [searchSettings, setSearchSettings] = useState<SearchSettingsModel>({ fields: [], ignoreCase: true, ignoreAccent: true, operator: 'contains' });
 
     const operators = ['contains', 'startswith', 'endswith', 'equal', 'notcontains', 'notstartswith', 'notendswith', 'notequal'];
@@ -55,7 +55,7 @@ function GridSearching() {
             <div className="container">
                 <aside className="sidebar">
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={true} label='Show Searchbar' onChange={(args) => { setToolbar(args.value ? ['Add', 'Edit', 'Delete', 'Update', 'Cancel', 'Search'] : []); }} />
+                        <Checkbox defaultChecked={true} label='Allow Search' onChange={(args) => { setAllowSearch(!allowSearch) }} />
                     </div>
                     <div className='sidebar-items'>
                         <Checkbox defaultChecked={true} label='Ignore Case' onChange={(args) => { setSearchSettings({ ...gridRef.current?.searchSettings, ignoreCase: args.value }); }} />
@@ -124,20 +124,16 @@ function GridSearching() {
                         allowSorting={true}
                         allowPaging={true}
                         allowFiltering={true}
-                        toolbar={toolbar}
+                        allowSearching={allowSearch}
+                        toolbar={['Search']}
                         editSettings={{ allowAdding: true, allowDeleting: true, allowEditing: true }}
                         searchSettings={searchSettings}
                         onLoad={load}
-                        onCreated={created}
-                        // onHeaderCellInfo={headerCellInfo}
-                        // onRowDataBound={rowDataBound}
-                        // onQueryCellInfo={queryCellInfo}
-                        onBeforeDataBound={beforeDataBound}
-                        onDataBound={dataBound}
-                        onSearching={searching}
-                        onActionBegin={actionBegin}
-                        onSearched={searched}
-                        onActionComplete={actionComplete}
+                        onGridInit={created}
+                        onDataLoadStart={beforeDataBound}
+                        onDataLoaded={dataBound}
+                        onSearchStart={searching}
+                        onSearchComplete={searched}
                         height={300}
                     >
                         <Columns>

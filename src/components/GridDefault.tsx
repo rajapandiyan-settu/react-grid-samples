@@ -52,18 +52,14 @@ function GridDefault() {
           allowSorting={true}
           allowPaging={true}
           allowFiltering={true}
+          allowSearching={true}
           toolbar={['Search']}
           onLoad={load}
-          onCreated={created}
-          // onHeaderCellInfo={headerCellInfo}
-          // onRowDataBound={rowDataBound}
-          // onQueryCellInfo={queryCellInfo}
-          onBeforeDataBound={beforeDataBound}
-          onDataBound={dataBound}
-          onPageChanging={pageChanging}
-          onActionBegin={actionBegin}
-          onPageChanged={pageChanged}
-          onActionComplete={actionComplete}
+          onGridInit={created}
+          onDataLoadStart={beforeDataBound}
+          onDataLoaded={dataBound}
+          onPageChangeStart={pageChanging}
+          onPageChangeComplete={pageChanged}
           height={300}
         >
           <Columns>
