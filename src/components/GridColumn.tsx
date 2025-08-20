@@ -1,17 +1,17 @@
 import { useRef, useState } from 'react';
-import { Grid, type GridRef, Columns, Column, Aggregates, AggregateColumn, AggregateRow, type GridLine, type TextWrapSettingsModel, type ColumnModel } from '@syncfusion/react-grid';
+import { Grid, type GridRef, Columns, Column, Aggregates, AggregateColumn, AggregateRow, type ColumnProps } from '@syncfusion/react-grid';
 import { orderData } from '../dataSource'
 import { Checkbox } from '@syncfusion/react-buttons';
 import { NumericTextBox } from '@syncfusion/react-inputs';
 
 function GridColumn() {
     const gridRef = useRef<GridRef>(null);
-    const [currentColumn, setCurrentColumn] = useState<ColumnModel>({
+    const [currentColumn, setCurrentColumn] = useState<ColumnProps>({
         headerText: 'Order ID',
-        allowEditing: true,
-        allowFiltering: true,
-        allowSorting: true,
-        allowSearching: true,
+        allowEdit: true,
+        allowFilter: true,
+        allowSort: true,
+        allowSearch: true,
         disableHtmlEncode: true,
         displayAsCheckBox: false,
         visible: true,
@@ -20,12 +20,12 @@ function GridColumn() {
         headerTextAlign: 'Right',
     });
 
-    const [orderIDColumn, setOrderIDColumn] = useState<ColumnModel>({
+    const [orderIDColumn, setOrderIDColumn] = useState<ColumnProps>({
         headerText: 'Order ID',
-        allowEditing: true,
-        allowFiltering: true,
-        allowSorting: true,
-        allowSearching: true,
+        allowEdit: true,
+        allowFilter: true,
+        allowSort: true,
+        allowSearch: true,
         disableHtmlEncode: true,
         displayAsCheckBox: false,
         visible: true,
@@ -34,12 +34,12 @@ function GridColumn() {
         headerTextAlign: 'Right',
 
     });
-    const [customerIDColumn, setCustomerIDColumn] = useState<ColumnModel>({
+    const [customerIDColumn, setCustomerIDColumn] = useState<ColumnProps>({
         headerText: 'Customer ID',
-        allowEditing: true,
-        allowFiltering: true,
-        allowSorting: true,
-        allowSearching: true,
+        allowEdit: true,
+        allowFilter: true,
+        allowSort: true,
+        allowSearch: true,
         disableHtmlEncode: true,
         displayAsCheckBox: false,
         visible: true,
@@ -48,12 +48,12 @@ function GridColumn() {
         headerTextAlign: 'Left',
 
     });
-    const [freightColumn, setFreightColumn] = useState<ColumnModel>({
+    const [freightColumn, setFreightColumn] = useState<ColumnProps>({
         headerText: 'Freight',
-        allowEditing: true,
-        allowFiltering: true,
-        allowSorting: true,
-        allowSearching: true,
+        allowEdit: true,
+        allowFilter: true,
+        allowSort: true,
+        allowSearch: true,
         disableHtmlEncode: true,
         displayAsCheckBox: false,
         visible: true,
@@ -62,12 +62,12 @@ function GridColumn() {
         headerTextAlign: 'Right',
 
     });
-    const [orderDateColumn, setOrderDateColumn] = useState<ColumnModel>({
+    const [orderDateColumn, setOrderDateColumn] = useState<ColumnProps>({
         headerText: 'Order Date',
-        allowEditing: true,
-        allowFiltering: true,
-        allowSorting: true,
-        allowSearching: true,
+        allowEdit: true,
+        allowFilter: true,
+        allowSort: true,
+        allowSearch: true,
         disableHtmlEncode: true,
         displayAsCheckBox: false,
         visible: true,
@@ -76,12 +76,12 @@ function GridColumn() {
         headerTextAlign: 'Right',
 
     });
-    const [shipCountryColumn, setShipCountryColumn] = useState<ColumnModel>({
+    const [shipCountryColumn, setShipCountryColumn] = useState<ColumnProps>({
         headerText: 'Ship Country',
-        allowEditing: true,
-        allowFiltering: true,
-        allowSorting: true,
-        allowSearching: true,
+        allowEdit: true,
+        allowFilter: true,
+        allowSort: true,
+        allowSearch: true,
         disableHtmlEncode: true,
         displayAsCheckBox: false,
         visible: true,
@@ -127,7 +127,7 @@ function GridColumn() {
         return (<span>Max: {props.Max}</span>);
     };
 
-    const updateColumns = (column: ColumnModel) => {
+    const updateColumns = (column: ColumnProps) => {
         switch (column.headerText) {
             case 'Order ID':
                 setOrderIDColumn(column);
@@ -177,7 +177,7 @@ function GridColumn() {
                                     }
                                 }}
                             >
-                                {['Order ID', 'Customer ID', 'Freight', 'Order Date', 'ShipCountry'].map((m) => (
+                                {['Order ID', 'Customer ID', 'Freight', 'Order Date', 'Ship Country'].map((m) => (
                                     <option key={m} value={m}>
                                         {m}
                                     </option>
@@ -187,9 +187,9 @@ function GridColumn() {
                     </div>
                     <div className='separator'></div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={currentColumn.allowFiltering} label='Allow Filtering' onChange={() => {
-                            setCurrentColumn({ ...currentColumn, allowFiltering: !currentColumn.allowFiltering });
-                            updateColumns({ ...currentColumn, allowFiltering: !currentColumn.allowFiltering });
+                        <Checkbox defaultChecked={currentColumn.allowFilter} label='Allow Filtering' onChange={() => {
+                            setCurrentColumn({ ...currentColumn, allowFilter: !currentColumn.allowFilter });
+                            updateColumns({ ...currentColumn, allowFilter: !currentColumn.allowFilter });
                         }} />
                     </div>
                     <div className='sidebar-items'>
@@ -199,15 +199,15 @@ function GridColumn() {
                         }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={currentColumn.allowSorting} label='Allow Sorting' onChange={() => {
-                            setCurrentColumn({ ...currentColumn, allowSorting: !currentColumn.allowSorting });
-                            updateColumns({ ...currentColumn, allowSorting: !currentColumn.allowSorting });
+                        <Checkbox defaultChecked={currentColumn.allowSort} label='Allow Sorting' onChange={() => {
+                            setCurrentColumn({ ...currentColumn, allowSort: !currentColumn.allowSort });
+                            updateColumns({ ...currentColumn, allowSort: !currentColumn.allowSort });
                         }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={currentColumn.allowSearching} label='Allow Searching' onChange={() => {
-                            setCurrentColumn({ ...currentColumn, allowSearching: !currentColumn.allowSearching });
-                            updateColumns({ ...currentColumn, allowSearching: !currentColumn.allowSearching });
+                        <Checkbox defaultChecked={currentColumn.allowSearch} label='Allow Searching' onChange={() => {
+                            setCurrentColumn({ ...currentColumn, allowSearch: !currentColumn.allowSearch });
+                            updateColumns({ ...currentColumn, allowSearch: !currentColumn.allowSearch });
                         }} />
                     </div>
                     <div className='sidebar-items'>
@@ -217,9 +217,9 @@ function GridColumn() {
                         }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={currentColumn.allowEditing} label='Allow Editing' onChange={() => {
-                            setCurrentColumn({ ...currentColumn, allowEditing: !currentColumn.allowEditing });
-                            updateColumns({ ...currentColumn, allowEditing: !currentColumn.allowEditing });
+                        <Checkbox defaultChecked={currentColumn.allowEdit} label='Allow Editing' onChange={() => {
+                            setCurrentColumn({ ...currentColumn, allowEdit: !currentColumn.allowEdit });
+                            updateColumns({ ...currentColumn, allowEdit: !currentColumn.allowEdit });
                         }} />
                     </div>
                     {/* <div className='sidebar-items'>
@@ -288,15 +288,15 @@ function GridColumn() {
                     <Grid
                         ref={gridRef}
                         dataSource={orderData}
-                        allowPaging={true}
-                        allowFiltering={true}
-                        allowSorting={true}
-                        allowSelection={true}
-                        allowSearching={true}
+                        sortSettings={{ enabled: true }}
+                        pageSettings={{ enabled: true }}
+                        filterSettings={{ enabled: true }}
+                        searchSettings={{ enabled: true }}
+                        selectionSettings={{ enabled: true }}
                         height={300}
                         width={'970'}
                         toolbar={['Add', 'Edit', 'Delete', 'Update', 'Cancel', 'Search']}
-                        editSettings={{ allowAdding: true, allowDeleting: true, allowEditing: true }}
+                        editSettings={{ allowAdd: true, allowDelete: true, allowEdit: true }}
                         onLoad={load}
                         onGridInit={created}
                         onDataLoadStart={beforeDataBound}
@@ -306,10 +306,10 @@ function GridColumn() {
                     >
                         <Columns>
                             <Column field='OrderID' headerText='Order ID' isPrimaryKey={true} validationRules={{ required: true }} 
-                            allowEditing={orderIDColumn.allowEditing}
-                            allowFiltering={orderIDColumn.allowFiltering}
-                            allowSorting={orderIDColumn.allowSorting}
-                            allowSearching={orderIDColumn.allowSearching}
+                            allowEdit={orderIDColumn.allowEdit}
+                            allowFilter={orderIDColumn.allowFilter}
+                            allowSort={orderIDColumn.allowSort}
+                            allowSearch={orderIDColumn.allowSearch}
                             visible={orderIDColumn.visible}
                             disableHtmlEncode={orderIDColumn.disableHtmlEncode}
                             displayAsCheckBox={orderIDColumn.displayAsCheckBox}
@@ -319,10 +319,10 @@ function GridColumn() {
                             
                             />
                             <Column field='CustomerID' headerText='Customer ID' validationRules={{ required: true }}
-                            allowEditing={customerIDColumn.allowEditing}
-                            allowFiltering={customerIDColumn.allowFiltering}
-                            allowSorting={customerIDColumn.allowSorting}
-                            allowSearching={customerIDColumn.allowSearching}
+                            allowEdit={customerIDColumn.allowEdit}
+                            allowFilter={customerIDColumn.allowFilter}
+                            allowSort={customerIDColumn.allowSort}
+                            allowSearch={customerIDColumn.allowSearch}
                             visible={customerIDColumn.visible}
                             disableHtmlEncode={customerIDColumn.disableHtmlEncode}
                             displayAsCheckBox={customerIDColumn.displayAsCheckBox}
@@ -331,10 +331,10 @@ function GridColumn() {
                             headerTextAlign={customerIDColumn.headerTextAlign}
                              />
                             <Column field='Freight' headerText='Freight' format='C2' 
-                            allowEditing={freightColumn.allowEditing}
-                            allowFiltering={freightColumn.allowFiltering}
-                            allowSorting={freightColumn.allowSorting}
-                            allowSearching={freightColumn.allowSearching}
+                            allowEdit={freightColumn.allowEdit}
+                            allowFilter={freightColumn.allowFilter}
+                            allowSort={freightColumn.allowSort}
+                            allowSearch={freightColumn.allowSearch}
                             visible={freightColumn.visible}
                             disableHtmlEncode={freightColumn.disableHtmlEncode}
                             displayAsCheckBox={freightColumn.displayAsCheckBox}
@@ -343,10 +343,10 @@ function GridColumn() {
                             headerTextAlign={freightColumn.headerTextAlign}
                              />
                             <Column field='OrderDate' headerText='Order Date' format='yMd' 
-                            allowEditing={orderDateColumn.allowEditing}
-                            allowFiltering={orderDateColumn.allowFiltering}
-                            allowSorting={orderDateColumn.allowSorting}
-                            allowSearching={orderDateColumn.allowSearching}
+                            allowEdit={orderDateColumn.allowEdit}
+                            allowFilter={orderDateColumn.allowFilter}
+                            allowSort={orderDateColumn.allowSort}
+                            allowSearch={orderDateColumn.allowSearch}
                             visible={orderDateColumn.visible}
                             disableHtmlEncode={orderDateColumn.disableHtmlEncode}
                             displayAsCheckBox={orderDateColumn.displayAsCheckBox}
@@ -356,10 +356,10 @@ function GridColumn() {
                              />
                             {/* <Column field='Verified' headerText='Verified' width='100' /> */}
                             <Column field='ShipCountry' headerText='Ship Country' 
-                            allowEditing={shipCountryColumn.allowEditing}
-                            allowFiltering={shipCountryColumn.allowFiltering}
-                            allowSorting={shipCountryColumn.allowSorting}
-                            allowSearching={shipCountryColumn.allowSearching}
+                            allowEdit={shipCountryColumn.allowEdit}
+                            allowFilter={shipCountryColumn.allowFilter}
+                            allowSort={shipCountryColumn.allowSort}
+                            allowSearch={shipCountryColumn.allowSearch}
                             visible={shipCountryColumn.visible}
                             disableHtmlEncode={shipCountryColumn.disableHtmlEncode}
                             displayAsCheckBox={shipCountryColumn.displayAsCheckBox}

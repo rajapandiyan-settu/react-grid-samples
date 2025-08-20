@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import { Grid, type GridRef, Columns, Column, Aggregates, AggregateColumn, AggregateRow, type SearchSettingsModel } from '@syncfusion/react-grid';
+import { Grid, type GridRef, Columns, Column, Aggregates, AggregateColumn, AggregateRow, type SearchSettings } from '@syncfusion/react-grid';
 import { orderData } from '../dataSource'
 import { Checkbox } from '@syncfusion/react-buttons';
 import { TextBox } from "@syncfusion/react-inputs";
@@ -7,8 +7,7 @@ import { Button } from "@syncfusion/react-buttons";
 
 function GridSearching() {
     const gridRef = useRef<GridRef>(null);
-    const [allowSearch, setAllowSearch] = useState(true);
-    const [searchSettings, setSearchSettings] = useState<SearchSettingsModel>({ fields: [], ignoreCase: true, ignoreAccent: true, operator: 'contains' });
+    const [searchSettings, setSearchSettings] = useState<SearchSettings>({ enabled: true, fields: [], ignoreCase: true, ignoreAccent: true, operator: 'contains', value: '' });
 
     const operators = ['contains', 'startswith', 'endswith', 'equal', 'notcontains', 'notstartswith', 'notendswith', 'notequal'];
     const fields = ['OrderID', 'CustomerID', 'Freight', 'OrderDate', 'Verified', 'ShipCountry', 'ShipCity', 'ShipAddress', 'ShipName'];
@@ -55,13 +54,13 @@ function GridSearching() {
             <div className="container">
                 <aside className="sidebar">
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={true} label='Allow Search' onChange={(args) => { setAllowSearch(!allowSearch) }} />
+                        <Checkbox defaultChecked={true} label='Allow Search' onChange={(args) => { setSearchSettings({ ...gridRef.current?.searchSettings, enabled: args.value }); }} />
                     </div>
                     <div className='sidebar-items'>
                         <Checkbox defaultChecked={true} label='Ignore Case' onChange={(args) => { setSearchSettings({ ...gridRef.current?.searchSettings, ignoreCase: args.value }); }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={true} label='Ignore Accent' onChange={(args) => { setSearchSettings({ ...gridRef.current?.searchSettings, ignoreAccent: args.value }); }} />
+                        <Checkbox defaultChecked={searchSettings.ignoreAccent} label='Ignore Accent' onChange={(args) => { setSearchSettings({ ...gridRef.current?.searchSettings, ignoreAccent: args.value }); }} />
                     </div>
 
                     <div className='sidebar-items'>
@@ -107,27 +106,26 @@ function GridSearching() {
                     <div className='sidebar-items'>
                         <span className="label">Search: </span>
                         <span style={{ padding: '0 0 0 10px' }}>
-                            <TextBox value={searchSettings.key} width={120} onInput={(args: any) => {
-                                setSearchSettings({ ...gridRef.current?.searchSettings, key: args.target.value });
+                            <TextBox value={searchSettings.value} width={120} onInput={(args: any) => {
+                                setSearchSettings({ ...gridRef.current?.searchSettings, value: args.target.value });
                             }} />
                         </span>
                     </div>
 
                     <div className='sidebar-items'>
-                        <Button onClick={() => { setSearchSettings({ ...gridRef.current?.searchSettings, key: '' }) }}>Clear Search</Button>
+                        <Button onClick={() => { setSearchSettings({ ...gridRef.current?.searchSettings, value: '' }) }}>Clear Search</Button>
                     </div>
                 </aside >
                 <main className="sub-content">
                     <Grid
                         ref={gridRef}
                         dataSource={orderData}
-                        allowSorting={true}
-                        allowPaging={true}
-                        allowFiltering={true}
-                        allowSearching={allowSearch}
-                        toolbar={['Search']}
-                        editSettings={{ allowAdding: true, allowDeleting: true, allowEditing: true }}
+                        sortSettings={{ enabled: true }}
+                        pageSettings={{ enabled: true }}
+                        filterSettings={{ enabled: true }}
                         searchSettings={searchSettings}
+                        toolbar={['Search']}
+                        editSettings={{ allowEdit: true, allowAdd: true, allowDelete: true }}
                         onLoad={load}
                         onGridInit={created}
                         onDataLoadStart={beforeDataBound}
@@ -140,8 +138,7 @@ function GridSearching() {
                             <Column field='OrderID' headerText='Order ID' isPrimaryKey={true} validationRules={{ required: true }} textAlign='Right' width='100' />
                             <Column field='CustomerID' headerText='Customer ID' width='120' validationRules={{ required: true }} />
                             <Column field='Freight' headerText='Freight' width='130' format='C2' textAlign='Right' />
-                            <Column field='OrderDate' headerText='Order Date' width='130' format='yMd' textAlign='Right' />
-                            {/* <Column field='Verified' headerText='Verified' width='100' /> */}
+                            <Column field='OrderDate' headerText='Order Date' width='130' type='date' edit={{ type: 'datepickeredit' }} format='yMd' textAlign='Right' />
                             <Column field='ShipCountry' headerText='Ship Country' width='140' />
                             <Column field='ShipCity' headerText='Ship City' width='120' />
                             <Column field='ShipAddress' headerText='Ship Address' width='160' />

@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import { Grid, type GridRef, Columns, Column, Aggregates, AggregateColumn, AggregateRow, type SortSettingsModel, type SortDirection, type FilterSettingsModel } from '@syncfusion/react-grid';
+import { Grid, type GridRef, Columns, Column, Aggregates, AggregateColumn, AggregateRow, type FilterSettings } from '@syncfusion/react-grid';
 import { orderData } from '../dataSource'
 import { Checkbox } from '@syncfusion/react-buttons';
 import { NumericTextBox } from '@syncfusion/react-inputs';
@@ -8,9 +8,9 @@ import { Button } from "@syncfusion/react-buttons";
 
 function GridFiltering() {
     const gridRef = useRef<GridRef>(null);
-    const [allowFiltering, setAllowFiltering] = useState(true);
-    const [filterSettings, setFilterSettings] = useState<FilterSettingsModel>({
-        enableCaseSensitivity: false,
+    const [filterSettings, setFilterSettings] = useState<FilterSettings>({
+        enabled: true,
+        caseSensitive: false,
         ignoreAccent: true,
         mode: 'OnEnter',
         immediateModeDelay: 1500,
@@ -22,7 +22,7 @@ function GridFiltering() {
         value: ''
     });
     const [removeColumnFilter, setRemoveColumnFilter] = useState('ShipCountry');
-    const operators = ['contains', 'startswith', 'endswith', 'equal', 'notcontains', 'notstartswith', 'notendswith', 'notequal'];
+    const operators = ['contains', 'startswith', 'endswith', 'equal', 'doesnotcontain', 'doesnotstartwith', 'doesnotendwith', 'notequal'];
     const fields = ['OrderID', 'CustomerID', 'Freight', 'OrderDate', 'Verified', 'ShipCountry', 'ShipCity', 'ShipAddress', 'ShipName'];
     const mode = ['OnEnter', 'Immediate'];
 
@@ -68,10 +68,10 @@ function GridFiltering() {
             <div className="container">
                 <aside className="sidebar">
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={allowFiltering} label='Allow Filtering' onChange={() => { setAllowFiltering(!allowFiltering); }} />
+                        <Checkbox defaultChecked={filterSettings.enabled} label='Allow Filtering' onChange={(args) => { setFilterSettings({ ...gridRef.current?.filterSettings, enabled: args.value }); }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={false} label='Enable Case Sensitivity' onChange={(args) => { setFilterSettings({ ...gridRef.current?.filterSettings, enableCaseSensitivity: args.value }); }} />
+                        <Checkbox defaultChecked={false} label='Enable Case Sensitivity' onChange={(args) => { setFilterSettings({ ...gridRef.current?.filterSettings, caseSensitive: args.value }); }} />
                     </div>
                     <div className='sidebar-items'>
                         <Checkbox defaultChecked={true} label='Ignore Accent' onChange={(args) => { setFilterSettings({ ...gridRef.current?.filterSettings, ignoreAccent: args.value }); }} />
@@ -178,7 +178,7 @@ function GridFiltering() {
                                 <select
                                     className="label"
                                     id="removeColumnSort"
-                                    value="ShipCountry"
+                                    value={removeColumnFilter}
                                     onChange={(args: any) => {
                                         setRemoveColumnFilter(args.target.value);
                                     }}
@@ -201,13 +201,12 @@ function GridFiltering() {
                     <Grid
                         ref={gridRef}
                         dataSource={orderData}
-                        allowSorting={true}
-                        allowPaging={true}
-                        allowFiltering={allowFiltering}
+                        sortSettings={{ enabled: true }}
+                        pageSettings={{ enabled: true }}
                         filterSettings={filterSettings}
-                        allowSearching={true}
+                        searchSettings={{ enabled: true }}
                         toolbar={['Add', 'Edit', 'Delete', 'Update', 'Cancel', 'Search']}
-                        editSettings={{ allowAdding: true, allowDeleting: true, allowEditing: true }}
+                        editSettings={{ allowEdit: true, allowAdd: true, allowDelete: true }}
                         onLoad={load}
                         onGridInit={created}
                         onDataLoadStart={beforeDataBound}
@@ -215,14 +214,13 @@ function GridFiltering() {
                         onFilterStart={filtering}
                         onFilterComplete={filtered}
                         height={300}
-                        // width={900}
+                    // width={900}
                     >
                         <Columns>
                             <Column field='OrderID' headerText='Order ID' isPrimaryKey={true} validationRules={{ required: true }} textAlign='Right' width='100' />
                             <Column field='CustomerID' headerText='Customer ID' width='120' validationRules={{ required: true }} />
                             <Column field='Freight' headerText='Freight' width='130' format='C2' textAlign='Right' />
-                            <Column field='OrderDate' headerText='Order Date' width='130' format='yMd' textAlign='Right' />
-                            {/* <Column field='Verified' headerText='Verified' width='100' /> */}
+                            <Column field='OrderDate' headerText='Order Date' width='130' type='date' edit={{ type: 'datepickeredit' }} format='yMd' textAlign='Right' />
                             <Column field='ShipCountry' headerText='Ship Country' width='140' />
                             <Column field='ShipCity' headerText='Ship City' width='120' />
                             <Column field='ShipAddress' headerText='Ship Address' width='160' />

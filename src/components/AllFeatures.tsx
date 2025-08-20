@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import { Grid, type GridRef, Columns, type ColumnModel, type EditSettings, type SearchSettingsModel, type SortSettingsModel, type FilterSettingsModel, Column, Aggregates, AggregateColumn, AggregateRow, type GridLine, type TextWrapSettingsModel, type SortDirection } from '@syncfusion/react-grid';
+import { Grid, type GridRef, Columns, type ColumnProps, type EditSettings, Column, Aggregates, AggregateColumn, AggregateRow, type GridLine, type SortDirection, type SearchSettings, type TextWrapSettings, type PageSettings, type SortSettings, type FilterSettings,  } from '@syncfusion/react-grid';
 import { orderData } from '../dataSource'
 import { Checkbox } from '@syncfusion/react-buttons';
 import { NumericTextBox, TextBox } from '@syncfusion/react-inputs';
@@ -9,9 +9,7 @@ function AllFeatures() {
     const gridRef = useRef<GridRef>(null);
     const [allowPaging, setAllowPaging] = useState(true);
     const [allowFiltering, setAllowFiltering] = useState(true);
-    const [allowSorting, setAllowSorting] = useState(true);
-    const [allowSelection, setAllowSelection] = useState(true);
-    const [allowTextWrap, setAllowTextWrap] = useState(false);
+    const [selectionSettings, setSelectionSettings] = useState({enabled: true});
     const [enableHover, setEnableHover] = useState(true);
     const [height, setHeight] = useState(300);
     const [width, setWidth] = useState<number>(980);
@@ -19,15 +17,14 @@ function AllFeatures() {
     const [allowKeyboard, setAllowKeyboard] = useState(true);
     const [enableRtl, setEnableRtl] = useState(false);
     const [enableAltRow, setEnableAltRow] = useState(false);
-    const [allowMultiSorting, setAllowMultiSorting] = useState(true);
     const [enableHtmlSanitizer, setEnableHtmlSanitizer] = useState(false);
     const [enableStickyHeader, setEnableStickyHeader] = useState(false);
     const [rowHeight, setRowHeight] = useState<number>();
-    const [textWrapSettings, setTextWrapSettings] = useState({ wrapMode: 'Both' });
-    const [pageSettings, setPageSettings] = useState({});
-    const [editSettings, setEditSettings] = useState<EditSettings>({ allowEditing: true, allowAdding: true, allowDeleting: true });
-    const [searchSettings, setSearchSettings] = useState<SearchSettingsModel>({ fields: [], ignoreCase: true, ignoreAccent: true, operator: 'contains' });
-    const [sortSettings, setSortSettings] = useState<SortSettingsModel>({ allowUnsort: true, columns: [{ field: 'ShipCountry', direction: 'Ascending' }] });
+    const [textWrapSettings, setTextWrapSettings] = useState<TextWrapSettings>({ enabled: true, wrapMode: 'Both' });
+    const [pageSettings, setPageSettings] = useState<PageSettings>({enabled: true});
+    const [editSettings, setEditSettings] = useState<EditSettings>({ allowEdit: true, allowAdd: true, allowDelete: true });
+    const [searchSettings, setSearchSettings] = useState<SearchSettings>({ enabled: true, fields: [], ignoreCase: true, ignoreAccent: true, operator: 'contains' });
+    const [sortSettings, setSortSettings] = useState<SortSettings>({ enabled: true, mode: 'multiple', allowUnsort: true, columns: [{ field: 'ShipCountry', direction: 'Ascending' }] });
     const [sortColumns, setSortColumns] = useState({
         selectedField: 'ShipCountry',
         selectedDirection: 'Ascending',
@@ -38,8 +35,9 @@ function AllFeatures() {
     const directions = ['Ascending', 'Descending'];
 
 
-    const [filterSettings, setFilterSettings] = useState<FilterSettingsModel>({
-        enableCaseSensitivity: false,
+    const [filterSettings, setFilterSettings] = useState<FilterSettings>({
+        enabled: true,
+        caseSensitive: false,
         ignoreAccent: true,
         mode: 'OnEnter',
         immediateModeDelay: 1500,
@@ -53,12 +51,12 @@ function AllFeatures() {
     const [removeColumnFilter, setRemoveColumnFilter] = useState('ShipCountry');
     const operators = ['contains', 'startswith', 'endswith', 'equal', 'notcontains', 'notstartswith', 'notendswith', 'notequal'];
     const mode = ['OnEnter', 'Immediate'];
-    const [currentColumn, setCurrentColumn] = useState<ColumnModel>({
+    const [currentColumn, setCurrentColumn] = useState<ColumnProps>({
         headerText: 'Order ID',
-        allowEditing: true,
-        allowFiltering: true,
-        allowSorting: true,
-        allowSearching: true,
+        allowEdit: true,
+        allowFilter: true,
+        allowSort: true,
+        allowSearch: true,
         disableHtmlEncode: true,
         displayAsCheckBox: false,
         visible: true,
@@ -67,12 +65,12 @@ function AllFeatures() {
         headerTextAlign: 'Right',
     });
 
-    const [orderIDColumn, setOrderIDColumn] = useState<ColumnModel>({
+    const [orderIDColumn, setOrderIDColumn] = useState<ColumnProps>({
         headerText: 'Order ID',
-        allowEditing: true,
-        allowFiltering: true,
-        allowSorting: true,
-        allowSearching: true,
+        allowEdit: true,
+        allowFilter: true,
+        allowSort: true,
+        allowSearch: true,
         disableHtmlEncode: true,
         displayAsCheckBox: false,
         visible: true,
@@ -81,12 +79,12 @@ function AllFeatures() {
         headerTextAlign: 'Right',
 
     });
-    const [customerIDColumn, setCustomerIDColumn] = useState<ColumnModel>({
+    const [customerIDColumn, setCustomerIDColumn] = useState<ColumnProps>({
         headerText: 'Customer ID',
-        allowEditing: true,
-        allowFiltering: true,
-        allowSorting: true,
-        allowSearching: true,
+        allowEdit: true,
+        allowFilter: true,
+        allowSort: true,
+        allowSearch: true,
         disableHtmlEncode: true,
         displayAsCheckBox: false,
         visible: true,
@@ -95,12 +93,12 @@ function AllFeatures() {
         headerTextAlign: 'Left',
 
     });
-    const [freightColumn, setFreightColumn] = useState<ColumnModel>({
+    const [freightColumn, setFreightColumn] = useState<ColumnProps>({
         headerText: 'Freight',
-        allowEditing: true,
-        allowFiltering: true,
-        allowSorting: true,
-        allowSearching: true,
+        allowEdit: true,
+        allowFilter: true,
+        allowSort: true,
+        allowSearch: true,
         disableHtmlEncode: true,
         displayAsCheckBox: false,
         visible: true,
@@ -109,12 +107,12 @@ function AllFeatures() {
         headerTextAlign: 'Right',
 
     });
-    const [orderDateColumn, setOrderDateColumn] = useState<ColumnModel>({
+    const [orderDateColumn, setOrderDateColumn] = useState<ColumnProps>({
         headerText: 'Order Date',
-        allowEditing: true,
-        allowFiltering: true,
-        allowSorting: true,
-        allowSearching: true,
+        allowEdit: true,
+        allowFilter: true,
+        allowSort: true,
+        allowSearch: true,
         disableHtmlEncode: true,
         displayAsCheckBox: false,
         visible: true,
@@ -123,12 +121,12 @@ function AllFeatures() {
         headerTextAlign: 'Right',
 
     });
-    const [shipCountryColumn, setShipCountryColumn] = useState<ColumnModel>({
+    const [shipCountryColumn, setShipCountryColumn] = useState<ColumnProps>({
         headerText: 'Ship Country',
-        allowEditing: true,
-        allowFiltering: true,
-        allowSorting: true,
-        allowSearching: true,
+        allowEdit: true,
+        allowFilter: true,
+        allowSort: true,
+        allowSearch: true,
         disableHtmlEncode: true,
         displayAsCheckBox: false,
         visible: true,
@@ -169,7 +167,7 @@ function AllFeatures() {
     };
 
 
-    const updateColumns = (column: ColumnModel) => {
+    const updateColumns = (column: ColumnProps) => {
         switch (column.headerText) {
             case 'Order ID':
                 setOrderIDColumn(column);
@@ -196,19 +194,19 @@ function AllFeatures() {
                     <span className='label sidebarheader first'>Grid Props</span>
                     <div className='separator'></div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={true} label='Allow Paging' onChange={() => { setAllowPaging(!allowPaging); }} />
+                        <Checkbox defaultChecked={true} label='Allow Paging' onChange={(args) => { setPageSettings({ ...gridRef.current?.pageSettings, enabled: (args.value) }); }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={true} label='Allow Filtering' onChange={() => { setAllowFiltering(!allowFiltering); }} />
+                        <Checkbox defaultChecked={true} label='Allow Filtering' onChange={(args) => { setFilterSettings({ ...gridRef.current?.filterSettings, enabled: args.value }); }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={true} label='Allow Sorting' onChange={() => { setAllowSorting(!allowSorting); }} />
+                        <Checkbox defaultChecked={true} label='Allow Sorting' onChange={(args) => { setSortSettings({ ...gridRef.current?.sortSettings, enabled: args.value }); }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={true} label='Allow Multi Sorting' onChange={() => { setAllowMultiSorting(!allowMultiSorting); }} />
+                        <Checkbox defaultChecked={true} label='Allow Multi Sorting' onChange={(args) => { setSortSettings({ ...gridRef.current?.sortSettings, mode: args.value ? 'multiple' : 'single' }); }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={true} label='Allow Selection' onChange={() => { setAllowSelection(!allowSelection); }} />
+                        <Checkbox defaultChecked={true} label='Allow Selection' onChange={(args) => { setSelectionSettings({...gridRef.current?.selectionSettings, enabled: args.value} ) }} />
                     </div>
                     <div className='sidebar-items'>
                         <Checkbox defaultChecked={true} label='Enable Hover' onChange={() => { setEnableHover(!enableHover); }} />
@@ -229,7 +227,7 @@ function AllFeatures() {
                         <Checkbox defaultChecked={false} label='Enable Sticky Header' onChange={() => { setEnableStickyHeader(!enableStickyHeader); }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={false} label='Allow Textwrap' onChange={() => { setAllowTextWrap(!allowTextWrap); }} />
+                        <Checkbox defaultChecked={false} label='Allow Textwrap' onChange={(args) => { setTextWrapSettings({...gridRef.current?.textWrapSettings, enabled: args.value} ) }} />
                     </div>
                     <div className='sidebar-items'>
                         <span className='label'>Height:</span>
@@ -300,7 +298,7 @@ function AllFeatures() {
                                 id="wrapsettings"
                                 value={'Both'}
                                 onChange={(args: any) => {
-                                    setTextWrapSettings({ wrapMode: args.target.value });
+                                     setTextWrapSettings({...gridRef.current?.textWrapSettings, wrapMode: args.target.value});
                                 }}
                             >
                                 {['Both', 'Content', 'Header'].map((m) => (
@@ -340,7 +338,7 @@ function AllFeatures() {
                                     }
                                 }}
                             >
-                                {['Order ID', 'Customer ID', 'Freight', 'Order Date', 'ShipCountry'].map((m) => (
+                                {['Order ID', 'Customer ID', 'Freight', 'Order Date', 'Ship Country'].map((m) => (
                                     <option key={m} value={m}>
                                         {m}
                                     </option>
@@ -349,9 +347,9 @@ function AllFeatures() {
                         </span>
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={currentColumn.allowFiltering} label='Allow Filtering' onChange={() => {
-                            setCurrentColumn({ ...currentColumn, allowFiltering: !currentColumn.allowFiltering });
-                            updateColumns({ ...currentColumn, allowFiltering: !currentColumn.allowFiltering });
+                        <Checkbox defaultChecked={currentColumn.allowFilter} label='Allow Filtering' onChange={() => {
+                            setCurrentColumn({ ...currentColumn, allowFilter: !currentColumn.allowFilter });
+                            updateColumns({ ...currentColumn, allowFilter: !currentColumn.allowFilter });
                         }} />
                     </div>
                     <div className='sidebar-items'>
@@ -361,15 +359,15 @@ function AllFeatures() {
                         }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={currentColumn.allowSorting} label='Allow Sorting' onChange={() => {
-                            setCurrentColumn({ ...currentColumn, allowSorting: !currentColumn.allowSorting });
-                            updateColumns({ ...currentColumn, allowSorting: !currentColumn.allowSorting });
+                        <Checkbox defaultChecked={currentColumn.allowSort} label='Allow Sorting' onChange={() => {
+                            setCurrentColumn({ ...currentColumn, allowSort: !currentColumn.allowSort });
+                            updateColumns({ ...currentColumn, allowSort: !currentColumn.allowSort });
                         }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={currentColumn.allowSearching} label='Allow Searching' onChange={() => {
-                            setCurrentColumn({ ...currentColumn, allowSearching: !currentColumn.allowSearching });
-                            updateColumns({ ...currentColumn, allowSearching: !currentColumn.allowSearching });
+                        <Checkbox defaultChecked={currentColumn.allowSearch} label='Allow Searching' onChange={() => {
+                            setCurrentColumn({ ...currentColumn, allowSearch: !currentColumn.allowSearch });
+                            updateColumns({ ...currentColumn, allowSearch: !currentColumn.allowSearch });
                         }} />
                     </div>
                     <div className='sidebar-items'>
@@ -379,9 +377,9 @@ function AllFeatures() {
                         }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={currentColumn.allowEditing} label='Allow Editing' onChange={() => {
-                            setCurrentColumn({ ...currentColumn, allowEditing: !currentColumn.allowEditing });
-                            updateColumns({ ...currentColumn, allowEditing: !currentColumn.allowEditing });
+                        <Checkbox defaultChecked={currentColumn.allowEdit} label='Allow Editing' onChange={() => {
+                            setCurrentColumn({ ...currentColumn, allowEdit: !currentColumn.allowEdit });
+                            updateColumns({ ...currentColumn, allowEdit: !currentColumn.allowEdit });
                         }} />
                     </div>
                     {/* <div className='sidebar-items'>
@@ -507,10 +505,10 @@ function AllFeatures() {
                     <span className='label sidebarheader'>Sort Settings</span>
                     <div className='separator'></div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={true} label='Allow Sorting' onChange={() => { setAllowSorting(!allowSorting); }} />
+                        <Checkbox defaultChecked={true} label='Allow Sorting' onChange={(args) => { setSortSettings({ ...gridRef.current?.sortSettings, enabled: args.value }); }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={true} label='Allow MultiSorting' onChange={() => { setAllowMultiSorting(!allowMultiSorting); }} />
+                        <Checkbox defaultChecked={true} label='Allow MultiSorting' onChange={(args) => { setSortSettings({ ...gridRef.current?.sortSettings, mode: args.value ? 'multiple' : 'single' }); }} />
                     </div>
                     <div className='sidebar-items'>
                         <Checkbox defaultChecked={sortSettings.allowUnsort} label='Allow Unsort' onChange={() => { setSortSettings({ ...gridRef.current?.sortSettings, allowUnsort: !gridRef.current?.sortSettings?.allowUnsort }); }} />
@@ -570,7 +568,7 @@ function AllFeatures() {
                                 <select
                                     className="label"
                                     id="removeColumnSort"
-                                    value="ShipCountry"
+                                    value= {removeColumnSort}
                                     onChange={(args: any) => {
                                         setRemoveColumnSort(args.target.value);
                                     }}
@@ -592,10 +590,10 @@ function AllFeatures() {
                     <span className='label sidebarheader'>Filter Settings</span>
                     <div className='separator'></div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={allowFiltering} label='Allow Filtering' onChange={() => { setAllowFiltering(!allowFiltering); }} />
+                        <Checkbox defaultChecked={true} label='Allow Filtering' onChange={(args) => { setFilterSettings({ ...gridRef.current?.filterSettings, enabled: args.value }); }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={false} label='Enable Case Sensitivity' onChange={(args) => { setFilterSettings({ ...gridRef.current?.filterSettings, enableCaseSensitivity: args.value }); }} />
+                        <Checkbox defaultChecked={false} label='Enable Case Sensitivity' onChange={(args) => { setFilterSettings({ ...gridRef.current?.filterSettings, caseSensitive: args.value }); }} />
                     </div>
                     <div className='sidebar-items'>
                         <Checkbox defaultChecked={true} label='Ignore Accent' onChange={(args) => { setFilterSettings({ ...gridRef.current?.filterSettings, ignoreAccent: args.value }); }} />
@@ -608,7 +606,6 @@ function AllFeatures() {
                                 id="fieldSelect"
                                 value={'OnEnter'}
                                 onChange={(args: any) => {
-                                    debugger;
                                     setFilterSettings({ ...gridRef.current?.filterSettings, mode: args.target.value });
                                 }}
                             >
@@ -774,41 +771,37 @@ function AllFeatures() {
                     <div className='sidebar-items'>
                         <span className="label">Search: </span>
                         <span style={{ padding: '0 0 0 10px' }}>
-                            <TextBox value={searchSettings.key} width={120} onInput={(args: any) => {
-                                setSearchSettings({ ...gridRef.current?.searchSettings, key: args.target.value });
+                            <TextBox value={searchSettings.value} width={120} onInput={(args: any) => {
+                                setSearchSettings({ ...gridRef.current?.searchSettings, value: args.target.value });
                             }} />
                         </span>
                     </div>
 
                     <div className='sidebar-items'>
-                        <Button onClick={() => { setSearchSettings({ ...gridRef.current?.searchSettings, key: '' }) }}>Clear Search</Button>
+                        <Button onClick={() => { setSearchSettings({ ...gridRef.current?.searchSettings, value: '' }) }}>Clear Search</Button>
                     </div>
                     <br/>
                     <span className='label sidebarheader'>Edit Settings</span>
                     <div className='separator'></div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={true} label='Allow Editing' onChange={() => { setEditSettings({ ...gridRef.current?.editSettings, allowEditing: !gridRef.current?.editSettings?.allowEditing }); }} />
+                        <Checkbox defaultChecked={true} label='Allow Editing' onChange={() => { setEditSettings({ ...gridRef.current?.editSettings, allowEdit: !gridRef.current?.editSettings?.allowEdit }); }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={true} label='Allow Adding' onChange={() => { setEditSettings({ ...gridRef.current?.editSettings, allowAdding: !gridRef.current?.editSettings?.allowAdding }); }} />
+                        <Checkbox defaultChecked={true} label='Allow Adding' onChange={() => { setEditSettings({ ...gridRef.current?.editSettings, allowAdd: !gridRef.current?.editSettings?.allowAdd }); }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={true} label='Allow Deleting' onChange={() => { setEditSettings({ ...gridRef.current?.editSettings, allowDeleting: !gridRef.current?.editSettings?.allowDeleting }); }} />
+                        <Checkbox defaultChecked={true} label='Allow Deleting' onChange={() => { setEditSettings({ ...gridRef.current?.editSettings, allowDelete: !gridRef.current?.editSettings?.allowDelete }); }} />
                     </div>
                 </aside>
                 <main className="sub-content">
                     <Grid
                         ref={gridRef}
                         dataSource={orderData}
-                        allowPaging={allowPaging}
                         pageSettings={pageSettings}
-                        allowFiltering={allowFiltering}
                         filterSettings={filterSettings}
                         searchSettings={searchSettings}
-                        allowSorting={allowSorting}
                         sortSettings={sortSettings}
-                        allowSelection={allowSelection}
-                        allowTextWrap={allowTextWrap}
+                        selectionSettings={selectionSettings}
                         enableHover={enableHover}
                         height={height}
                         width={width}
@@ -816,12 +809,10 @@ function AllFeatures() {
                         allowKeyboard={allowKeyboard}
                         enableRtl={enableRtl}
                         enableAltRow={enableAltRow}
-                        allowMultiSorting={allowMultiSorting}
                         enableHtmlSanitizer={enableHtmlSanitizer}
                         enableStickyHeader={enableStickyHeader}
                         rowHeight={rowHeight}
-                        textWrapSettings={textWrapSettings as TextWrapSettingsModel}
-                        allowSearching={true}
+                        textWrapSettings={textWrapSettings}
                         toolbar={['Add', 'Edit', 'Delete', 'Update', 'Cancel', 'Search']}
                         editSettings={editSettings}
                         onLoad={load}
@@ -833,10 +824,10 @@ function AllFeatures() {
                     >
                         <Columns>
                             <Column field='OrderID' headerText='Order ID' isPrimaryKey={true} validationRules={{ required: true }}
-                                allowEditing={orderIDColumn.allowEditing}
-                                allowFiltering={orderIDColumn.allowFiltering}
-                                allowSorting={orderIDColumn.allowSorting}
-                                allowSearching={orderIDColumn.allowSearching}
+                                allowEdit={orderIDColumn.allowEdit}
+                                allowFilter={orderIDColumn.allowFilter}
+                                allowSort={orderIDColumn.allowSort}
+                                allowSearch={orderIDColumn.allowSearch}
                                 visible={orderIDColumn.visible}
                                 disableHtmlEncode={orderIDColumn.disableHtmlEncode}
                                 displayAsCheckBox={orderIDColumn.displayAsCheckBox}
@@ -846,10 +837,10 @@ function AllFeatures() {
 
                             />
                             <Column field='CustomerID' headerText='Customer ID' validationRules={{ required: true }}
-                                allowEditing={customerIDColumn.allowEditing}
-                                allowFiltering={customerIDColumn.allowFiltering}
-                                allowSorting={customerIDColumn.allowSorting}
-                                allowSearching={customerIDColumn.allowSearching}
+                                allowEdit={customerIDColumn.allowEdit}
+                                allowFilter={customerIDColumn.allowFilter}
+                                allowSort={customerIDColumn.allowSort}
+                                allowSearch={customerIDColumn.allowSearch}
                                 visible={customerIDColumn.visible}
                                 disableHtmlEncode={customerIDColumn.disableHtmlEncode}
                                 displayAsCheckBox={customerIDColumn.displayAsCheckBox}
@@ -858,10 +849,10 @@ function AllFeatures() {
                                 headerTextAlign={customerIDColumn.headerTextAlign}
                             />
                             <Column field='Freight' headerText='Freight' format='C2'
-                                allowEditing={freightColumn.allowEditing}
-                                allowFiltering={freightColumn.allowFiltering}
-                                allowSorting={freightColumn.allowSorting}
-                                allowSearching={freightColumn.allowSearching}
+                                allowEdit={freightColumn.allowEdit}
+                                allowFilter={freightColumn.allowFilter}
+                                allowSort={freightColumn.allowSort}
+                                allowSearch={freightColumn.allowSearch}
                                 visible={freightColumn.visible}
                                 disableHtmlEncode={freightColumn.disableHtmlEncode}
                                 displayAsCheckBox={freightColumn.displayAsCheckBox}
@@ -870,10 +861,10 @@ function AllFeatures() {
                                 headerTextAlign={freightColumn.headerTextAlign}
                             />
                             <Column field='OrderDate' headerText='Order Date' format='yMd'
-                                allowEditing={orderDateColumn.allowEditing}
-                                allowFiltering={orderDateColumn.allowFiltering}
-                                allowSorting={orderDateColumn.allowSorting}
-                                allowSearching={orderDateColumn.allowSearching}
+                                allowEdit={orderDateColumn.allowEdit}
+                                allowFilter={orderDateColumn.allowFilter}
+                                allowSort={orderDateColumn.allowSort}
+                                allowSearch={orderDateColumn.allowSearch}
                                 visible={orderDateColumn.visible}
                                 disableHtmlEncode={orderDateColumn.disableHtmlEncode}
                                 displayAsCheckBox={orderDateColumn.displayAsCheckBox}
@@ -883,10 +874,10 @@ function AllFeatures() {
                             />
                             {/* <Column field='Verified' headerText='Verified' width='100' /> */}
                             <Column field='ShipCountry' headerText='Ship Country'
-                                allowEditing={shipCountryColumn.allowEditing}
-                                allowFiltering={shipCountryColumn.allowFiltering}
-                                allowSorting={shipCountryColumn.allowSorting}
-                                allowSearching={shipCountryColumn.allowSearching}
+                                allowEdit={shipCountryColumn.allowEdit}
+                                allowFilter={shipCountryColumn.allowFilter}
+                                allowSort={shipCountryColumn.allowSort}
+                                allowSearch={shipCountryColumn.allowSearch}
                                 visible={shipCountryColumn.visible}
                                 disableHtmlEncode={shipCountryColumn.disableHtmlEncode}
                                 displayAsCheckBox={shipCountryColumn.displayAsCheckBox}

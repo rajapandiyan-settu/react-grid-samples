@@ -1,8 +1,7 @@
 import { useRef, useState, useMemo } from 'react';
-import { Grid, type GridRef, Columns, Column, Aggregates, AggregateColumn, AggregateRow, type SearchSettingsModel, type SelectionSettingsModel } from '@syncfusion/react-grid';
+import { Grid, type GridRef, Columns, Column, Aggregates, AggregateColumn, AggregateRow } from '@syncfusion/react-grid';
 import { orderData } from '../dataSource'
 import { Checkbox } from '@syncfusion/react-buttons';
-import { TextBox } from "@syncfusion/react-inputs";
 import { Button } from "@syncfusion/react-buttons";
 import { NumericTextBox } from '@syncfusion/react-inputs';
 
@@ -12,9 +11,7 @@ function GridSelection() {
     const [start, setStart] = useState(1);
     const [end, setEnd] = useState(4);
     const [clearIndexes, setClearIndexes] = useState<number[]>([]);
-    const [selectionSettings, setSelectionSettings] = useState<SelectionSettingsModel>({ type: 'Single' });
-
-    const operators = ['contains', 'startswith', 'endswith', 'equal', 'notcontains', 'notstartswith', 'notendswith', 'notequal'];
+    const [selectionSettings, setSelectionSettings] = useState<string>('Single');
     const indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 
     const load = () => {
@@ -67,49 +64,47 @@ function GridSelection() {
         return (<span>Max: {props.Max}</span>);
     };
 
-    const gridComp = useMemo(()=> {
+    const gridComp = useMemo(() => {
         return (
-<Grid
-                        ref={gridRef}
-                        dataSource={orderData}
-                        allowSorting={true}
-                        allowPaging={true}
-                        allowFiltering={true}
-                        allowSearching={true}
-                        toolbar={['Add', 'Edit', 'Delete', 'Update', 'Cancel', 'Search']}
-                        editSettings={{ allowAdding: true, allowDeleting: true, allowEditing: true }}
-                        allowSelection={allowSelection}
-                        selectionSettings={selectionSettings}
-                        onLoad={load}
-                        onGridInit={created}
-                        onDataLoadStart={beforeDataBound}
-                        onDataLoaded={dataBound}
-                        onSearchStart={searching}
-                        onSearchComplete={searched}
-                        onRowSelecting={rowSelecting}
-                        onRowSelected={rowSelected}
-                        onRowDeselecting={rowDeselecting}
-                        onRowDeselected={rowDeselected}
-                        height={300}
-                        // width={1000}
-                    >
-                        <Columns>
-                            <Column field='OrderID' headerText='Order ID' isPrimaryKey={true} validationRules={{ required: true }} textAlign='Right' width='100' />
-                            <Column field='CustomerID' headerText='Customer ID' width='120' validationRules={{ required: true }} />
-                            <Column field='Freight' headerText='Freight' width='130' format='C2' textAlign='Right' />
-                            <Column field='OrderDate' headerText='Order Date' width='130' format='yMd' textAlign='Right' />
-                            {/* <Column field='Verified' headerText='Verified' width='100' /> */}
-                            <Column field='ShipCountry' headerText='Ship Country' width='140' />
-                            <Column field='ShipCity' headerText='Ship City' width='120' />
-                            <Column field='ShipAddress' headerText='Ship Address' width='160' />
-                            <Column field='ShipName' headerText='Ship Name' width='140' />
-                        </Columns>
-                        <Aggregates>
-                            <AggregateRow>
-                                <AggregateColumn field='Freight' type='Max' footerTemplate={footerMax} format={{ format: 'C2' }} />
-                            </AggregateRow>
-                        </Aggregates>
-                    </Grid>
+            <Grid
+                ref={gridRef}
+                dataSource={orderData}
+                sortSettings={{ enabled: true }}
+                pageSettings={{ enabled: true }}
+                filterSettings={{ enabled: true }}
+                searchSettings={{ enabled: true }}
+                toolbar={['Add', 'Edit', 'Delete', 'Update', 'Cancel', 'Search']}
+                editSettings={{ allowAdd: true, allowDelete: true, allowEdit: true }}
+                selectionSettings={{ enabled: allowSelection, mode: selectionSettings }}
+                onLoad={load}
+                onGridInit={created}
+                onDataLoadStart={beforeDataBound}
+                onDataLoaded={dataBound}
+                onSearchStart={searching}
+                onSearchComplete={searched}
+                onRowSelecting={rowSelecting}
+                onRowSelected={rowSelected}
+                onRowDeselecting={rowDeselecting}
+                onRowDeselected={rowDeselected}
+                height={300}
+            // width={1000}
+            >
+                <Columns>
+                    <Column field='OrderID' headerText='Order ID' isPrimaryKey={true} validationRules={{ required: true }} textAlign='Right' width='100' />
+                    <Column field='CustomerID' headerText='Customer ID' width='120' validationRules={{ required: true }} />
+                    <Column field='Freight' headerText='Freight' width='130' format='C2' textAlign='Right' />
+                    <Column field='OrderDate' headerText='Order Date' width='130' type='date' edit={{ type: 'datepickeredit' }} format='yMd' textAlign='Right' />
+                    <Column field='ShipCountry' headerText='Ship Country' width='140' />
+                    <Column field='ShipCity' headerText='Ship City' width='120' />
+                    <Column field='ShipAddress' headerText='Ship Address' width='160' />
+                    <Column field='ShipName' headerText='Ship Name' width='140' />
+                </Columns>
+                <Aggregates>
+                    <AggregateRow>
+                        <AggregateColumn field='Freight' type='Max' footerTemplate={footerMax} format={{ format: 'C2' }} />
+                    </AggregateRow>
+                </Aggregates>
+            </Grid>
         );
     }, [allowSelection, selectionSettings])
     return (
@@ -121,7 +116,7 @@ function GridSelection() {
                     </div>
 
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={false} label='Multiple Selection' onChange={(args) => { setSelectionSettings({ ...gridRef.current?.selectionSettings, type: args.value ? 'Multiple' : 'Single' }); }} />
+                        <Checkbox defaultChecked={false} label='Multiple Selection' onChange={(args) => { setSelectionSettings(args.value ? 'Multiple' : 'Single'); }} />
                     </div>
                     <div className='sidebar-items'>
                         <Button onClick={() => { console.log(gridRef.current?.getSelectedRecords?.()) }}>Get Selected Records</Button>
@@ -194,8 +189,7 @@ function GridSelection() {
                             </select>
                             <div style={{ padding: '10px 0 0 0' }}>
                                 <Button onClick={() => {
-                                    debugger;
-                                     gridRef.current?.clearRowSelection?.(clearIndexes)
+                                    gridRef.current?.clearRowSelection?.(clearIndexes)
                                 }}>Clear Specific Selection</Button>
                             </div>
                         </span>

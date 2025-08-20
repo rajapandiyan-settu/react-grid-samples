@@ -58,7 +58,6 @@ function dataSource(virtualData: Object[]): Object[] {
 let gridData: Object[] = dataSource([]);
 
 function Grid1MRecords() {
-  const paseSettings: Object = { pageSize: 1000 };
   const [flag, setFlag] = useState(false);
   const stTime = useRef(0);
   const edTime = useRef(0);
@@ -99,13 +98,12 @@ function Grid1MRecords() {
             </div>
             <Grid
               dataSource={gridData}
-              allowSorting={true}
-              allowPaging={true}
-              allowFiltering={true}
-              allowSearching={true}
-              pageSettings={paseSettings}
+              sortSettings={{ enabled: true }}
+              pageSettings={{ enabled: true, pageSize: 1000 }}
+              filterSettings={{ enabled: true }}
+              searchSettings={{ enabled: true }}
               toolbar={['Add', 'Edit', 'Delete', 'Update', 'Cancel', 'Search']}
-              editSettings={{ allowAdding: true, allowDeleting: true, allowEditing: true }}
+              editSettings={{ allowAdd: true, allowDelete: true, allowEdit: true }}
               height={270}
               onLoad={load}
               onDataLoadStart={dataBound}
@@ -113,7 +111,6 @@ function Grid1MRecords() {
               onSortStart={actionBegin}
               onSearchStart={actionBegin}
               onFilterStart={actionBegin}
-
             >
               <Columns>
                 <Column field='SNo' headerText='SNO' isPrimaryKey={true} validationRules={{ required: true }} width='100' />

@@ -2,11 +2,10 @@ import { useRef, useState } from 'react';
 import { Grid, type GridRef, Columns, Column, Aggregates, AggregateColumn, AggregateRow, type EditSettings } from '@syncfusion/react-grid';
 import { orderData } from '../dataSource'
 import { Checkbox } from '@syncfusion/react-buttons';
-import { NumericTextBox } from '@syncfusion/react-inputs';
 
 function GridEditing() {
     const gridRef = useRef<GridRef>(null);
-    const [editSettings, setEditSettings] = useState<EditSettings>({ allowEditing: true, allowAdding: true, allowDeleting: true });
+    const [editSettings, setEditSettings] = useState<EditSettings>({ allowEdit: true, allowAdd: true, allowDelete: true });
     const load = () => {
         console.log('load');
     }
@@ -49,23 +48,23 @@ function GridEditing() {
             <div className="container">
                 <aside className="sidebar">
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={true} label='Allow Editing' onChange={() => { setEditSettings({ ...gridRef.current?.editSettings, allowEditing: !gridRef.current?.editSettings?.allowEditing }); }} />
+                        <Checkbox defaultChecked={true} label='Allow Editing' onChange={() => { setEditSettings({ ...gridRef.current?.editSettings, allowEdit: !gridRef.current?.editSettings?.allowEdit }); }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={true} label='Allow Adding' onChange={() => { setEditSettings({ ...gridRef.current?.editSettings, allowAdding: !gridRef.current?.editSettings?.allowAdding }); }} />
+                        <Checkbox defaultChecked={true} label='Allow Adding' onChange={() => { setEditSettings({ ...gridRef.current?.editSettings, allowAdd: !gridRef.current?.editSettings?.allowAdd }); }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={true} label='Allow Deleting' onChange={() => { setEditSettings({ ...gridRef.current?.editSettings, allowDeleting: !gridRef.current?.editSettings?.allowDeleting }); }} />
+                        <Checkbox defaultChecked={true} label='Allow Deleting' onChange={() => { setEditSettings({ ...gridRef.current?.editSettings, allowDelete: !gridRef.current?.editSettings?.allowDelete }); }} />
                     </div>
                 </aside>
                 <main className="sub-content">
                     <Grid
                         ref={gridRef}
                         dataSource={orderData}
-                        allowSorting={true}
-                        allowPaging={true}
-                        allowFiltering={true}
-                        allowSearching={true}
+                        sortSettings={{ enabled: true }}
+                        pageSettings={{ enabled: true }}
+                        filterSettings={{ enabled: true }}
+                        searchSettings={{ enabled: true }}
                         toolbar={['Add', 'Edit', 'Delete', 'Update', 'Cancel', 'Search']}
                         editSettings={editSettings}
                         onLoad={load}
@@ -73,14 +72,13 @@ function GridEditing() {
                         onDataLoadStart={beforeDataBound}
                         onDataLoaded={dataBound}
                         height={300}
-                        // width={1000}
+                    // width={1000}
                     >
                         <Columns>
                             <Column field='OrderID' headerText='Order ID' isPrimaryKey={true} validationRules={{ required: true }} textAlign='Right' width='100' />
                             <Column field='CustomerID' headerText='Customer ID' width='120' validationRules={{ required: true }} />
                             <Column field='Freight' headerText='Freight' width='130' format='C2' textAlign='Right' />
-                            <Column field='OrderDate' headerText='Order Date' width='130' format='yMd' textAlign='Right' />
-                            {/* <Column field='Verified' headerText='Verified' width='100' /> */}
+                            <Column field='OrderDate' headerText='Order Date' width='130' type='date' edit={{ type: 'datepickeredit' }} format='yMd' textAlign='Right' />
                             <Column field='ShipCountry' headerText='Ship Country' width='140' />
                             <Column field='ShipCity' headerText='Ship City' width='120' />
                             <Column field='ShipAddress' headerText='Ship Address' width='160' />

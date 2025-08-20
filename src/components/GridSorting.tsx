@@ -1,22 +1,19 @@
 import { useRef, useState } from 'react';
-import { Grid, type GridRef, Columns, Column, Aggregates, AggregateColumn, AggregateRow, type SortSettingsModel, type SortDirection } from '@syncfusion/react-grid';
+import { Grid, type GridRef, Columns, Column, Aggregates, AggregateColumn, AggregateRow, type SortSettings, type SortDirection } from '@syncfusion/react-grid';
 import { orderData } from '../dataSource'
 import { Checkbox } from '@syncfusion/react-buttons';
-import { NumericTextBox } from '@syncfusion/react-inputs';
 import { Button } from "@syncfusion/react-buttons";
 
 function GridSorting() {
     const gridRef = useRef<GridRef>(null);
-    const [allowSorting, setAllowSorting] = useState(true);
-    const [allowMultiSorting, setAllowMultiSorting] = useState(true);
-    const [sortSettings, setSortSettings] = useState<SortSettingsModel>({ allowUnsort: true, columns: [{ field: 'ShipCountry', direction: 'Ascending' }] });
+    const [sortSettings, setSortSettings] = useState<SortSettings>({ enabled: true, mode: 'multiple', allowUnsort: true, columns: [{ field: 'ShipCountry', direction: 'Ascending' }] });
     const [sortColumns, setSortColumns] = useState({
         selectedField: 'ShipCountry',
         selectedDirection: 'Ascending',
     });
     const [removeColumnSort, setRemoveColumnSort] = useState('ShipCountry');
 
-    const fields = ['OrderID', 'CustomerID', 'Freight', 'OrderDate', 'Verified', 'ShipCountry', 'ShipCity', 'ShipAddress', 'ShipName'];
+    const fields = ['OrderID', 'CustomerID', 'Freight', 'OrderDate', 'ShipCountry', 'ShipCity', 'ShipAddress', 'ShipName'];
     const directions = ['Ascending', 'Descending'];
     const load = () => {
         console.log('load');
@@ -60,13 +57,13 @@ function GridSorting() {
             <div className="container">
                 <aside className="sidebar">
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={true} label='Allow Sorting' onChange={() => { setAllowSorting(!allowSorting); }} />
+                        <Checkbox defaultChecked={sortSettings.enabled} label='Allow Sorting' onChange={(args) => { setSortSettings({ ...gridRef.current?.sortSettings, enabled: args.value }); }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={true} label='Allow MultiSorting' onChange={() => { setAllowMultiSorting(!allowMultiSorting); }} />
+                        <Checkbox defaultChecked={true} label='Allow MultiSorting' onChange={(args) => { setSortSettings({ ...gridRef.current?.sortSettings, mode: args.value ? 'multiple' : 'single' }); }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={sortSettings.allowUnsort} label='Allow Unsort' onChange={() => { setSortSettings({ ...gridRef.current?.sortSettings, allowUnsort: !gridRef.current?.sortSettings?.allowUnsort }); }} />
+                        <Checkbox defaultChecked={sortSettings.allowUnsort} label='Allow Unsort' onChange={(args) => { setSortSettings({ ...gridRef.current?.sortSettings, allowUnsort: args.value }); }} />
                     </div>
                     <div className='sidebar-items'>
                         <Button onClick={() => { gridRef.current?.clearSorting?.() }}>Clear sorting</Button>
@@ -123,7 +120,7 @@ function GridSorting() {
                                 <select
                                     className="label"
                                     id="removeColumnSort"
-                                    value="ShipCountry"
+                                    value={removeColumnSort}
                                     onChange={(args: any) => {
                                         setRemoveColumnSort(args.target.value);
                                     }}
@@ -146,14 +143,12 @@ function GridSorting() {
                     <Grid
                         ref={gridRef}
                         dataSource={orderData}
-                        allowSorting={allowSorting}
-                        allowMultiSorting={allowMultiSorting}
                         sortSettings={sortSettings}
-                        allowPaging={true}
-                        allowFiltering={true}
-                        allowSearching={true}
+                        pageSettings={{ enabled: true }}
+                        filterSettings={{ enabled: true }}
+                        searchSettings={{ enabled: true }}
                         toolbar={['Add', 'Edit', 'Delete', 'Update', 'Cancel', 'Search']}
-                        editSettings={{ allowAdding: true, allowDeleting: true, allowEditing: true }}
+                        editSettings={{ allowEdit: true, allowAdd: true, allowDelete: true }}
                         onLoad={load}
                         onGridInit={created}
                         onDataLoadStart={beforeDataBound}
@@ -167,8 +162,7 @@ function GridSorting() {
                                 <Column field='OrderID' headerText='Order ID' isPrimaryKey={true} validationRules={{ required: true }} textAlign='Right' width='100' />
                                 <Column field='CustomerID' headerText='Customer ID' width='120' validationRules={{ required: true }} />
                                 <Column field='Freight' headerText='Freight' width='130' format='C2' textAlign='Right' />
-                                <Column field='OrderDate' headerText='Order Date' width='130' format='yMd' textAlign='Right' />
-                                {/* <Column field='Verified' headerText='Verified' width='100' /> */}
+                                <Column field='OrderDate' headerText='Order Date' width='130' type='date' edit={{ type: 'datepickeredit' }} format='yMd' textAlign='Right' />
                                 <Column field='ShipCountry' headerText='Ship Country' width='140' />
                                 <Column field='ShipCity' headerText='Ship City' width='120' />
                                 <Column field='ShipAddress' headerText='Ship Address' width='160' />

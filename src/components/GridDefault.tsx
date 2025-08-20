@@ -1,8 +1,6 @@
 import { useRef, useState } from 'react';
 import { Grid, type GridRef, Columns, Column, Aggregates, AggregateColumn, AggregateRow } from '@syncfusion/react-grid';
 import { orderData } from '../dataSource'
-import { Checkbox } from '@syncfusion/react-buttons';
-import { NumericTextBox } from '@syncfusion/react-inputs';
 
 function GridDefault() {
   const gridRef = useRef<GridRef>(null);
@@ -49,10 +47,10 @@ function GridDefault() {
         <Grid
           ref={gridRef}
           dataSource={orderData}
-          allowSorting={true}
-          allowPaging={true}
-          allowFiltering={true}
-          allowSearching={true}
+          sortSettings={{ enabled: true }}
+          pageSettings={{ enabled: true }}
+          filterSettings={{ enabled: true }}
+          searchSettings={{ enabled: true }}
           toolbar={['Search']}
           onLoad={load}
           onGridInit={created}
@@ -63,15 +61,14 @@ function GridDefault() {
           height={300}
         >
           <Columns>
-            <Column field='OrderID' isPrimaryKey={true} />
-            <Column field='CustomerID' />
-            <Column field='Freight'/>
-            <Column field='OrderDate'  />
-            <Column field='Verified' displayAsCheckBox={true} />
-            <Column field='ShipCountry' />
-            <Column field='ShipCity'  />
-            <Column field='ShipAddress' />
-            <Column field='ShipName' />
+            <Column field='OrderID' headerText='Order ID' isPrimaryKey={true} validationRules={{ required: true }} textAlign='Right' width='100' />
+            <Column field='CustomerID' headerText='Customer ID' width='120' validationRules={{ required: true }} />
+            <Column field='Freight' headerText='Freight' width='130' format='C2' textAlign='Right' />
+            <Column field='OrderDate' headerText='Order Date' width='130' type='date' edit={{ type: 'datepickeredit' }} format='yMd' textAlign='Right' />
+            <Column field='ShipCountry' headerText='Ship Country' width='140' />
+            <Column field='ShipCity' headerText='Ship City' width='120' />
+            <Column field='ShipAddress' headerText='Ship Address' width='160' />
+            <Column field='ShipName' headerText='Ship Name' width='140' />
           </Columns>
           <Aggregates>
             <AggregateRow>

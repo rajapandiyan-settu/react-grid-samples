@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import { Grid, type GridRef, Columns, Column, Aggregates, AggregateColumn, AggregateRow, type GridLine, type TextWrapSettingsModel } from '@syncfusion/react-grid';
+import { Grid, type GridRef, Columns, Column, Aggregates, AggregateColumn, AggregateRow, type GridLine, type TextWrapSettings, type SortSettings } from '@syncfusion/react-grid';
 import { orderData } from '../dataSource'
 import { Checkbox } from '@syncfusion/react-buttons';
 import { NumericTextBox } from '@syncfusion/react-inputs';
@@ -8,9 +8,7 @@ function GridProps() {
     const gridRef = useRef<GridRef>(null);
     const [allowPaging, setAllowPaging] = useState(true);
     const [allowFiltering, setAllowFiltering] = useState(true);
-    const [allowSorting, setAllowSorting] = useState(true);
     const [allowSelection, setAllowSelection] = useState(true);
-    const [allowTextWrap, setAllowTextWrap] = useState(false);
     const [enableHover, setEnableHover] = useState(true);
     const [height, setHeight] = useState(300);
     const [width, setWidth] = useState<number>(980);
@@ -18,11 +16,11 @@ function GridProps() {
     const [allowKeyboard, setAllowKeyboard] = useState(true);
     const [enableRtl, setEnableRtl] = useState(false);
     const [enableAltRow, setEnableAltRow] = useState(false);
-    const [allowMultiSorting, setAllowMultiSorting] = useState(true);
+    const [sortSettings, setSortSettings] = useState<SortSettings>({ enabled: true, mode: 'multiple' });
     const [enableHtmlSanitizer, setEnableHtmlSanitizer] = useState(false);
     const [enableStickyHeader, setEnableStickyHeader] = useState(false);
     const [rowHeight, setRowHeight] = useState<number>();
-    const [textWrapSettings, setTextWrapSettings] = useState({ wrapMode: 'Both' });
+    const [textWrapSettings, setTextWrapSettings] = useState<TextWrapSettings>({ enabled: true, wrapMode: 'Both' });
     const load = () => {
         console.log('load');
     }
@@ -71,10 +69,10 @@ function GridProps() {
                         <Checkbox defaultChecked={true} label='Allow Filtering' onChange={() => { setAllowFiltering(!allowFiltering); }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={true} label='Allow Sorting' onChange={() => { setAllowSorting(!allowSorting); }} />
+                        <Checkbox defaultChecked={true} label='Allow Sorting' onChange={(args) => { setSortSettings({ ...gridRef.current?.sortSettings, enabled: args.value }); }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={true} label='Allow Multi Sorting' onChange={() => { setAllowMultiSorting(!allowMultiSorting); }} />
+                        <Checkbox defaultChecked={true} label='Allow Multi Sorting' onChange={(args) => { setSortSettings({ ...gridRef.current?.sortSettings, mode: args.value ? 'multiple' : 'single' }); }} />
                     </div>
                     <div className='sidebar-items'>
                         <Checkbox defaultChecked={true} label='Allow Selection' onChange={() => { setAllowSelection(!allowSelection); }} />
@@ -98,7 +96,7 @@ function GridProps() {
                         <Checkbox defaultChecked={false} label='Enable Sticky Header' onChange={() => { setEnableStickyHeader(!enableStickyHeader); }} />
                     </div>
                     <div className='sidebar-items'>
-                        <Checkbox defaultChecked={false} label='Allow Textwrap' onChange={() => { setAllowTextWrap(!allowTextWrap); }} />
+                        <Checkbox defaultChecked={textWrapSettings.enabled} label='Allow Textwrap' onChange={(args) => { setTextWrapSettings({ ...gridRef.current?.textWrapSettings, enabled: args.value }) }} />
                     </div>
                     <div className='sidebar-items'>
                         <span className='label'>Height:</span>
@@ -148,7 +146,7 @@ function GridProps() {
                             <select
                                 className="label"
                                 id="gridlines"
-                                value={'Default'}
+                                value={gridLines}
                                 onChange={(args: any) => {
                                     setGridLines(args.target.value);
                                 }}
@@ -167,9 +165,9 @@ function GridProps() {
                             <select
                                 className="label"
                                 id="wrapsettings"
-                                value={'Both'}
+                                value={textWrapSettings.wrapMode}
                                 onChange={(args: any) => {
-                                    setTextWrapSettings({ wrapMode: args.target.value });
+                                    setTextWrapSettings({ ...gridRef.current?.textWrapSettings, wrapMode: args.target.value });
                                 }}
                             >
                                 {['Both', 'Content', 'Header'].map((m) => (
@@ -185,12 +183,12 @@ function GridProps() {
                     <Grid
                         ref={gridRef}
                         dataSource={orderData}
-                        allowPaging={allowPaging}
-                        allowFiltering={allowFiltering}
-                        allowSorting={allowSorting}
-                        allowSearching={true}
-                        allowSelection={allowSelection}
-                        allowTextWrap={allowTextWrap}
+                        pageSettings={{ enabled: allowPaging }}
+                        filterSettings={{ enabled: allowFiltering }}
+                        sortSettings={sortSettings}
+                        searchSettings={{ enabled: true }}
+                        selectionSettings={{ enabled: allowSelection }}
+                        textWrapSettings={textWrapSettings}
                         enableHover={enableHover}
                         height={height}
                         width={width}
@@ -198,13 +196,11 @@ function GridProps() {
                         allowKeyboard={allowKeyboard}
                         enableRtl={enableRtl}
                         enableAltRow={enableAltRow}
-                        allowMultiSorting={allowMultiSorting}
                         enableHtmlSanitizer={enableHtmlSanitizer}
                         enableStickyHeader={enableStickyHeader}
                         rowHeight={rowHeight}
-                        textWrapSettings={textWrapSettings as TextWrapSettingsModel}
                         toolbar={['Add', 'Edit', 'Delete', 'Update', 'Cancel', 'Search']}
-                        editSettings={{ allowAdding: true, allowDeleting: true, allowEditing: true }}
+                        editSettings={{ allowAdd: true, allowDelete: true, allowEdit: true }}
                         onLoad={load}
                         onGridInit={created}
                         onDataLoadStart={beforeDataBound}
@@ -216,8 +212,7 @@ function GridProps() {
                             <Column field='OrderID' headerText='Order ID' isPrimaryKey={true} validationRules={{ required: true }} textAlign='Right' width='100' />
                             <Column field='CustomerID' headerText='Customer ID' width='120' validationRules={{ required: true }} />
                             <Column field='Freight' headerText='Freight' width='130' format='C2' textAlign='Right' />
-                            <Column field='OrderDate' headerText='Order Date' width='130' format='yMd' textAlign='Right' />
-                            {/* <Column field='Verified' headerText='Verified' width='100' /> */}
+                            <Column field='OrderDate' headerText='Order Date' width='130' type='date' edit={{ type: 'datepickeredit' }} format='yMd' textAlign='Right' />
                             <Column field='ShipCountry' headerText='Ship Country' width='140' />
                             <Column field='ShipCity' headerText='Ship City' width='120' />
                             <Column field='ShipAddress' headerText='Ship Address' width='160' />
