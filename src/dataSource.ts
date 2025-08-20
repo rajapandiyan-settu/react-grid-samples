@@ -9,7 +9,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '59 rue de l\'Abbaye',
         'ShipCity': 'Reims',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !0
     },
 
     {
@@ -22,7 +23,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Luisenstr. 48',
         'ShipCity': 'Münster',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -35,7 +37,9 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Paço, 67',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !0
+
     },
 
     {
@@ -48,7 +52,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2, rue du Commerce',
         'ShipCity': 'Lyon',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !0
     },
 
     {
@@ -61,7 +66,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Boulevard Tirou, 255',
         'ShipCity': 'Charleroi',
         'ShipRegion': null,
-        'ShipCountry': 'Belgium'
+        'ShipCountry': 'Belgium',
+        'Verified': !0
     },
 
     {
@@ -74,7 +80,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Paço, 67',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !0
     },
 
     {
@@ -87,7 +94,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Hauptstr. 31',
         'ShipCity': 'Bern',
         'ShipRegion': null,
-        'ShipCountry': 'Switzerland'
+        'ShipCountry': 'Switzerland',
+        'Verified': !0
     },
 
     {
@@ -100,7 +108,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Starenweg 5',
         'ShipCity': 'Genève',
         'ShipRegion': null,
-        'ShipCountry': 'Switzerland'
+        'ShipCountry': 'Switzerland',
+        'Verified': !1
     },
 
     {
@@ -113,7 +122,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Mercado, 12',
         'ShipCity': 'Resende',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -126,7 +136,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 22 con Ave. Carlos Soublette #8-35',
         'ShipCity': 'San Cristóbal',
         'ShipRegion': 'Táchira',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -139,7 +150,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -152,7 +164,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Sierras de Granada 9993',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !0
     },
 
     {
@@ -165,7 +178,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Mehrheimerstr. 369',
         'ShipCity': 'Köln',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -178,7 +192,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua da Panificadora, 12',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -191,7 +206,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2817 Milton Dr.',
         'ShipCity': 'Albuquerque',
         'ShipRegion': 'NM',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -204,7 +220,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -217,7 +234,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Åkergatan 24',
         'ShipCity': 'Bräcke',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !1
     },
 
     {
@@ -230,7 +248,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '24, place Kléber',
         'ShipCity': 'Strasbourg',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !0
     },
 
     {
@@ -243,7 +262,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Torikatu 38',
         'ShipCity': 'Oulu',
         'ShipRegion': null,
-        'ShipCountry': 'Finland'
+        'ShipCountry': 'Finland',
+        'Verified': !0
     },
 
     {
@@ -256,7 +276,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berliner Platz 43',
         'ShipCity': 'München',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -269,7 +290,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '5ª Ave. Los Palos Grandes',
         'ShipCity': 'Caracas',
         'ShipRegion': 'DF',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -282,7 +304,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1029 - 12th Ave. S.',
         'ShipCity': 'Seattle',
         'ShipRegion': 'WA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -295,7 +318,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Torikatu 38',
         'ShipCity': 'Oulu',
         'ShipRegion': null,
-        'ShipCountry': 'Finland'
+        'ShipCountry': 'Finland',
+        'Verified': !1
     },
 
     {
@@ -308,7 +332,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'P.O. Box 555',
         'ShipCity': 'Lander',
         'ShipRegion': 'WY',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -321,7 +346,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2817 Milton Dr.',
         'ShipCity': 'Albuquerque',
         'ShipRegion': 'NM',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -334,7 +360,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -347,7 +374,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '59 rue de l\'Abbaye',
         'ShipCity': 'Reims',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !0
     },
 
     {
@@ -360,7 +388,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Via Ludovico il Moro 22',
         'ShipCity': 'Bergamo',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -373,7 +402,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Avda. Azteca 123',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !0
     },
 
     {
@@ -386,7 +416,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Heerstr. 22',
         'ShipCity': 'Leipzig',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -399,7 +430,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berguvsvägen  8',
         'ShipCity': 'Luleå',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !1
     },
 
     {
@@ -412,7 +444,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Magazinweg 7',
         'ShipCity': 'Frankfurt a.M.',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -425,7 +458,9 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berguvsvägen  8',
         'ShipCity': 'Luleå',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !1
+
     },
 
     {
@@ -438,7 +473,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Gran Vía, 1',
         'ShipCity': 'Madrid',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !1
     },
 
     {
@@ -451,7 +487,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Gran Vía, 1',
         'ShipCity': 'Madrid',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !1
     },
 
     {
@@ -464,7 +501,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 52 con Ave. Bolívar #65-98 Llano Largo',
         'ShipCity': 'Barquisimeto',
         'ShipRegion': 'Lara',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -477,7 +515,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Magazinweg 7',
         'ShipCity': 'Frankfurt a.M.',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -490,7 +529,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -503,7 +543,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -516,7 +557,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Copacabana, 267',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !0
     },
 
     {
@@ -529,7 +571,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Strada Provinciale 124',
         'ShipCity': 'Reggio Emilia',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -542,7 +585,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Fauntleroy Circus',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -555,7 +599,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. dos Lusíadas, 23',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !0
     },
 
     {
@@ -568,7 +613,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua da Panificadora, 12',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !0
     },
 
     {
@@ -581,7 +627,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Inês de Castro, 414',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !0
     },
 
     {
@@ -594,7 +641,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Avda. Azteca 123',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !0
     },
 
     {
@@ -607,7 +655,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2817 Milton Dr.',
         'ShipCity': 'Albuquerque',
         'ShipRegion': 'NM',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -620,7 +669,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '59 rue de l\'Abbaye',
         'ShipCity': 'Reims',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !0
     },
 
     {
@@ -633,7 +683,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 52 con Ave. Bolívar #65-98 Llano Largo',
         'ShipCity': 'Barquisimeto',
         'ShipRegion': 'Lara',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !0
     },
 
     {
@@ -646,7 +697,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '24, place Kléber',
         'ShipCity': 'Strasbourg',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !0
     },
 
     {
@@ -659,7 +711,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '8 Johnstown Road',
         'ShipCity': 'Cork',
         'ShipRegion': 'Co. Cork',
-        'ShipCountry': 'Ireland'
+        'ShipCountry': 'Ireland',
+        'Verified': !0
     },
 
     {
@@ -672,7 +725,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Copacabana, 267',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !0
     },
 
     {
@@ -685,7 +739,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Via Ludovico il Moro 22',
         'ShipCity': 'Bergamo',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !1
     },
 
     {
@@ -698,7 +753,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Adenauerallee 900',
         'ShipCity': 'Stuttgart',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -711,7 +767,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Boulevard Tirou, 255',
         'ShipCity': 'Charleroi',
         'ShipRegion': null,
-        'ShipCountry': 'Belgium'
+        'ShipCountry': 'Belgium',
+        'Verified': !1
     },
 
     {
@@ -724,7 +781,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'C/ Romero, 33',
         'ShipCity': 'Sevilla',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !1
     },
 
     {
@@ -737,7 +795,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Avda. Azteca 123',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -750,7 +809,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2743 Bering St.',
         'ShipCity': 'Anchorage',
         'ShipRegion': 'AK',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -763,7 +823,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Gran Vía, 1',
         'ShipCity': 'Madrid',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !1
     },
 
     {
@@ -776,7 +837,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '89 Chiaroscuro Rd.',
         'ShipCity': 'Portland',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -789,7 +851,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Avda. de la Constitución 2222',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -802,7 +865,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '8 Johnstown Road',
         'ShipCity': 'Cork',
         'ShipRegion': 'Co. Cork',
-        'ShipCountry': 'Ireland'
+        'ShipCountry': 'Ireland',
+        'Verified': !0
     },
 
     {
@@ -815,7 +879,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '89 Jefferson Way Suite 2',
         'ShipCity': 'Portland',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -828,7 +893,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '67, rue des Cinquante Otages',
         'ShipCity': 'Nantes',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !0
     },
 
     {
@@ -841,7 +907,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Adenauerallee 900',
         'ShipCity': 'Stuttgart',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -854,7 +921,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -867,7 +935,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2817 Milton Dr.',
         'ShipCity': 'Albuquerque',
         'ShipRegion': 'NM',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -880,7 +949,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Garden House Crowther Way',
         'ShipCity': 'Cowes',
         'ShipRegion': 'Isle of Wight',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -893,7 +963,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2817 Milton Dr.',
         'ShipCity': 'Albuquerque',
         'ShipRegion': 'NM',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -906,7 +977,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '89 Chiaroscuro Rd.',
         'ShipCity': 'Portland',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -919,7 +991,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Garden House Crowther Way',
         'ShipCity': 'Cowes',
         'ShipRegion': 'Isle of Wight',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -932,7 +1005,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Avda. Azteca 123',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -945,7 +1019,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Torikatu 38',
         'ShipCity': 'Oulu',
         'ShipRegion': null,
-        'ShipCountry': 'Finland'
+        'ShipCountry': 'Finland',
+        'Verified': !1
     },
 
     {
@@ -958,7 +1033,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Garden House Crowther Way',
         'ShipCity': 'Cowes',
         'ShipRegion': 'Isle of Wight',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !1
     },
 
     {
@@ -971,7 +1047,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Calle Dr. Jorge Cash 321',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -984,7 +1061,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Maubelstr. 90',
         'ShipCity': 'Brandenburg',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -997,7 +1075,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -1010,7 +1089,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Maubelstr. 90',
         'ShipCity': 'Brandenburg',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -1023,7 +1103,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'C/ Araquil, 67',
         'ShipCity': 'Madrid',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !1
     },
 
     {
@@ -1036,7 +1117,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Åkergatan 24',
         'ShipCity': 'Bräcke',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !1
     },
 
     {
@@ -1049,7 +1131,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Jardim das rosas n. 32',
         'ShipCity': 'Lisboa',
         'ShipRegion': null,
-        'ShipCountry': 'Portugal'
+        'ShipCountry': 'Portugal',
+        'Verified': !1
     },
 
     {
@@ -1062,7 +1145,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'P.O. Box 555',
         'ShipCity': 'Lander',
         'ShipRegion': 'WY',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -1075,7 +1159,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 52 con Ave. Bolívar #65-98 Llano Largo',
         'ShipCity': 'Barquisimeto',
         'ShipRegion': 'Lara',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -1088,7 +1173,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '12, rue des Bouchers',
         'ShipCity': 'Marseille',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !1
     },
 
     {
@@ -1101,7 +1187,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '43 rue St. Laurent',
         'ShipCity': 'Montréal',
         'ShipRegion': 'Québec',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -1114,7 +1201,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Torikatu 38',
         'ShipCity': 'Oulu',
         'ShipRegion': null,
-        'ShipCountry': 'Finland'
+        'ShipCountry': 'Finland',
+        'Verified': !0
     },
 
     {
@@ -1127,7 +1215,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2, rue du Commerce',
         'ShipCity': 'Lyon',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !0
     },
 
     {
@@ -1140,7 +1229,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '8 Johnstown Road',
         'ShipCity': 'Cork',
         'ShipRegion': 'Co. Cork',
-        'ShipCountry': 'Ireland'
+        'ShipCountry': 'Ireland',
+        'Verified': !0
     },
 
     {
@@ -1153,7 +1243,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Estrada da saúde n. 58',
         'ShipCity': 'Lisboa',
         'ShipRegion': null,
-        'ShipCountry': 'Portugal'
+        'ShipCountry': 'Portugal',
+        'Verified': !0
     },
 
     {
@@ -1166,7 +1257,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berliner Platz 43',
         'ShipCity': 'München',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -1179,7 +1271,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2743 Bering St.',
         'ShipCity': 'Anchorage',
         'ShipRegion': 'AK',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -1192,7 +1285,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '43 rue St. Laurent',
         'ShipCity': 'Montréal',
         'ShipRegion': 'Québec',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !0
     },
 
     {
@@ -1205,7 +1299,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '12, rue des Bouchers',
         'ShipCity': 'Marseille',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !0
     },
 
     {
@@ -1218,7 +1313,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Vinbæltet 34',
         'ShipCity': 'Kobenhavn',
         'ShipRegion': null,
-        'ShipCountry': 'Denmark'
+        'ShipCountry': 'Denmark',
+        'Verified': !0
     },
 
     {
@@ -1231,7 +1327,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berliner Platz 43',
         'ShipCity': 'München',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -1244,7 +1341,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Magazinweg 7',
         'ShipCity': 'Frankfurt a.M.',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -1257,7 +1355,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1029 - 12th Ave. S.',
         'ShipCity': 'Seattle',
         'ShipRegion': 'WA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -1270,7 +1369,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -1283,7 +1383,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2817 Milton Dr.',
         'ShipCity': 'Albuquerque',
         'ShipRegion': 'NM',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -1296,7 +1397,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua Orós, 92',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !0
     },
 
     {
@@ -1309,7 +1411,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Adenauerallee 900',
         'ShipCity': 'Stuttgart',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -1322,7 +1425,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'P.O. Box 555',
         'ShipCity': 'Lander',
         'ShipRegion': 'WY',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -1335,7 +1439,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1 rue Alsace-Lorraine',
         'ShipCity': 'Toulouse',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !0
     },
 
     {
@@ -1348,7 +1453,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -1361,7 +1467,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Jardim das rosas n. 32',
         'ShipCity': 'Lisboa',
         'ShipRegion': null,
-        'ShipCountry': 'Portugal'
+        'ShipCountry': 'Portugal',
+        'Verified': !1
     },
 
     {
@@ -1374,7 +1481,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Geislweg 14',
         'ShipCity': 'Salzburg',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -1387,7 +1495,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Calle Dr. Jorge Cash 321',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -1400,7 +1509,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Brook Farm Stratford St. Mary',
         'ShipCity': 'Colchester',
         'ShipRegion': 'Essex',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !1
     },
 
     {
@@ -1413,7 +1523,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Adenauerallee 900',
         'ShipCity': 'Stuttgart',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -1426,7 +1537,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 52 con Ave. Bolívar #65-98 Llano Largo',
         'ShipCity': 'Barquisimeto',
         'ShipRegion': 'Lara',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -1439,7 +1551,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1 rue Alsace-Lorraine',
         'ShipCity': 'Toulouse',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !1
     },
 
     {
@@ -1452,7 +1565,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '90 Wadhurst Rd.',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !1
     },
 
     {
@@ -1465,7 +1579,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '24, place Kléber',
         'ShipCity': 'Strasbourg',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !1
     },
 
     {
@@ -1478,7 +1593,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -1491,7 +1607,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '12, rue des Bouchers',
         'ShipCity': 'Marseille',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !1
     },
 
     {
@@ -1504,7 +1621,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Walserweg 21',
         'ShipCity': 'Aachen',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -1517,7 +1635,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '35 King George',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -1530,7 +1649,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Mataderos  2312',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !0
     },
 
     {
@@ -1543,7 +1663,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rambla de Cataluña, 23',
         'ShipCity': 'Barcelona',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !0
     },
 
     {
@@ -1556,7 +1677,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Smagsloget 45',
         'ShipCity': 'Århus',
         'ShipRegion': null,
-        'ShipCountry': 'Denmark'
+        'ShipCountry': 'Denmark',
+        'Verified': !0
     },
 
     {
@@ -1569,7 +1691,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !0
     },
 
     {
@@ -1582,7 +1705,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'P.O. Box 555',
         'ShipCity': 'Lander',
         'ShipRegion': 'WY',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -1595,7 +1719,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Hauptstr. 31',
         'ShipCity': 'Bern',
         'ShipRegion': null,
-        'ShipCountry': 'Switzerland'
+        'ShipCountry': 'Switzerland',
+        'Verified': !0
     },
 
     {
@@ -1608,7 +1733,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1 rue Alsace-Lorraine',
         'ShipCity': 'Toulouse',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !0
     },
 
     {
@@ -1621,7 +1747,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Alameda dos Canàrios, 891',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -1634,7 +1761,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '8 Johnstown Road',
         'ShipCity': 'Cork',
         'ShipRegion': 'Co. Cork',
-        'ShipCountry': 'Ireland'
+        'ShipCountry': 'Ireland',
+        'Verified': !1
     },
 
     {
@@ -1647,7 +1775,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'ul. Filtrowa 68',
         'ShipCity': 'Warszawa',
         'ShipRegion': null,
-        'ShipCountry': 'Poland'
+        'ShipCountry': 'Poland',
+        'Verified': !1
     },
 
     {
@@ -1660,7 +1789,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'City Center Plaza 516 Main St.',
         'ShipCity': 'Elgin',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -1673,7 +1803,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '43 rue St. Laurent',
         'ShipCity': 'Montréal',
         'ShipRegion': 'Québec',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -1686,7 +1817,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '90 Wadhurst Rd.',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !1
     },
 
     {
@@ -1699,7 +1831,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Åkergatan 24',
         'ShipCity': 'Bräcke',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !1
     },
 
     {
@@ -1712,7 +1845,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua da Panificadora, 12',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !0
     },
 
     {
@@ -1725,7 +1859,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '8 Johnstown Road',
         'ShipCity': 'Cork',
         'ShipRegion': 'Co. Cork',
-        'ShipCountry': 'Ireland'
+        'ShipCountry': 'Ireland',
+        'Verified': !1
     },
 
     {
@@ -1738,7 +1873,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 52 con Ave. Bolívar #65-98 Llano Largo',
         'ShipCity': 'Barquisimeto',
         'ShipRegion': 'Lara',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -1751,7 +1887,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -1764,7 +1901,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Brook Farm Stratford St. Mary',
         'ShipCity': 'Colchester',
         'ShipRegion': 'Essex',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !1
     },
 
     {
@@ -1777,7 +1915,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berguvsvägen  8',
         'ShipCity': 'Luleå',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !1
     },
 
     {
@@ -1790,7 +1929,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'P.O. Box 555',
         'ShipCity': 'Lander',
         'ShipRegion': 'WY',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -1803,7 +1943,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua Orós, 92',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !0
     },
 
     {
@@ -1816,7 +1957,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Erling Skakkes gate 78',
         'ShipCity': 'Stavern',
         'ShipRegion': null,
-        'ShipCountry': 'Norway'
+        'ShipCountry': 'Norway',
+        'Verified': !0
     },
 
     {
@@ -1829,7 +1971,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '90 Wadhurst Rd.',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -1842,7 +1985,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '23 Tsawassen Blvd.',
         'ShipCity': 'Tsawassen',
         'ShipRegion': 'BC',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !0
     },
 
     {
@@ -1855,7 +1999,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !0
     },
 
     {
@@ -1868,7 +2013,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Walserweg 21',
         'ShipCity': 'Aachen',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -1881,7 +2027,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Geislweg 14',
         'ShipCity': 'Salzburg',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !0
     },
 
     {
@@ -1894,7 +2041,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -1907,7 +2055,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'City Center Plaza 516 Main St.',
         'ShipCity': 'Elgin',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -1920,7 +2069,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 22 con Ave. Carlos Soublette #8-35',
         'ShipCity': 'San Cristóbal',
         'ShipRegion': 'Táchira',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !0
     },
 
     {
@@ -1933,7 +2083,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berliner Platz 43',
         'ShipCity': 'München',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -1946,7 +2097,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Estrada da saúde n. 58',
         'ShipCity': 'Lisboa',
         'ShipRegion': null,
-        'ShipCountry': 'Portugal'
+        'ShipCountry': 'Portugal',
+        'Verified': !0
     },
 
     {
@@ -1959,7 +2111,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -1972,7 +2125,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Smagsloget 45',
         'ShipCity': 'Århus',
         'ShipRegion': null,
-        'ShipCountry': 'Denmark'
+        'ShipCountry': 'Denmark',
+        'Verified': !0
     },
 
     {
@@ -1985,7 +2139,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '35 King George',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -1998,7 +2153,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2817 Milton Dr.',
         'ShipCity': 'Albuquerque',
         'ShipRegion': 'NM',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -2011,7 +2167,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !0
     },
 
     {
@@ -2024,7 +2181,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -2037,7 +2195,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Via Ludovico il Moro 22',
         'ShipCity': 'Bergamo',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !1
     },
 
     {
@@ -2050,7 +2209,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Ave. 5 de Mayo Porlamar',
         'ShipCity': 'I. de Margarita',
         'ShipRegion': 'Nueva Esparta',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -2063,7 +2223,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Alameda dos Canàrios, 891',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -2076,7 +2237,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Mehrheimerstr. 369',
         'ShipCity': 'Köln',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -2089,7 +2251,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '184, chaussée de Tournai',
         'ShipCity': 'Lille',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !1
     },
 
     {
@@ -2102,7 +2265,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Ing. Gustavo Moncada 8585 Piso 20-A',
         'ShipCity': 'Buenos Aires',
         'ShipRegion': null,
-        'ShipCountry': 'Argentina'
+        'ShipCountry': 'Argentina',
+        'Verified': !1
     },
 
     {
@@ -2115,7 +2279,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '23 Tsawassen Blvd.',
         'ShipCity': 'Tsawassen',
         'ShipRegion': 'BC',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -2128,7 +2293,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '23 Tsawassen Blvd.',
         'ShipCity': 'Tsawassen',
         'ShipRegion': 'BC',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -2141,7 +2307,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Torikatu 38',
         'ShipCity': 'Oulu',
         'ShipRegion': null,
-        'ShipCountry': 'Finland'
+        'ShipCountry': 'Finland',
+        'Verified': !1
     },
 
     {
@@ -2154,7 +2321,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1 rue Alsace-Lorraine',
         'ShipCity': 'Toulouse',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !1
     },
 
     {
@@ -2167,7 +2335,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua Orós, 92',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -2180,7 +2349,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'City Center Plaza 516 Main St.',
         'ShipCity': 'Elgin',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -2193,7 +2363,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Torikatu 38',
         'ShipCity': 'Oulu',
         'ShipRegion': null,
-        'ShipCountry': 'Finland'
+        'ShipCountry': 'Finland',
+        'Verified': !1
     },
 
     {
@@ -2206,7 +2377,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Vinbæltet 34',
         'ShipCity': 'Kobenhavn',
         'ShipRegion': null,
-        'ShipCountry': 'Denmark'
+        'ShipCountry': 'Denmark',
+        'Verified': !1
     },
 
     {
@@ -2219,7 +2391,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -2232,7 +2405,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Starenweg 5',
         'ShipCity': 'Genève',
         'ShipRegion': null,
-        'ShipCountry': 'Switzerland'
+        'ShipCountry': 'Switzerland',
+        'Verified': !0
     },
 
     {
@@ -2245,7 +2419,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Mercado, 12',
         'ShipCity': 'Resende',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !0
     },
 
     {
@@ -2258,7 +2433,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua da Panificadora, 12',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !0
     },
 
     {
@@ -2271,7 +2447,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Via Monte Bianco 34',
         'ShipCity': 'Torino',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -2284,7 +2461,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Brasil, 442',
         'ShipCity': 'Campinas',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !0
     },
 
     {
@@ -2297,7 +2475,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '43 rue St. Laurent',
         'ShipCity': 'Montréal',
         'ShipRegion': 'Québec',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !0
     },
 
     {
@@ -2310,7 +2489,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1 rue Alsace-Lorraine',
         'ShipCity': 'Toulouse',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !0
     },
 
     {
@@ -2323,7 +2503,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rambla de Cataluña, 23',
         'ShipCity': 'Barcelona',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !0
     },
 
     {
@@ -2336,7 +2517,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Geislweg 14',
         'ShipCity': 'Salzburg',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !0
     },
 
     {
@@ -2349,7 +2531,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Strada Provinciale 124',
         'ShipCity': 'Reggio Emilia',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -2362,7 +2545,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '8 Johnstown Road',
         'ShipCity': 'Cork',
         'ShipRegion': 'Co. Cork',
-        'ShipCountry': 'Ireland'
+        'ShipCountry': 'Ireland',
+        'Verified': !0
     },
 
     {
@@ -2375,7 +2559,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !0
     },
 
     {
@@ -2388,7 +2573,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '23 Tsawassen Blvd.',
         'ShipCity': 'Tsawassen',
         'ShipRegion': 'BC',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !0
     },
 
     {
@@ -2401,7 +2587,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'P.O. Box 555',
         'ShipCity': 'Lander',
         'ShipRegion': 'WY',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -2414,7 +2601,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Estrada da saúde n. 58',
         'ShipCity': 'Lisboa',
         'ShipRegion': null,
-        'ShipCountry': 'Portugal'
+        'ShipCountry': 'Portugal',
+        'Verified': !0
     },
 
     {
@@ -2427,7 +2615,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Åkergatan 24',
         'ShipCity': 'Bräcke',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -2440,7 +2629,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berkeley Gardens 12  Brewery',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -2453,7 +2643,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '24, place Kléber',
         'ShipCity': 'Strasbourg',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !1
     },
 
     {
@@ -2466,7 +2657,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Torikatu 38',
         'ShipCity': 'Oulu',
         'ShipRegion': null,
-        'ShipCountry': 'Finland'
+        'ShipCountry': 'Finland',
+        'Verified': !1
     },
 
     {
@@ -2479,7 +2671,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Luisenstr. 48',
         'ShipCity': 'Münster',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -2492,7 +2685,9 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '43 rue St. Laurent',
         'ShipCity': 'Montréal',
         'ShipRegion': 'Québec',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
+
     },
 
     {
@@ -2505,7 +2700,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -2518,7 +2714,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2743 Bering St.',
         'ShipCity': 'Anchorage',
         'ShipRegion': 'AK',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -2531,7 +2728,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -2544,7 +2742,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Strada Provinciale 124',
         'ShipCity': 'Reggio Emilia',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -2557,7 +2756,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berguvsvägen  8',
         'ShipCity': 'Luleå',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -2570,7 +2770,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berguvsvägen  8',
         'ShipCity': 'Luleå',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -2583,7 +2784,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Luisenstr. 48',
         'ShipCity': 'Münster',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -2596,7 +2798,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Copacabana, 267',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -2609,7 +2812,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. del Libertador 900',
         'ShipCity': 'Buenos Aires',
         'ShipRegion': null,
-        'ShipCountry': 'Argentina'
+        'ShipCountry': 'Argentina',
+        'Verified': !0
     },
 
     {
@@ -2622,7 +2826,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '24, place Kléber',
         'ShipCity': 'Strasbourg',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !1
     },
 
     {
@@ -2635,7 +2840,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2, rue du Commerce',
         'ShipCity': 'Lyon',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !1
     },
 
     {
@@ -2648,7 +2854,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -2661,7 +2868,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -2674,7 +2882,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Brook Farm Stratford St. Mary',
         'ShipCity': 'Colchester',
         'ShipRegion': 'Essex',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -2687,7 +2896,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1 rue Alsace-Lorraine',
         'ShipCity': 'Toulouse',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !1
     },
 
     {
@@ -2700,7 +2910,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Torikatu 38',
         'ShipCity': 'Oulu',
         'ShipRegion': null,
-        'ShipCountry': 'Finland'
+        'ShipCountry': 'Finland',
+        'Verified': !1
     },
 
     {
@@ -2713,7 +2924,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Maubelstr. 90',
         'ShipCity': 'Brandenburg',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -2726,7 +2938,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Maubelstr. 90',
         'ShipCity': 'Brandenburg',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -2739,7 +2952,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Boulevard Tirou, 255',
         'ShipCity': 'Charleroi',
         'ShipRegion': null,
-        'ShipCountry': 'Belgium'
+        'ShipCountry': 'Belgium',
+        'Verified': !1
     },
 
     {
@@ -2752,7 +2966,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2, rue du Commerce',
         'ShipCity': 'Lyon',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !1
     },
 
     {
@@ -2765,7 +2980,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Åkergatan 24',
         'ShipCity': 'Bräcke',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -2778,7 +2994,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 52 con Ave. Bolívar #65-98 Llano Largo',
         'ShipCity': 'Barquisimeto',
         'ShipRegion': 'Lara',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -2791,7 +3008,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berkeley Gardens 12  Brewery',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -2804,7 +3022,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Boulevard Tirou, 255',
         'ShipCity': 'Charleroi',
         'ShipRegion': null,
-        'ShipCountry': 'Belgium'
+        'ShipCountry': 'Belgium',
+        'Verified': !1
     },
 
     {
@@ -2817,7 +3036,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Jardim das rosas n. 32',
         'ShipCity': 'Lisboa',
         'ShipRegion': null,
-        'ShipCountry': 'Portugal'
+        'ShipCountry': 'Portugal',
+        'Verified': !0
     },
 
     {
@@ -2830,7 +3050,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Smagsloget 45',
         'ShipCity': 'Århus',
         'ShipRegion': null,
-        'ShipCountry': 'Denmark'
+        'ShipCountry': 'Denmark',
+        'Verified': !1
     },
 
     {
@@ -2843,7 +3064,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. dos Lusíadas, 23',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -2856,7 +3078,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Via Ludovico il Moro 22',
         'ShipCity': 'Bergamo',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -2869,7 +3092,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Maubelstr. 90',
         'ShipCity': 'Brandenburg',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -2882,7 +3106,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1029 - 12th Ave. S.',
         'ShipCity': 'Seattle',
         'ShipRegion': 'WA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -2895,7 +3120,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '12, rue des Bouchers',
         'ShipCity': 'Marseille',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -2908,7 +3134,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Fauntleroy Circus',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -2921,7 +3148,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '90 Wadhurst Rd.',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -2934,7 +3162,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Garden House Crowther Way',
         'ShipCity': 'Cowes',
         'ShipRegion': 'Isle of Wight',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -2947,7 +3176,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Calle Dr. Jorge Cash 321',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -2960,7 +3190,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Boulevard Tirou, 255',
         'ShipCity': 'Charleroi',
         'ShipRegion': null,
-        'ShipCountry': 'Belgium'
+        'ShipCountry': 'Belgium',
+        'Verified': !1
     },
 
     {
@@ -2973,7 +3204,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 22 con Ave. Carlos Soublette #8-35',
         'ShipCity': 'San Cristóbal',
         'ShipRegion': 'Táchira',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -2986,7 +3218,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Estrada da saúde n. 58',
         'ShipCity': 'Lisboa',
         'ShipRegion': null,
-        'ShipCountry': 'Portugal'
+        'ShipCountry': 'Portugal',
+        'Verified': !0
     },
 
     {
@@ -2999,7 +3232,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2, rue du Commerce',
         'ShipCity': 'Lyon',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -3012,7 +3246,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2817 Milton Dr.',
         'ShipCity': 'Albuquerque',
         'ShipRegion': 'NM',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -3025,7 +3260,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '184, chaussée de Tournai',
         'ShipCity': 'Lille',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -3038,7 +3274,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Copacabana, 267',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -3051,7 +3288,9 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '12 Orchestra Terrace',
         'ShipCity': 'Walla Walla',
         'ShipRegion': 'WA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
+
     },
 
     {
@@ -3064,7 +3303,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1029 - 12th Ave. S.',
         'ShipCity': 'Seattle',
         'ShipRegion': 'WA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -3077,7 +3317,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Fauntleroy Circus',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -3090,7 +3331,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Ave. 5 de Mayo Porlamar',
         'ShipCity': 'I. de Margarita',
         'ShipRegion': 'Nueva Esparta',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -3103,7 +3345,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 22 con Ave. Carlos Soublette #8-35',
         'ShipCity': 'San Cristóbal',
         'ShipRegion': 'Táchira',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -3116,7 +3359,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Alameda dos Canàrios, 891',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -3129,7 +3373,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berliner Platz 43',
         'ShipCity': 'München',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -3142,7 +3387,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Geislweg 14',
         'ShipCity': 'Salzburg',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -3155,7 +3401,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 22 con Ave. Carlos Soublette #8-35',
         'ShipCity': 'San Cristóbal',
         'ShipRegion': 'Táchira',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -3168,7 +3415,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Jardim das rosas n. 32',
         'ShipCity': 'Lisboa',
         'ShipRegion': null,
-        'ShipCountry': 'Portugal'
+        'ShipCountry': 'Portugal',
+        'Verified': !0
     },
 
     {
@@ -3181,7 +3429,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '23 Tsawassen Blvd.',
         'ShipCity': 'Tsawassen',
         'ShipRegion': 'BC',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -3194,7 +3443,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1 rue Alsace-Lorraine',
         'ShipCity': 'Toulouse',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -3207,7 +3457,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. dos Lusíadas, 23',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -3220,7 +3471,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2319 Elm St.',
         'ShipCity': 'Vancouver',
         'ShipRegion': 'BC',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -3233,7 +3485,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Inês de Castro, 414',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -3246,7 +3499,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Magazinweg 7',
         'ShipCity': 'Frankfurt a.M.',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -3259,7 +3513,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 22 con Ave. Carlos Soublette #8-35',
         'ShipCity': 'San Cristóbal',
         'ShipRegion': 'Táchira',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -3272,7 +3527,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 52 con Ave. Bolívar #65-98 Llano Largo',
         'ShipCity': 'Barquisimeto',
         'ShipRegion': 'Lara',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -3285,7 +3541,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1 rue Alsace-Lorraine',
         'ShipCity': 'Toulouse',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -3298,7 +3555,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Forsterstr. 57',
         'ShipCity': 'Mannheim',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -3311,7 +3569,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Calle Dr. Jorge Cash 321',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -3324,7 +3583,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '8 Johnstown Road',
         'ShipCity': 'Cork',
         'ShipRegion': 'Co. Cork',
-        'ShipCountry': 'Ireland'
+        'ShipCountry': 'Ireland',
+        'Verified': !1
     },
 
     {
@@ -3337,7 +3597,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1029 - 12th Ave. S.',
         'ShipCity': 'Seattle',
         'ShipRegion': 'WA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -3350,7 +3611,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '43 rue St. Laurent',
         'ShipCity': 'Montréal',
         'ShipRegion': 'Québec',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -3363,7 +3625,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Maubelstr. 90',
         'ShipCity': 'Brandenburg',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -3376,7 +3639,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Mataderos  2312',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -3389,7 +3653,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Mehrheimerstr. 369',
         'ShipCity': 'Köln',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -3402,7 +3667,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Forsterstr. 57',
         'ShipCity': 'Mannheim',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -3415,7 +3681,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -3428,7 +3695,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '12, rue des Bouchers',
         'ShipCity': 'Marseille',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -3441,7 +3709,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua Orós, 92',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -3454,7 +3723,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Adenauerallee 900',
         'ShipCity': 'Stuttgart',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -3467,7 +3737,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -3480,7 +3751,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -3493,7 +3765,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '8 Johnstown Road',
         'ShipCity': 'Cork',
         'ShipRegion': 'Co. Cork',
-        'ShipCountry': 'Ireland'
+        'ShipCountry': 'Ireland',
+        'Verified': !1
     },
 
     {
@@ -3506,7 +3779,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'South House 300 Queensbridge',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -3519,7 +3793,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Avda. Azteca 123',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -3532,7 +3807,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Hauptstr. 31',
         'ShipCity': 'Bern',
         'ShipRegion': null,
-        'ShipCountry': 'Switzerland'
+        'ShipCountry': 'Switzerland',
+        'Verified': !0
     },
 
     {
@@ -3545,7 +3821,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Erling Skakkes gate 78',
         'ShipCity': 'Stavern',
         'ShipRegion': null,
-        'ShipCountry': 'Norway'
+        'ShipCountry': 'Norway',
+        'Verified': !1
     },
 
     {
@@ -3558,7 +3835,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Cerrito 333',
         'ShipCity': 'Buenos Aires',
         'ShipRegion': null,
-        'ShipCountry': 'Argentina'
+        'ShipCountry': 'Argentina',
+        'Verified': !0
     },
 
     {
@@ -3571,7 +3849,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Magazinweg 7',
         'ShipCity': 'Frankfurt a.M.',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -3584,7 +3863,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '90 Wadhurst Rd.',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -3597,7 +3877,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berguvsvägen  8',
         'ShipCity': 'Luleå',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -3610,7 +3891,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '12, rue des Bouchers',
         'ShipCity': 'Marseille',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -3623,7 +3905,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Torikatu 38',
         'ShipCity': 'Oulu',
         'ShipRegion': null,
-        'ShipCountry': 'Finland'
+        'ShipCountry': 'Finland',
+        'Verified': !1
     },
 
     {
@@ -3636,7 +3919,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -3649,7 +3933,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2732 Baker Blvd.',
         'ShipCity': 'Eugene',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -3662,7 +3947,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rue Joseph-Bens 532',
         'ShipCity': 'Bruxelles',
         'ShipRegion': null,
-        'ShipCountry': 'Belgium'
+        'ShipCountry': 'Belgium',
+        'Verified': !1
     },
 
     {
@@ -3675,7 +3961,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Geislweg 14',
         'ShipCity': 'Salzburg',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -3688,7 +3975,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Ing. Gustavo Moncada 8585 Piso 20-A',
         'ShipCity': 'Buenos Aires',
         'ShipRegion': null,
-        'ShipCountry': 'Argentina'
+        'ShipCountry': 'Argentina',
+        'Verified': !0
     },
 
     {
@@ -3701,7 +3989,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '35 King George',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -3714,7 +4003,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Åkergatan 24',
         'ShipCity': 'Bräcke',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -3727,7 +4017,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Magazinweg 7',
         'ShipCity': 'Frankfurt a.M.',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -3740,7 +4031,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Mataderos  2312',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -3753,7 +4045,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Magazinweg 7',
         'ShipCity': 'Frankfurt a.M.',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -3766,7 +4059,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Starenweg 5',
         'ShipCity': 'Genève',
         'ShipRegion': null,
-        'ShipCountry': 'Switzerland'
+        'ShipCountry': 'Switzerland',
+        'Verified': !0
     },
 
     {
@@ -3779,7 +4073,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Fauntleroy Circus',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -3792,7 +4087,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Fauntleroy Circus',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -3805,7 +4101,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -3818,7 +4115,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Paço, 67',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -3831,7 +4129,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Maubelstr. 90',
         'ShipCity': 'Brandenburg',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -3844,7 +4143,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 52 con Ave. Bolívar #65-98 Llano Largo',
         'ShipCity': 'Barquisimeto',
         'ShipRegion': 'Lara',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -3857,7 +4157,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '89 Chiaroscuro Rd.',
         'ShipCity': 'Portland',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -3870,7 +4171,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '12 Orchestra Terrace',
         'ShipCity': 'Walla Walla',
         'ShipRegion': 'WA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -3883,7 +4185,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2, rue du Commerce',
         'ShipCity': 'Lyon',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -3896,7 +4199,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '90 Wadhurst Rd.',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -3909,7 +4213,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Luisenstr. 48',
         'ShipCity': 'Münster',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -3922,7 +4227,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -3935,7 +4241,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'C/ Romero, 33',
         'ShipCity': 'Sevilla',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !1
     },
 
     {
@@ -3948,7 +4255,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Jardim das rosas n. 32',
         'ShipCity': 'Lisboa',
         'ShipRegion': null,
-        'ShipCountry': 'Portugal'
+        'ShipCountry': 'Portugal',
+        'Verified': !0
     },
 
     {
@@ -3961,7 +4269,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 22 con Ave. Carlos Soublette #8-35',
         'ShipCity': 'San Cristóbal',
         'ShipRegion': 'Táchira',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -3974,7 +4283,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Torikatu 38',
         'ShipCity': 'Oulu',
         'ShipRegion': null,
-        'ShipCountry': 'Finland'
+        'ShipCountry': 'Finland',
+        'Verified': !1
     },
 
     {
@@ -3987,7 +4297,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Mehrheimerstr. 369',
         'ShipCity': 'Köln',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -4000,7 +4311,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -4013,7 +4325,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Vinbæltet 34',
         'ShipCity': 'Kobenhavn',
         'ShipRegion': null,
-        'ShipCountry': 'Denmark'
+        'ShipCountry': 'Denmark',
+        'Verified': !0
     },
 
     {
@@ -4026,7 +4339,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Magazinweg 7',
         'ShipCity': 'Frankfurt a.M.',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -4039,7 +4353,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Brook Farm Stratford St. Mary',
         'ShipCity': 'Colchester',
         'ShipRegion': 'Essex',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -4052,7 +4367,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '24, place Kléber',
         'ShipCity': 'Strasbourg',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -4065,7 +4381,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berliner Platz 43',
         'ShipCity': 'München',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -4078,7 +4395,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Åkergatan 24',
         'ShipCity': 'Bräcke',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -4091,7 +4409,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Strada Provinciale 124',
         'ShipCity': 'Reggio Emilia',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -4104,7 +4423,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Copacabana, 267',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -4117,7 +4437,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2817 Milton Dr.',
         'ShipCity': 'Albuquerque',
         'ShipRegion': 'NM',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -4130,7 +4451,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '43 rue St. Laurent',
         'ShipCity': 'Montréal',
         'ShipRegion': 'Québec',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -4143,7 +4465,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '24, place Kléber',
         'ShipCity': 'Strasbourg',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -4156,7 +4479,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '8 Johnstown Road',
         'ShipCity': 'Cork',
         'ShipRegion': 'Co. Cork',
-        'ShipCountry': 'Ireland'
+        'ShipCountry': 'Ireland',
+        'Verified': !1
     },
 
     {
@@ -4169,7 +4493,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rambla de Cataluña, 23',
         'ShipCity': 'Barcelona',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !1
     },
 
     {
@@ -4182,7 +4507,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2817 Milton Dr.',
         'ShipCity': 'Albuquerque',
         'ShipRegion': 'NM',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -4195,7 +4521,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '43 rue St. Laurent',
         'ShipCity': 'Montréal',
         'ShipRegion': 'Québec',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -4208,7 +4535,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -4221,7 +4549,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berguvsvägen  8',
         'ShipCity': 'Luleå',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -4234,7 +4563,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Mataderos  2312',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -4247,7 +4577,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '722 DaVinci Blvd.',
         'ShipCity': 'Kirkland',
         'ShipRegion': 'WA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -4260,7 +4591,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Heerstr. 22',
         'ShipCity': 'Leipzig',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -4273,7 +4605,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Avda. Azteca 123',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -4286,7 +4619,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '722 DaVinci Blvd.',
         'ShipCity': 'Kirkland',
         'ShipRegion': 'WA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -4299,7 +4633,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Fauntleroy Circus',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -4312,7 +4647,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '87 Polk St. Suite 5',
         'ShipCity': 'San Francisco',
         'ShipRegion': 'CA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -4325,7 +4661,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Mehrheimerstr. 369',
         'ShipCity': 'Köln',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -4338,7 +4675,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua Orós, 92',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -4351,7 +4689,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Forsterstr. 57',
         'ShipCity': 'Mannheim',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -4364,7 +4703,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Torikatu 38',
         'ShipCity': 'Oulu',
         'ShipRegion': null,
-        'ShipCountry': 'Finland'
+        'ShipCountry': 'Finland',
+        'Verified': !1
     },
 
     {
@@ -4377,7 +4717,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '24, place Kléber',
         'ShipCity': 'Strasbourg',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -4390,7 +4731,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Mercado, 12',
         'ShipCity': 'Resende',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -4403,7 +4745,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Strada Provinciale 124',
         'ShipCity': 'Reggio Emilia',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -4416,7 +4759,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua da Panificadora, 12',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -4429,7 +4773,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -4442,7 +4787,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2732 Baker Blvd.',
         'ShipCity': 'Eugene',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -4455,7 +4801,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '43 rue St. Laurent',
         'ShipCity': 'Montréal',
         'ShipRegion': 'Québec',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -4468,7 +4815,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Smagsloget 45',
         'ShipCity': 'Århus',
         'ShipRegion': null,
-        'ShipCountry': 'Denmark'
+        'ShipCountry': 'Denmark',
+        'Verified': !0
     },
 
     {
@@ -4481,7 +4829,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Magazinweg 7',
         'ShipCity': 'Frankfurt a.M.',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -4494,7 +4843,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Magazinweg 7',
         'ShipCity': 'Frankfurt a.M.',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -4507,7 +4857,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2743 Bering St.',
         'ShipCity': 'Anchorage',
         'ShipRegion': 'AK',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -4520,7 +4871,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -4533,7 +4885,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1029 - 12th Ave. S.',
         'ShipCity': 'Seattle',
         'ShipRegion': 'WA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -4546,7 +4899,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Geislweg 14',
         'ShipCity': 'Salzburg',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -4559,7 +4913,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2817 Milton Dr.',
         'ShipCity': 'Albuquerque',
         'ShipRegion': 'NM',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -4572,7 +4927,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Fauntleroy Circus',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -4585,7 +4941,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'City Center Plaza 516 Main St.',
         'ShipCity': 'Elgin',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -4598,7 +4955,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 22 con Ave. Carlos Soublette #8-35',
         'ShipCity': 'San Cristóbal',
         'ShipRegion': 'Táchira',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -4611,7 +4969,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Smagsloget 45',
         'ShipCity': 'Århus',
         'ShipRegion': null,
-        'ShipCountry': 'Denmark'
+        'ShipCountry': 'Denmark',
+        'Verified': !0
     },
 
     {
@@ -4624,7 +4983,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -4637,7 +4997,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Jardim das rosas n. 32',
         'ShipCity': 'Lisboa',
         'ShipRegion': null,
-        'ShipCountry': 'Portugal'
+        'ShipCountry': 'Portugal',
+        'Verified': !0
     },
 
     {
@@ -4650,7 +5011,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '43 rue St. Laurent',
         'ShipCity': 'Montréal',
         'ShipRegion': 'Québec',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -4663,7 +5025,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Inês de Castro, 414',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -4676,7 +5039,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -4689,7 +5053,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Luisenstr. 48',
         'ShipCity': 'Münster',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -4702,7 +5067,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '67, rue des Cinquante Otages',
         'ShipCity': 'Nantes',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -4715,7 +5081,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1 rue Alsace-Lorraine',
         'ShipCity': 'Toulouse',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -4728,7 +5095,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'ul. Filtrowa 68',
         'ShipCity': 'Warszawa',
         'ShipRegion': null,
-        'ShipCountry': 'Poland'
+        'ShipCountry': 'Poland',
+        'Verified': !0
     },
 
     {
@@ -4741,7 +5109,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -4754,7 +5123,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 22 con Ave. Carlos Soublette #8-35',
         'ShipCity': 'San Cristóbal',
         'ShipRegion': 'Táchira',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -4767,7 +5137,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Forsterstr. 57',
         'ShipCity': 'Mannheim',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -4780,7 +5151,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Keskuskatu 45',
         'ShipCity': 'Helsinki',
         'ShipRegion': null,
-        'ShipCountry': 'Finland'
+        'ShipCountry': 'Finland',
+        'Verified': !1
     },
 
     {
@@ -4793,7 +5165,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2732 Baker Blvd.',
         'ShipCity': 'Eugene',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -4806,7 +5179,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2732 Baker Blvd.',
         'ShipCity': 'Eugene',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -4819,7 +5193,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '43 rue St. Laurent',
         'ShipCity': 'Montréal',
         'ShipRegion': 'Québec',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -4832,7 +5207,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '43 rue St. Laurent',
         'ShipCity': 'Montréal',
         'ShipRegion': 'Québec',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -4845,7 +5221,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2319 Elm St.',
         'ShipCity': 'Vancouver',
         'ShipRegion': 'BC',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -4858,7 +5235,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Garden House Crowther Way',
         'ShipCity': 'Cowes',
         'ShipRegion': 'Isle of Wight',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -4871,7 +5249,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Copacabana, 267',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -4884,7 +5263,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berliner Platz 43',
         'ShipCity': 'München',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -4897,7 +5277,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '55 Grizzly Peak Rd.',
         'ShipCity': 'Butte',
         'ShipRegion': 'MT',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -4910,7 +5291,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Avda. de la Constitución 2222',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -4923,7 +5305,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berguvsvägen  8',
         'ShipCity': 'Luleå',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -4936,7 +5319,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -4949,7 +5333,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '24, place Kléber',
         'ShipCity': 'Strasbourg',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -4962,7 +5347,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'C/ Romero, 33',
         'ShipCity': 'Sevilla',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !1
     },
 
     {
@@ -4975,7 +5361,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Maubelstr. 90',
         'ShipCity': 'Brandenburg',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -4988,7 +5375,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1 rue Alsace-Lorraine',
         'ShipCity': 'Toulouse',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -5001,7 +5389,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Adenauerallee 900',
         'ShipCity': 'Stuttgart',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -5014,7 +5403,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -5027,7 +5417,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '184, chaussée de Tournai',
         'ShipCity': 'Lille',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -5040,7 +5431,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Via Ludovico il Moro 22',
         'ShipCity': 'Bergamo',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -5053,7 +5445,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Torikatu 38',
         'ShipCity': 'Oulu',
         'ShipRegion': null,
-        'ShipCountry': 'Finland'
+        'ShipCountry': 'Finland',
+        'Verified': !1
     },
 
     {
@@ -5066,7 +5459,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Alameda dos Canàrios, 891',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -5079,7 +5473,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Ave. 5 de Mayo Porlamar',
         'ShipCity': 'I. de Margarita',
         'ShipRegion': 'Nueva Esparta',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -5092,7 +5487,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Erling Skakkes gate 78',
         'ShipCity': 'Stavern',
         'ShipRegion': null,
-        'ShipCountry': 'Norway'
+        'ShipCountry': 'Norway',
+        'Verified': !0
     },
 
     {
@@ -5105,7 +5501,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Adenauerallee 900',
         'ShipCity': 'Stuttgart',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -5118,7 +5515,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 22 con Ave. Carlos Soublette #8-35',
         'ShipCity': 'San Cristóbal',
         'ShipRegion': 'Táchira',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -5131,7 +5529,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Vinbæltet 34',
         'ShipCity': 'Kobenhavn',
         'ShipRegion': null,
-        'ShipCountry': 'Denmark'
+        'ShipCountry': 'Denmark',
+        'Verified': !0
     },
 
     {
@@ -5144,7 +5543,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Obere Str. 57',
         'ShipCity': 'Berlin',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -5157,7 +5557,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Mercado, 12',
         'ShipCity': 'Resende',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -5170,7 +5571,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Paço, 67',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -5183,7 +5585,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '8 Johnstown Road',
         'ShipCity': 'Cork',
         'ShipRegion': 'Co. Cork',
-        'ShipCountry': 'Ireland'
+        'ShipCountry': 'Ireland',
+        'Verified': !1
     },
 
     {
@@ -5196,7 +5599,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua da Panificadora, 12',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -5209,7 +5613,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Copacabana, 267',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -5222,7 +5627,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rue Joseph-Bens 532',
         'ShipCity': 'Bruxelles',
         'ShipRegion': null,
-        'ShipCountry': 'Belgium'
+        'ShipCountry': 'Belgium',
+        'Verified': !1
     },
 
     {
@@ -5235,7 +5641,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua Orós, 92',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -5248,7 +5655,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Adenauerallee 900',
         'ShipCity': 'Stuttgart',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -5261,7 +5669,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Brasil, 442',
         'ShipCity': 'Campinas',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -5274,7 +5683,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berliner Platz 43',
         'ShipCity': 'München',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -5287,7 +5697,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berguvsvägen  8',
         'ShipCity': 'Luleå',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -5300,7 +5711,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Strada Provinciale 124',
         'ShipCity': 'Reggio Emilia',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -5313,7 +5725,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2732 Baker Blvd.',
         'ShipCity': 'Eugene',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -5326,7 +5739,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -5339,7 +5753,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -5352,7 +5767,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Alameda dos Canàrios, 891',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -5365,7 +5781,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'City Center Plaza 516 Main St.',
         'ShipCity': 'Elgin',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -5378,7 +5795,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '8 Johnstown Road',
         'ShipCity': 'Cork',
         'ShipRegion': 'Co. Cork',
-        'ShipCountry': 'Ireland'
+        'ShipCountry': 'Ireland',
+        'Verified': !1
     },
 
     {
@@ -5391,7 +5809,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '89 Chiaroscuro Rd.',
         'ShipCity': 'Portland',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -5404,7 +5823,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '12, rue des Bouchers',
         'ShipCity': 'Marseille',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -5417,7 +5837,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Jardim das rosas n. 32',
         'ShipCity': 'Lisboa',
         'ShipRegion': null,
-        'ShipCountry': 'Portugal'
+        'ShipCountry': 'Portugal',
+        'Verified': !0
     },
 
     {
@@ -5430,7 +5851,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '89 Chiaroscuro Rd.',
         'ShipCity': 'Portland',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -5443,7 +5865,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Starenweg 5',
         'ShipCity': 'Genève',
         'ShipRegion': null,
-        'ShipCountry': 'Switzerland'
+        'ShipCountry': 'Switzerland',
+        'Verified': !0
     },
 
     {
@@ -5456,7 +5879,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -5469,7 +5893,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Adenauerallee 900',
         'ShipCity': 'Stuttgart',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -5482,7 +5907,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Vinbæltet 34',
         'ShipCity': 'Kobenhavn',
         'ShipRegion': null,
-        'ShipCountry': 'Denmark'
+        'ShipCountry': 'Denmark',
+        'Verified': !0
     },
 
     {
@@ -5495,7 +5921,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berliner Platz 43',
         'ShipCity': 'München',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -5508,7 +5935,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '54, rue Royale',
         'ShipCity': 'Nantes',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -5521,7 +5949,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berguvsvägen  8',
         'ShipCity': 'Luleå',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -5534,7 +5963,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Keskuskatu 45',
         'ShipCity': 'Helsinki',
         'ShipRegion': null,
-        'ShipCountry': 'Finland'
+        'ShipCountry': 'Finland',
+        'Verified': !1
     },
 
     {
@@ -5547,7 +5977,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Garden House Crowther Way',
         'ShipCity': 'Cowes',
         'ShipRegion': 'Isle of Wight',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -5560,7 +5991,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berliner Platz 43',
         'ShipCity': 'München',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -5573,7 +6005,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Avda. Azteca 123',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -5586,7 +6019,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Mataderos  2312',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -5599,7 +6033,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -5612,7 +6047,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '24, place Kléber',
         'ShipCity': 'Strasbourg',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -5625,7 +6061,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2743 Bering St.',
         'ShipCity': 'Anchorage',
         'ShipRegion': 'AK',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -5638,7 +6075,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2732 Baker Blvd.',
         'ShipCity': 'Eugene',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -5651,7 +6089,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Mataderos  2312',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -5664,7 +6103,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '67, rue des Cinquante Otages',
         'ShipCity': 'Nantes',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -5677,7 +6117,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Mehrheimerstr. 369',
         'ShipCity': 'Köln',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -5690,7 +6131,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Brasil, 442',
         'ShipCity': 'Campinas',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -5703,7 +6145,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Geislweg 14',
         'ShipCity': 'Salzburg',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -5716,7 +6159,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '8 Johnstown Road',
         'ShipCity': 'Cork',
         'ShipRegion': 'Co. Cork',
-        'ShipCountry': 'Ireland'
+        'ShipCountry': 'Ireland',
+        'Verified': !1
     },
 
     {
@@ -5729,7 +6173,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Smagsloget 45',
         'ShipCity': 'Århus',
         'ShipRegion': null,
-        'ShipCountry': 'Denmark'
+        'ShipCountry': 'Denmark',
+        'Verified': !0
     },
 
     {
@@ -5742,7 +6187,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berguvsvägen  8',
         'ShipCity': 'Luleå',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -5755,7 +6201,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Paço, 67',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -5768,7 +6215,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -5781,7 +6229,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Obere Str. 57',
         'ShipCity': 'Berlin',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -5794,7 +6243,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1029 - 12th Ave. S.',
         'ShipCity': 'Seattle',
         'ShipRegion': 'WA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -5807,7 +6257,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -5820,7 +6271,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Keskuskatu 45',
         'ShipCity': 'Helsinki',
         'ShipRegion': null,
-        'ShipCountry': 'Finland'
+        'ShipCountry': 'Finland',
+        'Verified': !1
     },
 
     {
@@ -5833,7 +6285,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1029 - 12th Ave. S.',
         'ShipCity': 'Seattle',
         'ShipRegion': 'WA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -5846,7 +6299,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Ave. 5 de Mayo Porlamar',
         'ShipCity': 'I. de Margarita',
         'ShipRegion': 'Nueva Esparta',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -5859,7 +6313,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -5872,7 +6327,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Heerstr. 22',
         'ShipCity': 'Leipzig',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -5885,7 +6341,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -5898,7 +6355,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '8 Johnstown Road',
         'ShipCity': 'Cork',
         'ShipRegion': 'Co. Cork',
-        'ShipCountry': 'Ireland'
+        'ShipCountry': 'Ireland',
+        'Verified': !1
     },
 
     {
@@ -5911,7 +6369,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Obere Str. 57',
         'ShipCity': 'Berlin',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -5924,7 +6383,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Åkergatan 24',
         'ShipCity': 'Bräcke',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -5937,7 +6397,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Alameda dos Canàrios, 891',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -5950,7 +6411,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 22 con Ave. Carlos Soublette #8-35',
         'ShipCity': 'San Cristóbal',
         'ShipRegion': 'Táchira',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -5963,7 +6425,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2743 Bering St.',
         'ShipCity': 'Anchorage',
         'ShipRegion': 'AK',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -5976,7 +6439,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Brook Farm Stratford St. Mary',
         'ShipCity': 'Colchester',
         'ShipRegion': 'Essex',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -5989,7 +6453,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '89 Jefferson Way Suite 2',
         'ShipCity': 'Portland',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -6002,7 +6467,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Brasil, 442',
         'ShipCity': 'Campinas',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -6015,7 +6481,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Via Monte Bianco 34',
         'ShipCity': 'Torino',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -6028,7 +6495,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -6041,7 +6509,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '8 Johnstown Road',
         'ShipCity': 'Cork',
         'ShipRegion': 'Co. Cork',
-        'ShipCountry': 'Ireland'
+        'ShipCountry': 'Ireland',
+        'Verified': !1
     },
 
     {
@@ -6054,7 +6523,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -6067,7 +6537,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -6080,7 +6551,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '12, rue des Bouchers',
         'ShipCity': 'Marseille',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -6093,7 +6565,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. del Libertador 900',
         'ShipCity': 'Buenos Aires',
         'ShipRegion': null,
-        'ShipCountry': 'Argentina'
+        'ShipCountry': 'Argentina',
+        'Verified': !0
     },
 
     {
@@ -6106,7 +6579,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berliner Platz 43',
         'ShipCity': 'München',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -6119,7 +6593,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Maubelstr. 90',
         'ShipCity': 'Brandenburg',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -6132,7 +6607,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '87 Polk St. Suite 5',
         'ShipCity': 'San Francisco',
         'ShipRegion': 'CA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -6145,7 +6621,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua da Panificadora, 12',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -6158,7 +6635,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -6171,7 +6649,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -6184,7 +6663,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1029 - 12th Ave. S.',
         'ShipCity': 'Seattle',
         'ShipRegion': 'WA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -6197,7 +6677,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '43 rue St. Laurent',
         'ShipCity': 'Montréal',
         'ShipRegion': 'Québec',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -6210,7 +6691,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua Orós, 92',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -6223,7 +6705,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '35 King George',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -6236,7 +6719,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Strada Provinciale 124',
         'ShipCity': 'Reggio Emilia',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -6249,7 +6733,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Alameda dos Canàrios, 891',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -6262,7 +6747,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Ave. 5 de Mayo Porlamar',
         'ShipCity': 'I. de Margarita',
         'ShipRegion': 'Nueva Esparta',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -6275,7 +6761,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '12, rue des Bouchers',
         'ShipCity': 'Marseille',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -6288,7 +6775,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Hauptstr. 31',
         'ShipCity': 'Bern',
         'ShipRegion': null,
-        'ShipCountry': 'Switzerland'
+        'ShipCountry': 'Switzerland',
+        'Verified': !0
     },
 
     {
@@ -6301,7 +6789,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '12, rue des Bouchers',
         'ShipCity': 'Marseille',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -6314,7 +6803,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berguvsvägen  8',
         'ShipCity': 'Luleå',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -6327,7 +6817,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Brasil, 442',
         'ShipCity': 'Campinas',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -6340,7 +6831,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '87 Polk St. Suite 5',
         'ShipCity': 'San Francisco',
         'ShipRegion': 'CA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -6353,7 +6845,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '8 Johnstown Road',
         'ShipCity': 'Cork',
         'ShipRegion': 'Co. Cork',
-        'ShipCountry': 'Ireland'
+        'ShipCountry': 'Ireland',
+        'Verified': !1
     },
 
     {
@@ -6366,7 +6859,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '59 rue de l\'Abbaye',
         'ShipCity': 'Reims',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -6379,7 +6873,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '25, rue Lauriston',
         'ShipCity': 'Paris',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -6392,7 +6887,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '59 rue de lAbbaye',
         'ShipCity': 'Reims',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -6405,7 +6901,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1029 - 12th Ave. S.',
         'ShipCity': 'Seattle',
         'ShipRegion': 'WA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -6418,7 +6915,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Brook Farm Stratford St. Mary',
         'ShipCity': 'Colchester',
         'ShipRegion': 'Essex',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -6431,7 +6929,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '23 Tsawassen Blvd.',
         'ShipCity': 'Tsawassen',
         'ShipRegion': 'BC',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -6444,7 +6943,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Brook Farm Stratford St. Mary',
         'ShipCity': 'Colchester',
         'ShipRegion': 'Essex',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -6457,7 +6957,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Smagsloget 45',
         'ShipCity': 'Århus',
         'ShipRegion': null,
-        'ShipCountry': 'Denmark'
+        'ShipCountry': 'Denmark',
+        'Verified': !0
     },
 
     {
@@ -6470,7 +6971,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -6483,7 +6985,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Hauptstr. 31',
         'ShipCity': 'Bern',
         'ShipRegion': null,
-        'ShipCountry': 'Switzerland'
+        'ShipCountry': 'Switzerland',
+        'Verified': !0
     },
 
     {
@@ -6496,7 +6999,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Geislweg 14',
         'ShipCity': 'Salzburg',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -6509,7 +7013,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -6522,7 +7027,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Garden House Crowther Way',
         'ShipCity': 'Cowes',
         'ShipRegion': 'Isle of Wight',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -6535,7 +7041,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Torikatu 38',
         'ShipCity': 'Oulu',
         'ShipRegion': null,
-        'ShipCountry': 'Finland'
+        'ShipCountry': 'Finland',
+        'Verified': !1
     },
 
     {
@@ -6548,7 +7055,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Starenweg 5',
         'ShipCity': 'Genève',
         'ShipRegion': null,
-        'ShipCountry': 'Switzerland'
+        'ShipCountry': 'Switzerland',
+        'Verified': !0
     },
 
     {
@@ -6561,7 +7069,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'South House 300 Queensbridge',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -6574,7 +7083,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Via Monte Bianco 34',
         'ShipCity': 'Torino',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -6587,7 +7097,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Via Ludovico il Moro 22',
         'ShipCity': 'Bergamo',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -6600,7 +7111,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '12, rue des Bouchers',
         'ShipCity': 'Marseille',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -6613,7 +7125,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'P.O. Box 555',
         'ShipCity': 'Lander',
         'ShipRegion': 'WY',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -6626,7 +7139,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -6639,7 +7153,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Starenweg 5',
         'ShipCity': 'Genève',
         'ShipRegion': null,
-        'ShipCountry': 'Switzerland'
+        'ShipCountry': 'Switzerland',
+        'Verified': !0
     },
 
     {
@@ -6652,7 +7167,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Avda. de la Constitución 2222',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -6665,7 +7181,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rue Joseph-Bens 532',
         'ShipCity': 'Bruxelles',
         'ShipRegion': null,
-        'ShipCountry': 'Belgium'
+        'ShipCountry': 'Belgium',
+        'Verified': !1
     },
 
     {
@@ -6678,7 +7195,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2817 Milton Dr.',
         'ShipCity': 'Albuquerque',
         'ShipRegion': 'NM',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -6691,7 +7209,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Åkergatan 24',
         'ShipCity': 'Bräcke',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -6704,7 +7223,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '184, chaussée de Tournai',
         'ShipCity': 'Lille',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -6717,7 +7237,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -6730,7 +7251,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -6743,7 +7265,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Mehrheimerstr. 369',
         'ShipCity': 'Köln',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -6756,7 +7279,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Boulevard Tirou, 255',
         'ShipCity': 'Charleroi',
         'ShipRegion': null,
-        'ShipCountry': 'Belgium'
+        'ShipCountry': 'Belgium',
+        'Verified': !1
     },
 
     {
@@ -6769,7 +7293,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Brook Farm Stratford St. Mary',
         'ShipCity': 'Colchester',
         'ShipRegion': 'Essex',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -6782,7 +7307,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Smagsloget 45',
         'ShipCity': 'Århus',
         'ShipRegion': null,
-        'ShipCountry': 'Denmark'
+        'ShipCountry': 'Denmark',
+        'Verified': !0
     },
 
     {
@@ -6795,7 +7321,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Paço, 67',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -6808,7 +7335,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -6821,7 +7349,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Magazinweg 7',
         'ShipCity': 'Frankfurt a.M.',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -6834,7 +7363,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -6847,7 +7377,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Åkergatan 24',
         'ShipCity': 'Bräcke',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -6860,7 +7391,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '55 Grizzly Peak Rd.',
         'ShipCity': 'Butte',
         'ShipRegion': 'MT',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -6873,7 +7405,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -6886,7 +7419,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Brasil, 442',
         'ShipCity': 'Campinas',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -6899,7 +7433,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berguvsvägen  8',
         'ShipCity': 'Luleå',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -6912,7 +7447,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Heerstr. 22',
         'ShipCity': 'Leipzig',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -6925,7 +7461,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 52 con Ave. Bolívar #65-98 Llano Largo',
         'ShipCity': 'Barquisimeto',
         'ShipRegion': 'Lara',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -6938,7 +7475,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Torikatu 38',
         'ShipCity': 'Oulu',
         'ShipRegion': null,
-        'ShipCountry': 'Finland'
+        'ShipCountry': 'Finland',
+        'Verified': !1
     },
 
     {
@@ -6951,7 +7489,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Cerrito 333',
         'ShipCity': 'Buenos Aires',
         'ShipRegion': null,
-        'ShipCountry': 'Argentina'
+        'ShipCountry': 'Argentina',
+        'Verified': !0
     },
 
     {
@@ -6964,7 +7503,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Paço, 67',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -6977,7 +7517,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Via Ludovico il Moro 22',
         'ShipCity': 'Bergamo',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -6990,7 +7531,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '5ª Ave. Los Palos Grandes',
         'ShipCity': 'Caracas',
         'ShipRegion': 'DF',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -7003,7 +7545,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Alameda dos Canàrios, 891',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -7016,7 +7559,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1 rue Alsace-Lorraine',
         'ShipCity': 'Toulouse',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -7029,7 +7573,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -7042,7 +7587,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '184, chaussée de Tournai',
         'ShipCity': 'Lille',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -7055,7 +7601,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Brasil, 442',
         'ShipCity': 'Campinas',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -7068,7 +7615,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berliner Platz 43',
         'ShipCity': 'München',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -7081,7 +7629,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'ul. Filtrowa 68',
         'ShipCity': 'Warszawa',
         'ShipRegion': null,
-        'ShipCountry': 'Poland'
+        'ShipCountry': 'Poland',
+        'Verified': !0
     },
 
     {
@@ -7094,7 +7643,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Brook Farm Stratford St. Mary',
         'ShipCity': 'Colchester',
         'ShipRegion': 'Essex',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -7107,7 +7657,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua da Panificadora, 12',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -7120,7 +7671,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -7133,7 +7685,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 22 con Ave. Carlos Soublette #8-35',
         'ShipCity': 'San Cristóbal',
         'ShipRegion': 'Táchira',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -7146,7 +7699,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Walserweg 21',
         'ShipCity': 'Aachen',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -7159,7 +7713,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Garden House Crowther Way',
         'ShipCity': 'Cowes',
         'ShipRegion': 'Isle of Wight',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -7172,7 +7727,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Maubelstr. 90',
         'ShipCity': 'Brandenburg',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -7185,7 +7741,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '90 Wadhurst Rd.',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -7198,7 +7755,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'C/ Araquil, 67',
         'ShipCity': 'Madrid',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !1
     },
 
     {
@@ -7211,7 +7769,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Vinbæltet 34',
         'ShipCity': 'Kobenhavn',
         'ShipRegion': null,
-        'ShipCountry': 'Denmark'
+        'ShipCountry': 'Denmark',
+        'Verified': !0
     },
 
     {
@@ -7224,7 +7783,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Mercado, 12',
         'ShipCity': 'Resende',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -7237,7 +7797,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '90 Wadhurst Rd.',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -7250,7 +7811,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '89 Jefferson Way Suite 2',
         'ShipCity': 'Portland',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -7263,7 +7825,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2, rue du Commerce',
         'ShipCity': 'Lyon',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -7276,7 +7839,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Via Monte Bianco 34',
         'ShipCity': 'Torino',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -7289,7 +7853,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2743 Bering St.',
         'ShipCity': 'Anchorage',
         'ShipRegion': 'AK',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -7302,7 +7867,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Mercado, 12',
         'ShipCity': 'Resende',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -7315,7 +7881,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2319 Elm St.',
         'ShipCity': 'Vancouver',
         'ShipRegion': 'BC',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -7328,7 +7895,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Ave. 5 de Mayo Porlamar',
         'ShipCity': 'I. de Margarita',
         'ShipRegion': 'Nueva Esparta',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -7341,7 +7909,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Strada Provinciale 124',
         'ShipCity': 'Reggio Emilia',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -7354,7 +7923,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Copacabana, 267',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -7367,7 +7937,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2, rue du Commerce',
         'ShipCity': 'Lyon',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -7380,7 +7951,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -7393,7 +7965,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2732 Baker Blvd.',
         'ShipCity': 'Eugene',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -7406,7 +7979,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Maubelstr. 90',
         'ShipCity': 'Brandenburg',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -7419,7 +7993,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Via Ludovico il Moro 22',
         'ShipCity': 'Bergamo',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -7432,7 +8007,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Cerrito 333',
         'ShipCity': 'Buenos Aires',
         'ShipRegion': null,
-        'ShipCountry': 'Argentina'
+        'ShipCountry': 'Argentina',
+        'Verified': !0
     },
 
     {
@@ -7445,7 +8021,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2817 Milton Dr.',
         'ShipCity': 'Albuquerque',
         'ShipRegion': 'NM',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -7458,7 +8035,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'P.O. Box 555',
         'ShipCity': 'Lander',
         'ShipRegion': 'WY',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -7471,7 +8049,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '722 DaVinci Blvd.',
         'ShipCity': 'Kirkland',
         'ShipRegion': 'WA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -7484,7 +8063,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 52 con Ave. Bolívar #65-98 Llano Largo',
         'ShipCity': 'Barquisimeto',
         'ShipRegion': 'Lara',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -7497,7 +8077,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Åkergatan 24',
         'ShipCity': 'Bräcke',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -7510,7 +8091,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Walserweg 21',
         'ShipCity': 'Aachen',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -7523,7 +8105,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '24, place Kléber',
         'ShipCity': 'Strasbourg',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -7536,7 +8119,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '12, rue des Bouchers',
         'ShipCity': 'Marseille',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -7549,7 +8133,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. del Libertador 900',
         'ShipCity': 'Buenos Aires',
         'ShipRegion': null,
-        'ShipCountry': 'Argentina'
+        'ShipCountry': 'Argentina',
+        'Verified': !0
     },
 
     {
@@ -7562,7 +8147,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Garden House Crowther Way',
         'ShipCity': 'Cowes',
         'ShipRegion': 'Isle of Wight',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -7575,7 +8161,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Inês de Castro, 414',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -7588,7 +8175,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Erling Skakkes gate 78',
         'ShipCity': 'Stavern',
         'ShipRegion': null,
-        'ShipCountry': 'Norway'
+        'ShipCountry': 'Norway',
+        'Verified': !0
     },
 
     {
@@ -7601,7 +8189,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1 rue Alsace-Lorraine',
         'ShipCity': 'Toulouse',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -7614,7 +8203,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Mehrheimerstr. 369',
         'ShipCity': 'Köln',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -7627,7 +8217,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Inês de Castro, 414',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -7640,7 +8231,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Obere Str. 57',
         'ShipCity': 'Berlin',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -7653,7 +8245,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -7666,7 +8259,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berguvsvägen  8',
         'ShipCity': 'Luleå',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -7679,7 +8273,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Ave. 5 de Mayo Porlamar',
         'ShipCity': 'I. de Margarita',
         'ShipRegion': 'Nueva Esparta',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -7692,7 +8287,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Inês de Castro, 414',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -7705,7 +8301,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Ave. 5 de Mayo Porlamar',
         'ShipCity': 'I. de Margarita',
         'ShipRegion': 'Nueva Esparta',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -7718,7 +8315,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Boulevard Tirou, 255',
         'ShipCity': 'Charleroi',
         'ShipRegion': null,
-        'ShipCountry': 'Belgium'
+        'ShipCountry': 'Belgium',
+        'Verified': !1
     },
 
     {
@@ -7731,7 +8329,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Avda. Azteca 123',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -7744,7 +8343,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2, rue du Commerce',
         'ShipCity': 'Lyon',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -7757,7 +8357,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Geislweg 14',
         'ShipCity': 'Salzburg',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -7770,7 +8371,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -7783,7 +8385,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Boulevard Tirou, 255',
         'ShipCity': 'Charleroi',
         'ShipRegion': null,
-        'ShipCountry': 'Belgium'
+        'ShipCountry': 'Belgium',
+        'Verified': !1
     },
 
     {
@@ -7796,7 +8399,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -7809,7 +8413,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berkeley Gardens 12  Brewery',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -7822,7 +8427,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Maubelstr. 90',
         'ShipCity': 'Brandenburg',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -7835,7 +8441,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2, rue du Commerce',
         'ShipCity': 'Lyon',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -7848,7 +8455,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Copacabana, 267',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -7861,7 +8469,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2817 Milton Dr.',
         'ShipCity': 'Albuquerque',
         'ShipRegion': 'NM',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'US',
+        'Verified': !0
     },
 
     {
@@ -7874,7 +8483,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Forsterstr. 57',
         'ShipCity': 'Mannheim',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -7887,7 +8497,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -7900,7 +8511,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2743 Bering St.',
         'ShipCity': 'Anchorage',
         'ShipRegion': 'AK',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'US',
+        'Verified': !0
     },
 
     {
@@ -7913,7 +8525,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Mataderos  2312',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -7926,7 +8539,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berguvsvägen  8',
         'ShipCity': 'Luleå',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -7939,7 +8553,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '67, avenue de l\'Europe',
         'ShipCity': 'Versailles',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -7952,7 +8567,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berliner Platz 43',
         'ShipCity': 'München',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -7965,7 +8581,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '54, rue Royale',
         'ShipCity': 'Nantes',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -7978,7 +8595,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1029 - 12th Ave. S.',
         'ShipCity': 'Seattle',
         'ShipRegion': 'WA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'US',
+        'Verified': !0
     },
 
     {
@@ -7991,7 +8609,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Magazinweg 7',
         'ShipCity': 'Frankfurt a.M.',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -8004,7 +8623,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 22 con Ave. Carlos Soublette #8-35',
         'ShipCity': 'San Cristóbal',
         'ShipRegion': 'Táchira',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -8017,7 +8637,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Brook Farm Stratford St. Mary',
         'ShipCity': 'Colchester',
         'ShipRegion': 'Essex',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -8030,7 +8651,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -8043,7 +8665,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berguvsvägen  8',
         'ShipCity': 'Luleå',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -8056,7 +8679,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '89 Chiaroscuro Rd.',
         'ShipCity': 'Portland',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'US',
+        'Verified': !0
     },
 
     {
@@ -8069,7 +8693,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Alameda dos Canàrios, 891',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -8082,7 +8707,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '90 Wadhurst Rd.',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -8095,7 +8721,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'ul. Filtrowa 68',
         'ShipCity': 'Warszawa',
         'ShipRegion': null,
-        'ShipCountry': 'Poland'
+        'ShipCountry': 'Poland',
+        'Verified': !0
     },
 
     {
@@ -8108,7 +8735,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '12, rue des Bouchers',
         'ShipCity': 'Marseille',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -8121,7 +8749,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'C/ Romero, 33',
         'ShipCity': 'Sevilla',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !1
     },
 
     {
@@ -8134,7 +8763,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Keskuskatu 45',
         'ShipCity': 'Helsinki',
         'ShipRegion': null,
-        'ShipCountry': 'Finland'
+        'ShipCountry': 'Finland',
+        'Verified': !1
     },
 
     {
@@ -8147,7 +8777,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'C/ Romero, 33',
         'ShipCity': 'Sevilla',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !1
     },
 
     {
@@ -8160,7 +8791,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berguvsvägen  8',
         'ShipCity': 'Luleå',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -8173,7 +8805,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '12, rue des Bouchers',
         'ShipCity': 'Marseille',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -8186,7 +8819,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Copacabana, 267',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -8199,7 +8833,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -8212,7 +8847,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Keskuskatu 45',
         'ShipCity': 'Helsinki',
         'ShipRegion': null,
-        'ShipCountry': 'Finland'
+        'ShipCountry': 'Finland',
+        'Verified': !1
     },
 
     {
@@ -8225,7 +8861,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Åkergatan 24',
         'ShipCity': 'Bräcke',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -8238,7 +8875,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Cerrito 333',
         'ShipCity': 'Buenos Aires',
         'ShipRegion': null,
-        'ShipCountry': 'Argentina'
+        'ShipCountry': 'Argentina',
+        'Verified': !0
     },
 
     {
@@ -8251,7 +8889,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'US',
+        'Verified': !0
     },
 
     {
@@ -8264,7 +8903,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '89 Chiaroscuro Rd.',
         'ShipCity': 'Portland',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'US',
+        'Verified': !0
     },
 
     {
@@ -8277,7 +8917,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '87 Polk St. Suite 5',
         'ShipCity': 'San Francisco',
         'ShipRegion': 'CA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'US',
+        'Verified': !0
     },
 
     {
@@ -8290,7 +8931,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Boulevard Tirou, 255',
         'ShipCity': 'Charleroi',
         'ShipRegion': null,
-        'ShipCountry': 'Belgium'
+        'ShipCountry': 'Belgium',
+        'Verified': !1
     },
 
     {
@@ -8303,7 +8945,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Paço, 67',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -8316,7 +8959,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rambla de Cataluña, 23',
         'ShipCity': 'Barcelona',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !1
     },
 
     {
@@ -8329,7 +8973,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'C/ Romero, 33',
         'ShipCity': 'Sevilla',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !1
     },
 
     {
@@ -8342,7 +8987,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2817 Milton Dr.',
         'ShipCity': 'Albuquerque',
         'ShipRegion': 'NM',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'US',
+        'Verified': !0
     },
 
     {
@@ -8355,7 +9001,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '67, rue des Cinquante Otages',
         'ShipCity': 'Nantes',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -8368,7 +9015,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Magazinweg 7',
         'ShipCity': 'Frankfurt a.M.',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -8381,7 +9029,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rue Joseph-Bens 532',
         'ShipCity': 'Bruxelles',
         'ShipRegion': null,
-        'ShipCountry': 'Belgium'
+        'ShipCountry': 'Belgium',
+        'Verified': !1
     },
 
     {
@@ -8394,7 +9043,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Maubelstr. 90',
         'ShipCity': 'Brandenburg',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -8407,7 +9057,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'US',
+        'Verified': !0
     },
 
     {
@@ -8420,7 +9071,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -8433,7 +9085,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rue Joseph-Bens 532',
         'ShipCity': 'Bruxelles',
         'ShipRegion': null,
-        'ShipCountry': 'Belgium'
+        'ShipCountry': 'Belgium',
+        'Verified': !1
     },
 
     {
@@ -8446,7 +9099,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '8 Johnstown Road',
         'ShipCity': 'Cork',
         'ShipRegion': 'Co. Cork',
-        'ShipCountry': 'Ireland'
+        'ShipCountry': 'Ireland',
+        'Verified': !1
     },
 
     {
@@ -8459,7 +9113,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Ing. Gustavo Moncada 8585 Piso 20-A',
         'ShipCity': 'Buenos Aires',
         'ShipRegion': null,
-        'ShipCountry': 'Argentina'
+        'ShipCountry': 'Argentina',
+        'Verified': !0
     },
 
     {
@@ -8472,7 +9127,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 52 con Ave. Bolívar #65-98 Llano Largo',
         'ShipCity': 'Barquisimeto',
         'ShipRegion': 'Lara',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -8485,7 +9141,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Mercado, 12',
         'ShipCity': 'Resende',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -8498,7 +9155,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 22 con Ave. Carlos Soublette #8-35',
         'ShipCity': 'San Cristóbal',
         'ShipRegion': 'Táchira',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -8511,7 +9169,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Åkergatan 24',
         'ShipCity': 'Bräcke',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -8524,7 +9183,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Paço, 67',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -8537,7 +9197,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1029 - 12th Ave. S.',
         'ShipCity': 'Seattle',
         'ShipRegion': 'WA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'US',
+        'Verified': !0
     },
 
     {
@@ -8550,7 +9211,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Mercado, 12',
         'ShipCity': 'Resende',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -8563,7 +9225,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'ul. Filtrowa 68',
         'ShipCity': 'Warszawa',
         'ShipRegion': null,
-        'ShipCountry': 'Poland'
+        'ShipCountry': 'Poland',
+        'Verified': !0
     },
 
     {
@@ -8576,7 +9239,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '25, rue Lauriston',
         'ShipCity': 'Paris',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -8589,7 +9253,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Strada Provinciale 124',
         'ShipCity': 'Reggio Emilia',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -8602,7 +9267,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Erling Skakkes gate 78',
         'ShipCity': 'Stavern',
         'ShipRegion': null,
-        'ShipCountry': 'Norway'
+        'ShipCountry': 'Norway',
+        'Verified': !0
     },
 
     {
@@ -8615,7 +9281,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Keskuskatu 45',
         'ShipCity': 'Helsinki',
         'ShipRegion': null,
-        'ShipCountry': 'Finland'
+        'ShipCountry': 'Finland',
+        'Verified': !1
     },
 
     {
@@ -8628,7 +9295,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'C/ Romero, 33',
         'ShipCity': 'Sevilla',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !1
     },
 
     {
@@ -8641,7 +9309,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '8 Johnstown Road',
         'ShipCity': 'Cork',
         'ShipRegion': 'Co. Cork',
-        'ShipCountry': 'Ireland'
+        'ShipCountry': 'Ireland',
+        'Verified': !1
     },
 
     {
@@ -8654,7 +9323,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Alameda dos Canàrios, 891',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -8667,7 +9337,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Alameda dos Canàrios, 891',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -8680,7 +9351,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Avda. Azteca 123',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -8693,7 +9365,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. del Libertador 900',
         'ShipCity': 'Buenos Aires',
         'ShipRegion': null,
-        'ShipCountry': 'Argentina'
+        'ShipCountry': 'Argentina',
+        'Verified': !0
     },
 
     {
@@ -8706,7 +9379,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Gran Vía, 1',
         'ShipCity': 'Madrid',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !1
     },
 
     {
@@ -8719,7 +9393,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '23 Tsawassen Blvd.',
         'ShipCity': 'Tsawassen',
         'ShipRegion': 'BC',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -8732,7 +9407,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Ave. 5 de Mayo Porlamar',
         'ShipCity': 'I. de Margarita',
         'ShipRegion': 'Nueva Esparta',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -8745,7 +9421,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Brook Farm Stratford St. Mary',
         'ShipCity': 'Colchester',
         'ShipRegion': 'Essex',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -8758,7 +9435,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Smagsloget 45',
         'ShipCity': 'Århus',
         'ShipRegion': null,
-        'ShipCountry': 'Denmark'
+        'ShipCountry': 'Denmark',
+        'Verified': !0
     },
 
     {
@@ -8771,7 +9449,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Paço, 67',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -8784,7 +9463,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1 rue Alsace-Lorraine',
         'ShipCity': 'Toulouse',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -8797,7 +9477,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berguvsvägen  8',
         'ShipCity': 'Luleå',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -8810,7 +9491,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Paço, 67',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -8823,7 +9505,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Avda. de la Constitución 2222',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -8836,7 +9519,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '67, avenue de l\'Europe',
         'ShipCity': 'Versailles',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -8849,7 +9533,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rambla de Cataluña, 23',
         'ShipCity': 'Barcelona',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !1
     },
 
     {
@@ -8862,7 +9547,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berliner Platz 43',
         'ShipCity': 'München',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -8875,7 +9561,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Boulevard Tirou, 255',
         'ShipCity': 'Charleroi',
         'ShipRegion': null,
-        'ShipCountry': 'Belgium'
+        'ShipCountry': 'Belgium',
+        'Verified': !1
     },
 
     {
@@ -8888,7 +9575,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Starenweg 5',
         'ShipCity': 'Genève',
         'ShipRegion': null,
-        'ShipCountry': 'Switzerland'
+        'ShipCountry': 'Switzerland',
+        'Verified': !0
     },
 
     {
@@ -8901,7 +9589,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '12, rue des Bouchers',
         'ShipCity': 'Marseille',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -8914,7 +9603,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Garden House Crowther Way',
         'ShipCity': 'Cowes',
         'ShipRegion': 'Isle of Wight',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -8927,7 +9617,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Magazinweg 7',
         'ShipCity': 'Frankfurt a.M.',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -8940,7 +9631,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Mercado, 12',
         'ShipCity': 'Resende',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -8953,7 +9645,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2732 Baker Blvd.',
         'ShipCity': 'Eugene',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -8966,7 +9659,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Cerrito 333',
         'ShipCity': 'Buenos Aires',
         'ShipRegion': null,
-        'ShipCountry': 'Argentina'
+        'ShipCountry': 'Argentina',
+        'Verified': !0
     },
 
     {
@@ -8979,7 +9673,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -8992,7 +9687,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Via Ludovico il Moro 22',
         'ShipCity': 'Bergamo',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -9005,7 +9701,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '12, rue des Bouchers',
         'ShipCity': 'Marseille',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -9018,7 +9715,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'US',
+        'Verified': !0
     },
 
     {
@@ -9031,7 +9729,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Strada Provinciale 124',
         'ShipCity': 'Reggio Emilia',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -9044,7 +9743,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Fauntleroy Circus',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -9057,7 +9757,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '23 Tsawassen Blvd.',
         'ShipCity': 'Tsawassen',
         'ShipRegion': 'BC',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -9070,7 +9771,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Heerstr. 22',
         'ShipCity': 'Leipzig',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -9083,7 +9785,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Smagsloget 45',
         'ShipCity': 'Århus',
         'ShipRegion': null,
-        'ShipCountry': 'Denmark'
+        'ShipCountry': 'Denmark',
+        'Verified': !0
     },
 
     {
@@ -9096,7 +9799,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Fauntleroy Circus',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -9109,7 +9813,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'C/ Romero, 33',
         'ShipCity': 'Sevilla',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !1
     },
 
     {
@@ -9122,7 +9827,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '23 Tsawassen Blvd.',
         'ShipCity': 'Tsawassen',
         'ShipRegion': 'BC',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -9135,7 +9841,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Via Ludovico il Moro 22',
         'ShipCity': 'Bergamo',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -9148,7 +9855,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Starenweg 5',
         'ShipCity': 'Genève',
         'ShipRegion': null,
-        'ShipCountry': 'Switzerland'
+        'ShipCountry': 'Switzerland',
+        'Verified': !0
     },
 
     {
@@ -9161,7 +9869,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Obere Str. 57',
         'ShipCity': 'Berlin',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -9174,7 +9883,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Brook Farm Stratford St. Mary',
         'ShipCity': 'Colchester',
         'ShipRegion': 'Essex',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -9187,7 +9897,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Ave. 5 de Mayo Porlamar',
         'ShipCity': 'I. de Margarita',
         'ShipRegion': 'Nueva Esparta',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -9200,7 +9911,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Åkergatan 24',
         'ShipCity': 'Bräcke',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -9213,7 +9925,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Forsterstr. 57',
         'ShipCity': 'Mannheim',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -9226,7 +9939,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 22 con Ave. Carlos Soublette #8-35',
         'ShipCity': 'San Cristóbal',
         'ShipRegion': 'Táchira',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -9239,7 +9953,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Ing. Gustavo Moncada 8585 Piso 20-A',
         'ShipCity': 'Buenos Aires',
         'ShipRegion': null,
-        'ShipCountry': 'Argentina'
+        'ShipCountry': 'Argentina',
+        'Verified': !0
     },
 
     {
@@ -9252,7 +9967,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Brasil, 442',
         'ShipCity': 'Campinas',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -9265,7 +9981,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 22 con Ave. Carlos Soublette #8-35',
         'ShipCity': 'San Cristóbal',
         'ShipRegion': 'Táchira',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -9278,7 +9995,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Alameda dos Canàrios, 891',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -9291,7 +10009,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -9304,7 +10023,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Jardim das rosas n. 32',
         'ShipCity': 'Lisboa',
         'ShipRegion': null,
-        'ShipCountry': 'Portugal'
+        'ShipCountry': 'Portugal',
+        'Verified': !0
     },
 
     {
@@ -9317,7 +10037,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '25, rue Lauriston',
         'ShipCity': 'Paris',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -9330,7 +10051,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2743 Bering St.',
         'ShipCity': 'Anchorage',
         'ShipRegion': 'AK',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -9343,7 +10065,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Hauptstr. 31',
         'ShipCity': 'Bern',
         'ShipRegion': null,
-        'ShipCountry': 'Switzerland'
+        'ShipCountry': 'Switzerland',
+        'Verified': !1
     },
 
     {
@@ -9356,7 +10079,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Luisenstr. 48',
         'ShipCity': 'Münster',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -9369,7 +10093,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -9382,7 +10107,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. dos Lusíadas, 23',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -9395,7 +10121,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'C/ Araquil, 67',
         'ShipCity': 'Madrid',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !1
     },
 
     {
@@ -9408,7 +10135,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '54, rue Royale',
         'ShipCity': 'Nantes',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !1
     },
 
     {
@@ -9421,7 +10149,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '67, avenue de l\'Europe',
         'ShipCity': 'Versailles',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !0
     },
 
     {
@@ -9434,7 +10163,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '67, avenue de l\'Europe',
         'ShipCity': 'Versailles',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !0
     },
 
     {
@@ -9447,7 +10177,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'P.O. Box 555',
         'ShipCity': 'Lander',
         'ShipRegion': 'WY',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -9460,7 +10191,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '23 Tsawassen Blvd.',
         'ShipCity': 'Tsawassen',
         'ShipRegion': 'BC',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !0
     },
 
     {
@@ -9473,7 +10205,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 22 con Ave. Carlos Soublette #8-35',
         'ShipCity': 'San Cristóbal',
         'ShipRegion': 'Táchira',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !0
     },
 
     {
@@ -9486,7 +10219,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Åkergatan 24',
         'ShipCity': 'Bräcke',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -9499,7 +10233,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rue Joseph-Bens 532',
         'ShipCity': 'Bruxelles',
         'ShipRegion': null,
-        'ShipCountry': 'Belgium'
+        'ShipCountry': 'Belgium',
+        'Verified': !0
     },
 
     {
@@ -9512,7 +10247,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !0
     },
 
     {
@@ -9525,7 +10261,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Åkergatan 24',
         'ShipCity': 'Bräcke',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -9538,7 +10275,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Paço, 67',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !0
     },
 
     {
@@ -9551,7 +10289,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '23 Tsawassen Blvd.',
         'ShipCity': 'Tsawassen',
         'ShipRegion': 'BC',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -9564,7 +10303,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -9577,7 +10317,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -9590,7 +10331,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '8 Johnstown Road',
         'ShipCity': 'Cork',
         'ShipRegion': 'Co. Cork',
-        'ShipCountry': 'Ireland'
+        'ShipCountry': 'Ireland',
+        'Verified': !1
     },
 
     {
@@ -9603,7 +10345,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Ing. Gustavo Moncada 8585 Piso 20-A',
         'ShipCity': 'Buenos Aires',
         'ShipRegion': null,
-        'ShipCountry': 'Argentina'
+        'ShipCountry': 'Argentina',
+        'Verified': !1
     },
 
     {
@@ -9616,7 +10359,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '35 King George',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !1
     },
 
     {
@@ -9629,7 +10373,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2817 Milton Dr.',
         'ShipCity': 'Albuquerque',
         'ShipRegion': 'NM',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -9642,7 +10387,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua da Panificadora, 12',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -9655,7 +10401,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -9668,7 +10415,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -9681,7 +10429,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '89 Jefferson Way Suite 2',
         'ShipCity': 'Portland',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -9694,7 +10443,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Åkergatan 24',
         'ShipCity': 'Bräcke',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !1
     },
 
     {
@@ -9707,7 +10457,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Smagsloget 45',
         'ShipCity': 'Århus',
         'ShipRegion': null,
-        'ShipCountry': 'Denmark'
+        'ShipCountry': 'Denmark',
+        'Verified': !1
     },
 
     {
@@ -9720,7 +10471,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Calle Dr. Jorge Cash 321',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -9733,7 +10485,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -9746,7 +10499,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 52 con Ave. Bolívar #65-98 Llano Largo',
         'ShipCity': 'Barquisimeto',
         'ShipRegion': 'Lara',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -9759,7 +10513,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'ul. Filtrowa 68',
         'ShipCity': 'Warszawa',
         'ShipRegion': null,
-        'ShipCountry': 'Poland'
+        'ShipCountry': 'Poland',
+        'Verified': !1
     },
 
     {
@@ -9772,7 +10527,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Mehrheimerstr. 369',
         'ShipCity': 'Köln',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -9785,7 +10541,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2817 Milton Dr.',
         'ShipCity': 'Albuquerque',
         'ShipRegion': 'NM',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -9798,7 +10555,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Åkergatan 24',
         'ShipCity': 'Bräcke',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !1
     },
 
     {
@@ -9811,7 +10569,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -9824,7 +10583,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '55 Grizzly Peak Rd.',
         'ShipCity': 'Butte',
         'ShipRegion': 'MT',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -9837,7 +10597,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rue Joseph-Bens 532',
         'ShipCity': 'Bruxelles',
         'ShipRegion': null,
-        'ShipCountry': 'Belgium'
+        'ShipCountry': 'Belgium',
+        'Verified': !1
     },
 
     {
@@ -9850,7 +10611,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Keskuskatu 45',
         'ShipCity': 'Helsinki',
         'ShipRegion': null,
-        'ShipCountry': 'Finland'
+        'ShipCountry': 'Finland',
+        'Verified': !0
     },
 
     {
@@ -9863,7 +10625,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2732 Baker Blvd.',
         'ShipCity': 'Eugene',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -9876,7 +10639,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Estrada da saúde n. 58',
         'ShipCity': 'Lisboa',
         'ShipRegion': null,
-        'ShipCountry': 'Portugal'
+        'ShipCountry': 'Portugal',
+        'Verified': !0
     },
 
     {
@@ -9889,7 +10653,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !0
     },
 
     {
@@ -9902,7 +10667,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'C/ Romero, 33',
         'ShipCity': 'Sevilla',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !0
     },
 
     {
@@ -9915,7 +10681,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Strada Provinciale 124',
         'ShipCity': 'Reggio Emilia',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -9928,7 +10695,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Obere Str. 57',
         'ShipCity': 'Berlin',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -9941,7 +10709,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Berliner Platz 43',
         'ShipCity': 'München',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -9954,7 +10723,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Gran Vía, 1',
         'ShipCity': 'Madrid',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !0
     },
 
     {
@@ -9967,7 +10737,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Ave. 5 de Mayo Porlamar',
         'ShipCity': 'I. de Margarita',
         'ShipRegion': 'Nueva Esparta',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !0
     },
 
     {
@@ -9980,7 +10751,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Erling Skakkes gate 78',
         'ShipCity': 'Stavern',
         'ShipRegion': null,
-        'ShipCountry': 'Norway'
+        'ShipCountry': 'Norway',
+        'Verified': !0
     },
 
     {
@@ -9993,7 +10765,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Brook Farm Stratford St. Mary',
         'ShipCity': 'Colchester',
         'ShipRegion': 'Essex',
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -10006,7 +10779,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !0
     },
 
     {
@@ -10019,7 +10793,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '89 Chiaroscuro Rd.',
         'ShipCity': 'Portland',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -10032,7 +10807,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. del Libertador 900',
         'ShipCity': 'Buenos Aires',
         'ShipRegion': null,
-        'ShipCountry': 'Argentina'
+        'ShipCountry': 'Argentina',
+        'Verified': !1
     },
 
     {
@@ -10045,7 +10821,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Mehrheimerstr. 369',
         'ShipCity': 'Köln',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -10058,7 +10835,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Taucherstraße 10',
         'ShipCity': 'Cunewalde',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !1
     },
 
     {
@@ -10071,7 +10849,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Paço, 67',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !1
     },
 
     {
@@ -10084,7 +10863,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Fauntleroy Circus',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !1
     },
 
     {
@@ -10097,7 +10877,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '35 King George',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !1
     },
 
     {
@@ -10110,7 +10891,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Torikatu 38',
         'ShipCity': 'Oulu',
         'ShipRegion': null,
-        'ShipCountry': 'Finland'
+        'ShipCountry': 'Finland',
+        'Verified': !0
     },
 
     {
@@ -10123,7 +10905,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Via Monte Bianco 34',
         'ShipCity': 'Torino',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !0
     },
 
     {
@@ -10136,7 +10919,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '23 Tsawassen Blvd.',
         'ShipCity': 'Tsawassen',
         'ShipRegion': 'BC',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !0
     },
 
     {
@@ -10149,7 +10933,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Maubelstr. 90',
         'ShipCity': 'Brandenburg',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -10162,7 +10947,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Hauptstr. 31',
         'ShipCity': 'Bern',
         'ShipRegion': null,
-        'ShipCountry': 'Switzerland'
+        'ShipCountry': 'Switzerland',
+        'Verified': !0
     },
 
     {
@@ -10175,7 +10961,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -10188,7 +10975,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -10201,7 +10989,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1029 - 12th Ave. S.',
         'ShipCity': 'Seattle',
         'ShipRegion': 'WA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -10214,7 +11003,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Starenweg 5',
         'ShipCity': 'Genève',
         'ShipRegion': null,
-        'ShipCountry': 'Switzerland'
+        'ShipCountry': 'Switzerland',
+        'Verified': !1
     },
 
     {
@@ -10227,7 +11017,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2743 Bering St.',
         'ShipCity': 'Anchorage',
         'ShipRegion': 'AK',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -10240,7 +11031,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Boulevard Tirou, 255',
         'ShipCity': 'Charleroi',
         'ShipRegion': null,
-        'ShipCountry': 'Belgium'
+        'ShipCountry': 'Belgium',
+        'Verified': !1
     },
 
     {
@@ -10253,7 +11045,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Walserweg 21',
         'ShipCity': 'Aachen',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -10266,7 +11059,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'C/ Romero, 33',
         'ShipCity': 'Sevilla',
         'ShipRegion': null,
-        'ShipCountry': 'Spain'
+        'ShipCountry': 'Spain',
+        'Verified': !0
     },
 
     {
@@ -10279,7 +11073,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Boulevard Tirou, 255',
         'ShipCity': 'Charleroi',
         'ShipRegion': null,
-        'ShipCountry': 'Belgium'
+        'ShipCountry': 'Belgium',
+        'Verified': !1
     },
 
     {
@@ -10292,7 +11087,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Ave. 5 de Mayo Porlamar',
         'ShipCity': 'I. de Margarita',
         'ShipRegion': 'Nueva Esparta',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !0
     },
 
     {
@@ -10305,7 +11101,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2732 Baker Blvd.',
         'ShipCity': 'Eugene',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -10318,7 +11115,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Hauptstr. 31',
         'ShipCity': 'Bern',
         'ShipRegion': null,
-        'ShipCountry': 'Switzerland'
+        'ShipCountry': 'Switzerland',
+        'Verified': !1
     },
 
     {
@@ -10331,7 +11129,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. dos Lusíadas, 23',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !0
     },
 
     {
@@ -10344,7 +11143,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '25, rue Lauriston',
         'ShipCity': 'Paris',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !1
     },
 
     {
@@ -10357,7 +11157,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'ul. Filtrowa 68',
         'ShipCity': 'Warszawa',
         'ShipRegion': null,
-        'ShipCountry': 'Poland'
+        'ShipCountry': 'Poland',
+        'Verified': !0
     },
 
     {
@@ -10370,7 +11171,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '23 Tsawassen Blvd.',
         'ShipCity': 'Tsawassen',
         'ShipRegion': 'BC',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -10383,7 +11185,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Adenauerallee 900',
         'ShipCity': 'Stuttgart',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -10396,7 +11199,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '35 King George',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -10409,7 +11213,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '23 Tsawassen Blvd.',
         'ShipCity': 'Tsawassen',
         'ShipRegion': 'BC',
-        'ShipCountry': 'Canada'
+        'ShipCountry': 'Canada',
+        'Verified': !1
     },
 
     {
@@ -10422,7 +11227,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Brasil, 442',
         'ShipCity': 'Campinas',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !0
     },
 
     {
@@ -10435,7 +11241,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Åkergatan 24',
         'ShipCity': 'Bräcke',
         'ShipRegion': null,
-        'ShipCountry': 'Sweden'
+        'ShipCountry': 'Sweden',
+        'Verified': !0
     },
 
     {
@@ -10448,7 +11255,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1 rue Alsace-Lorraine',
         'ShipCity': 'Toulouse',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !1
     },
 
     {
@@ -10461,7 +11269,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Rua do Paço, 67',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !0
     },
 
     {
@@ -10474,7 +11283,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Geislweg 14',
         'ShipCity': 'Salzburg',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !1
     },
 
     {
@@ -10487,7 +11297,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Cerrito 333',
         'ShipCity': 'Buenos Aires',
         'ShipRegion': null,
-        'ShipCountry': 'Argentina'
+        'ShipCountry': 'Argentina',
+        'Verified': !1
     },
 
     {
@@ -10500,7 +11311,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 22 con Ave. Carlos Soublette #8-35',
         'ShipCity': 'San Cristóbal',
         'ShipRegion': 'Táchira',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -10513,7 +11325,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '35 King George',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -10526,7 +11339,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'South House 300 Queensbridge',
         'ShipCity': 'London',
         'ShipRegion': null,
-        'ShipCountry': 'UK'
+        'ShipCountry': 'UK',
+        'Verified': !0
     },
 
     {
@@ -10539,7 +11353,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Forsterstr. 57',
         'ShipCity': 'Mannheim',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -10552,7 +11367,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Av. Copacabana, 267',
         'ShipCity': 'Rio de Janeiro',
         'ShipRegion': 'RJ',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !0
     },
 
     {
@@ -10565,7 +11381,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Via Monte Bianco 34',
         'ShipCity': 'Torino',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !1
     },
 
     {
@@ -10578,7 +11395,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2732 Baker Blvd.',
         'ShipCity': 'Eugene',
         'ShipRegion': 'OR',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -10591,7 +11409,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Strada Provinciale 124',
         'ShipCity': 'Reggio Emilia',
         'ShipRegion': null,
-        'ShipCountry': 'Italy'
+        'ShipCountry': 'Italy',
+        'Verified': !1
     },
 
     {
@@ -10604,7 +11423,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '8 Johnstown Road',
         'ShipCity': 'Cork',
         'ShipRegion': 'Co. Cork',
-        'ShipCountry': 'Ireland'
+        'ShipCountry': 'Ireland',
+        'Verified': !1
     },
 
     {
@@ -10617,7 +11437,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '187 Suffolk Ln.',
         'ShipCity': 'Boise',
         'ShipRegion': 'ID',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     },
 
     {
@@ -10630,7 +11451,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 52 con Ave. Bolívar #65-98 Llano Largo',
         'ShipCity': 'Barquisimeto',
         'ShipRegion': 'Lara',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !0
     },
 
     {
@@ -10643,7 +11465,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '1029 - 12th Ave. S.',
         'ShipCity': 'Seattle',
         'ShipRegion': 'WA',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !1
     },
 
     {
@@ -10656,7 +11479,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Walserweg 21',
         'ShipCity': 'Aachen',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -10669,7 +11493,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Alameda dos Canàrios, 891',
         'ShipCity': 'Sao Paulo',
         'ShipRegion': 'SP',
-        'ShipCountry': 'Brazil'
+        'ShipCountry': 'Brazil',
+        'Verified': !0
     },
 
     {
@@ -10682,7 +11507,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Avda. Azteca 123',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !1
     },
 
     {
@@ -10695,7 +11521,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Magazinweg 7',
         'ShipCity': 'Frankfurt a.M.',
         'ShipRegion': null,
-        'ShipCountry': 'Germany'
+        'ShipCountry': 'Germany',
+        'Verified': !0
     },
 
     {
@@ -10708,7 +11535,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Carrera 52 con Ave. Bolívar #65-98 Llano Largo',
         'ShipCity': 'Barquisimeto',
         'ShipRegion': 'Lara',
-        'ShipCountry': 'Venezuela'
+        'ShipCountry': 'Venezuela',
+        'Verified': !1
     },
 
     {
@@ -10721,7 +11549,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Kirchgasse 6',
         'ShipCity': 'Graz',
         'ShipRegion': null,
-        'ShipCountry': 'Austria'
+        'ShipCountry': 'Austria',
+        'Verified': !0
     },
 
     {
@@ -10734,7 +11563,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Calle Dr. Jorge Cash 321',
         'ShipCity': 'México D.F.',
         'ShipRegion': null,
-        'ShipCountry': 'Mexico'
+        'ShipCountry': 'Mexico',
+        'Verified': !0
     },
 
     {
@@ -10747,7 +11577,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Vinbæltet 34',
         'ShipCity': 'Kobenhavn',
         'ShipRegion': null,
-        'ShipCountry': 'Denmark'
+        'ShipCountry': 'Denmark',
+        'Verified': !0
     },
 
     {
@@ -10760,7 +11591,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': 'Starenweg 5',
         'ShipCity': 'Genève',
         'ShipRegion': null,
-        'ShipCountry': 'Switzerland'
+        'ShipCountry': 'Switzerland',
+        'Verified': !1
     },
 
     {
@@ -10773,7 +11605,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '12, rue des Bouchers',
         'ShipCity': 'Marseille',
         'ShipRegion': null,
-        'ShipCountry': 'France'
+        'ShipCountry': 'France',
+        'Verified': !0
     },
 
     {
@@ -10786,7 +11619,8 @@ let stringData: string = JSON.stringify([
         'ShipAddress': '2817 Milton Dr.',
         'ShipCity': 'Albuquerque',
         'ShipRegion': 'NM',
-        'ShipCountry': 'USA'
+        'ShipCountry': 'USA',
+        'Verified': !0
     }
 ]);
 
@@ -10801,3 +11635,469 @@ export const orderData: Object[] = JSON.parse(stringData, (field: any, value: an
     }
     return value;
 });
+
+
+export const studentData: object[] = [
+    {
+        "RollNo": 10001,
+        "Mark1": 78.5,
+        "Mark2": 90.0,
+        "Mark3": 85.5,
+        "Average": 84.7,
+        "Percentage": 0.84,
+        "Fees": 300
+    },
+    {
+        "RollNo": 10002,
+        "Mark1": 92.0,
+        "Mark2": 85.5,
+        "Mark3": 88.0,
+        "Average": 88.5,
+        "Percentage": 0.88,
+        "Fees": 250
+    },
+    {
+        "RollNo": 10003,
+        "Mark1": 76.0,
+        "Mark2": 88.5,
+        "Mark3": 82.5,
+        "Average": 82.3,
+        "Percentage": 0.82,
+        "Fees": 300
+    },
+    {
+        "RollNo": 10004,
+        "Mark1": 88.0,
+        "Mark2": 91.0,
+        "Mark3": 90.5,
+        "Average": 89.8,
+        "Percentage": 0.89,
+        "Fees": 300
+    },
+    {
+        "RollNo": 10005,
+        "Mark1": 95.0,
+        "Mark2": 78.5,
+        "Mark3": 87.0,
+        "Average": 86.8,
+        "Percentage": 0.86,
+        "Fees": 300
+    },
+    {
+        "RollNo": 10006,
+        "Mark1": 81.0,
+        "Mark2": 94.0,
+        "Mark3": 89.5,
+        "Average": 88.2,
+        "Percentage": 0.88,
+        "Fees": 150
+    },
+    {
+        "RollNo": 10007,
+        "Mark1": 87.5,
+        "Mark2": 86.0,
+        "Mark3": 84.5,
+        "Average": 86.0,
+        "Percentage": 0.86,
+        "Fees": 280
+    },
+    {
+        "RollNo": 10008,
+        "Mark1": 90.0,
+        "Mark2": 93.5,
+        "Mark3": 91.0,
+        "Average": 91.5,
+        "Percentage": 0.91,
+        "Fees": 300
+    },
+    {
+        "RollNo": 10009,
+        "Mark1": 79.5,
+        "Mark2": 87.0,
+        "Mark3": 83.5,
+        "Average": 83.3,
+        "Percentage": 0.83,
+        "Fees": 250
+    },
+    {
+        "RollNo": 10010,
+        "Mark1": 91.5,
+        "Mark2": 89.0,
+        "Mark3": 92.0,
+        "Average": 90.8,
+        "Percentage": 0.90,
+        "Fees": 300
+    },
+    {
+        "RollNo": 10011,
+        "Mark1": 84.0,
+        "Mark2": 90.5,
+        "Mark3": 88.5,
+        "Average": 87.7,
+        "Percentage": 0.87,
+        "Fees": 280
+    },
+    {
+        "RollNo": 10012,
+        "Mark1": 77.5,
+        "Mark2": 85.0,
+        "Mark3": 80.0,
+        "Average": 80.8,
+        "Percentage": 0.80,
+        "Fees": 150
+    },
+    {
+        "RollNo": 10013,
+        "Mark1": 93.0,
+        "Mark2": 91.5,
+        "Mark3": 89.0,
+        "Average": 91.2,
+        "Percentage": 0.91,
+        "Fees": 300
+    },
+    {
+        "RollNo": 10014,
+        "Mark1": 86.5,
+        "Mark2": 88.0,
+        "Mark3": 84.0,
+        "Average": 86.2,
+        "Percentage": 0.86,
+        "Fees": 250
+    },
+    {
+        "RollNo": 10015,
+        "Mark1": 90.0,
+        "Mark2": 92.5,
+        "Mark3": 87.5,
+        "Average": 90.0,
+        "Percentage": 0.90,
+        "Fees": 300
+    },
+    {
+        "RollNo": 10016,
+        "Mark1": 82.5,
+        "Mark2": 86.0,
+        "Mark3": 81.5,
+        "Average": 83.3,
+        "Percentage": 0.83,
+        "Fees": 280
+    },
+    {
+        "RollNo": 10017,
+        "Mark1": 94.5,
+        "Mark2": 89.5,
+        "Mark3": 91.0,
+        "Average": 91.7,
+        "Percentage": 0.91,
+        "Fees": 300
+    },
+    {
+        "RollNo": 10018,
+        "Mark1": 78.0,
+        "Mark2": 87.5,
+        "Mark3": 85.0,
+        "Average": 83.5,
+        "Percentage": 0.83,
+        "Fees": 250
+    },
+    {
+        "RollNo": 10019,
+        "Mark1": 91.0,
+        "Mark2": 93.0,
+        "Mark3": 90.5,
+        "Average": 91.5,
+        "Percentage": 0.91,
+        "Fees": 300
+    },
+    {
+        "RollNo": 10020,
+        "Mark1": 85.5,
+        "Mark2": 88.5,
+        "Mark3": 86.0,
+        "Average": 86.7,
+        "Percentage": 0.86,
+        "Fees": 150
+    },
+    {
+        "RollNo": 10021,
+        "Mark1": 80.0,
+        "Mark2": 91.0,
+        "Mark3": 84.5,
+        "Average": 85.2,
+        "Percentage": 0.85,
+        "Fees": 280
+    },
+    {
+        "RollNo": 10022,
+        "Mark1": 93.5,
+        "Mark2": 90.0,
+        "Mark3": 92.0,
+        "Average": 91.8,
+        "Percentage": 0.91,
+        "Fees": 300
+    },
+    {
+        "RollNo": 10023,
+        "Mark1": 79.0,
+        "Mark2": 86.5,
+        "Mark3": 83.0,
+        "Average": 82.8,
+        "Percentage": 0.82,
+        "Fees": 250
+    },
+    {
+        "RollNo": 10024,
+        "Mark1": 88.5,
+        "Mark2": 92.5,
+        "Mark3": 89.5,
+        "Average": 90.2,
+        "Percentage": 0.90,
+        "Fees": 300
+    },
+    {
+        "RollNo": 10025,
+        "Mark1": 84.0,
+        "Mark2": 87.0,
+        "Mark3": 85.5,
+        "Average": 85.5,
+        "Percentage": 0.85,
+        "Fees": 280
+    },
+    {
+        "RollNo": 10026,
+        "Mark1": 90.5,
+        "Mark2": 89.0,
+        "Mark3": 91.0,
+        "Average": 90.2,
+        "Percentage": 0.90,
+        "Fees": 300
+    },
+    {
+        "RollNo": 10027,
+        "Mark1": 77.5,
+        "Mark2": 85.5,
+        "Mark3": 82.0,
+        "Average": 81.7,
+        "Percentage": 0.81,
+        "Fees": 150
+    },
+    {
+        "RollNo": 10028,
+        "Mark1": 92.0,
+        "Mark2": 90.5,
+        "Mark3": 88.5,
+        "Average": 90.3,
+        "Percentage": 0.90,
+        "Fees": 300
+    },
+    {
+        "RollNo": 10029,
+        "Mark1": 86.0,
+        "Mark2": 87.5,
+        "Mark3": 84.0,
+        "Average": 85.8,
+        "Percentage": 0.85,
+        "Fees": 250
+    },
+    {
+        "RollNo": 10030,
+        "Mark1": 89.5,
+        "Mark2": 91.0,
+        "Mark3": 90.0,
+        "Average": 90.2,
+        "Percentage": 0.90,
+        "Fees": 300
+    },
+    {
+        "RollNo": 10031,
+        "Mark1": 83.0,
+        "Mark2": 88.5,
+        "Mark3": 86.5,
+        "Average": 86.0,
+        "Percentage": 0.86,
+        "Fees": 280
+    },
+    {
+        "RollNo": 10032,
+        "Mark1": 94.0,
+        "Mark2": 92.0,
+        "Mark3": 89.0,
+        "Average": 91.7,
+        "Percentage": 0.91,
+        "Fees": 300
+    },
+    {
+        "RollNo": 10033,
+        "Mark1": 78.5,
+        "Mark2": 86.0,
+        "Mark3": 84.0,
+        "Average": 82.8,
+        "Percentage": 0.82,
+        "Fees": 250
+    },
+    {
+        "RollNo": 10034,
+        "Mark1": 91.0,
+        "Mark2": 93.5,
+        "Mark3": 90.5,
+        "Average": 91.7,
+        "Percentage": 0.91,
+        "Fees": 300
+    },
+    {
+        "RollNo": 10035,
+        "Mark1": 85.5,
+        "Mark2": 88.0,
+        "Mark3": 86.0,
+        "Average": 86.5,
+        "Percentage": 0.86,
+        "Fees": 150
+    },
+    {
+        "RollNo": 10036,
+        "Mark1": 80.0,
+        "Mark2": 90.5,
+        "Mark3": 84.5,
+        "Average": 85.0,
+        "Percentage": 0.85,
+        "Fees": 280
+    },
+    {
+        "RollNo": 10037,
+        "Mark1": 93.5,
+        "Mark2": 89.5,
+        "Mark3": 91.5,
+        "Average": 91.5,
+        "Percentage": 0.91,
+        "Fees": 300
+    },
+    {
+        "RollNo": 10038,
+        "Mark1": 79.0,
+        "Mark2": 87.0,
+        "Mark3": 83.5,
+        "Average": 83.2,
+        "Percentage": 0.83,
+        "Fees": 250
+    },
+    {
+        "RollNo": 10039,
+        "Mark1": 88.5,
+        "Mark2": 92.0,
+        "Mark3": 90.0,
+        "Average": 90.2,
+        "Percentage": 0.90,
+        "Fees": 300
+    },
+    {
+        "RollNo": 10040,
+        "Mark1": 84.0,
+        "Mark2": 86.5,
+        "Mark3": 85.0,
+        "Average": 85.2,
+        "Percentage": 0.85,
+        "Fees": 280
+    }
+];
+
+
+export function dataSource(virtualData: Object[]): Object[] {
+  let names: string[] = ['VINET', 'TOMSP', 'HANAR', 'VICTE', 'SUPRD', 'HANAR', 'CHOPS', 'RICSU', 'WELLI', 'HILAA', 'ERNSH', 'CENTC',
+    'OTTIK', 'QUEDE', 'RATTC', 'ERNSH', 'FOLKO', 'BLONP', 'WARTH', 'FRANK', 'GROSR', 'WHITC', 'WARTH', 'SPLIR', 'RATTC', 'QUICK', 'VINET',
+    'MAGAA', 'TORTU', 'MORGK', 'BERGS', 'LEHMS', 'BERGS', 'ROMEY', 'ROMEY', 'LILAS', 'LEHMS', 'QUICK', 'QUICK', 'RICAR', 'REGGC', 'BSBEV',
+    'COMMI', 'QUEDE', 'TRADH', 'TORTU', 'RATTC', 'VINET', 'LILAS', 'BLONP', 'HUNGO', 'RICAR', 'MAGAA', 'WANDK', 'SUPRD', 'GODOS', 'TORTU',
+    'OLDWO', 'ROMEY', 'LONEP', 'ANATR', 'HUNGO', 'THEBI', 'DUMON', 'WANDK', 'QUICK', 'RATTC', 'ISLAT', 'RATTC', 'LONEP', 'ISLAT', 'TORTU',
+    'WARTH', 'ISLAT', 'PERIC', 'KOENE', 'SAVEA', 'KOENE', 'BOLID', 'FOLKO', 'FURIB', 'SPLIR', 'LILAS', 'BONAP', 'MEREP', 'WARTH', 'VICTE',
+    'HUNGO', 'PRINI', 'FRANK', 'OLDWO', 'MEREP', 'BONAP', 'SIMOB', 'FRANK', 'LEHMS', 'WHITC', 'QUICK', 'RATTC', 'FAMIA'];
+  const sport: string[] = ['Cricket', 'Football', 'Tennis', 'Golf', 'Chess', 'Dodgeball', 'Racket', 'Archery', 'Climbing', 'Hunting', 'Carrom', 'Tag', 'Novuss',
+    'Subbuteo', 'Baseball', 'Madden NFL', 'Shuffleboard', 'Badminton', 'Hockey', 'Volleyball', 'Table Tennis', 'Golf', 'Cycling', 'Running', 'Walking', 'Wireball',
+    'Town ball', 'Tee ball', 'Stool ball', 'Stick ball'];
+  const country: string[] = ['India', 'Australia', 'Ballesteros', 'Belgium', 'Brazil', 'England', 'Ethiopia', 'Finland', 'France', 'Germany', 'Britain',
+    'Argentina', 'Jamaica', 'Kenya', 'Morocco', 'Ireland', 'Norway', 'Philippines', 'Portugal', 'Romania', 'Russia', 'Scotland', 'Scottish', 'Serbia', 'Spain',
+    'Sweden', 'Switzerland', 'Netherlands', 'UK', 'Ukraine', 'US', 'Wales', 'West Indies', 'China', 'Hong Kong', 'Italy', 'Philippines', 'Turkey', 'Botswana',
+    'Sri Lanka', 'Algeria', 'Bangladesh', 'Egypt', 'Malaysia'];
+  for (let i: number = 0; i < 1000000; i++) {
+    virtualData.push({
+      'SNo': i + 1,
+      'FIELD1': names[Math.floor(Math.random() * names.length)],
+      'FIELD2': 1967 + (i % 10),
+      'FIELD3': sport[Math.floor(Math.random() * sport.length)],
+      'FIELD4': country[Math.floor(Math.random() * country.length)],
+      'FIELD5': Math.floor(Math.random() * 2000),
+      'FIELD6': Math.floor(Math.random() * 1000),
+      'FIELD7': Math.floor(Math.random() * 100),
+      'FIELD8': Math.floor(Math.random() * 10),
+      'FIELD9': Math.floor(Math.random() * 10),
+      'FIELD10': Math.floor(Math.random() * 100),
+      'FIELD11': Math.floor(Math.random() * 100),
+      'FIELD12': Math.floor(Math.random() * 1000),
+      'FIELD13': Math.floor(Math.random() * 10),
+      'FIELD14': Math.floor(Math.random() * 10),
+      'FIELD15': Math.floor(Math.random() * 1000),
+      'FIELD16': Math.floor(Math.random() * 200),
+      'FIELD17': Math.floor(Math.random() * 300),
+      'FIELD18': Math.floor(Math.random() * 400),
+      'FIELD19': Math.floor(Math.random() * 500),
+      'FIELD20': Math.floor(Math.random() * 700),
+      'FIELD21': Math.floor(Math.random() * 800),
+      'FIELD22': Math.floor(Math.random() * 1000),
+      'FIELD23': Math.floor(Math.random() * 2000),
+      'FIELD24': Math.floor(Math.random() * 150),
+      'FIELD25': Math.floor(Math.random() * 1000),
+      'FIELD26': Math.floor(Math.random() * 100),
+      'FIELD27': Math.floor(Math.random() * 400),
+      'FIELD28': Math.floor(Math.random() * 600),
+      'FIELD29': Math.floor(Math.random() * 500),
+      'FIELD30': Math.floor(Math.random() * 300),
+    });
+  }
+  return virtualData;
+}
+
+
+    export type Order = {
+  OrderID: number;
+  CustomerID: string;
+  OrderDate: string;
+  ShippedDate: string;
+  Freight: number;
+  ShipName: string;
+  ShipAddress: string;
+  ShipCity: string;
+  ShipRegion: string | null;
+  ShipCountry: string;
+  Verified: boolean;
+};
+
+export const generateOrders = (count: number): Order[] => {
+
+
+const customerIDs = ['VINET', 'TOMSP', 'HANAR', 'VICTE', 'SUPRD', 'CHOPS', 'RICSU', 'WELLI', 'HILAA', 'ERNSH'];
+const shipNames = ['Vins et alcools Chevalier', 'Toms Spezialitäten', 'Hanari Carnes', 'Victuailles en stock', 'Suprêmes délices'];
+const cities = ['Reims', 'Münster', 'Rio de Janeiro', 'Lyon', 'Charleroi', 'Bern', 'Genève', 'Resende', 'San Cristóbal', 'Graz'];
+const countries = ['France', 'Germany', 'Brazil', 'Belgium', 'Switzerland', 'Venezuela', 'Austria'];
+const regions = [null, 'RJ', 'SP', 'Táchira'];
+  const orders: Order[] = [];
+
+  for (let i = 0; i < count; i++) {
+    const orderDate = new Date(1996, 6, Math.floor(Math.random() * 30) + 1); // July 1996
+    const shippedDate = new Date(orderDate);
+    shippedDate.setDate(orderDate.getDate() + Math.floor(Math.random() * 10) + 1);
+
+    orders.push({
+      OrderID: 10248 + i,
+      CustomerID: customerIDs[i % customerIDs.length],
+      OrderDate: orderDate.toISOString(),
+      ShippedDate: shippedDate.toISOString(),
+      Freight: parseFloat((Math.random() * 150).toFixed(2)),
+      ShipName: shipNames[i % shipNames.length],
+      ShipAddress: `Address ${i + 1}`,
+      ShipCity: cities[i % cities.length],
+      ShipRegion: regions[i % regions.length],
+      ShipCountry: countries[i % countries.length],
+      Verified: Math.random() > 0.5,
+    });
+  }
+
+  return orders;
+};

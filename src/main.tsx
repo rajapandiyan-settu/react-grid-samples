@@ -7,12 +7,16 @@ import GridSorting from './components/GridSorting';
 import GridFiltering from './components/GridFiltering.tsx';
 import GridSearching from './components/GridSearching.tsx';
 import GridEditing from './components/GridEditing.tsx';
+import GridAllEvents from './components/AllEvents.tsx';
 import GridColumn from './components/GridColumn.tsx';
 import AllFeatures from './components/AllFeatures.tsx';
 import GridAggregate from './components/GridAggregate.tsx';
 import Grid1MRecords from './components/Grid1MRecords.tsx'
 import GridProps from './components/GridProps.tsx'
-import GridSelection from './components/GridSelection.tsx'
+import GridSelection from './components/GridSelection.tsx';
+import GridTemplates from './components/Templates.tsx';
+import GridFilterAndEditTemplates from './components/FilterAndEditTemplate.tsx';
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -53,14 +57,23 @@ createRoot(document.getElementById('root')!).render(
       <NavLink to="/editing" className="nav-link">
         Editing
       </NavLink>
-      {/* <NavLink to="/aggregate" className="nav-link">
+            <NavLink to="/events" className="nav-link">
+        All Events
+      </NavLink>
+      <NavLink to="/aggregate" className="nav-link">
         Aggregate
-      </NavLink> */}
+      </NavLink>
       <NavLink to="/allfeatures" className="nav-link">
         All Features
       </NavLink>
       <NavLink to="/1mrecords" className="nav-link">
         1M Records
+      </NavLink>
+        <NavLink to="/template" className="nav-link">
+        Templates
+      </NavLink>
+              <NavLink to="/filterAndEdit" className="nav-link">
+        Filter and Edit Templates
       </NavLink>
     </nav>
     <Routes>
@@ -70,12 +83,15 @@ createRoot(document.getElementById('root')!).render(
       <Route path="/sorting" element={<GridSorting />} />
       <Route path="/searching" element={<GridSearching />} />
       <Route path="/editing" element={<GridEditing />} />
+      <Route path="/events" element={<GridAllEvents />} />
       <Route path="/columns" element={<GridColumn />} />
       <Route path="/aggregate" element={<GridAggregate />} />
       <Route path="/allfeatures" element={<AllFeatures />} />
       <Route path="/1mrecords" element={<Grid1MRecords />} />
       <Route path="/gridprops" element={<GridProps />} />
       <Route path="/selection" element={<GridSelection />} />
+      <Route path="/template" element={<GridTemplates />} />
+      <Route path="/filterAndEdit" element={<GridFilterAndEditTemplates />} />
     </Routes>
   </Router>
 )

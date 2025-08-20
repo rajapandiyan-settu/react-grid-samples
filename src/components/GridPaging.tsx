@@ -134,6 +134,7 @@ function GridPaging() {
                             <Column field='ShipCity' headerText='Ship City' width='120' />
                             <Column field='ShipAddress' headerText='Ship Address' width='160' />
                             <Column field='ShipName' headerText='Ship Name' width='140' />
+                            <Column field="Verified" headerText="Verified" edit={{ type: "booleanedit" }} width="90" displayAsCheckBox={true} />
                         </Columns>
                         <Aggregates>
                             <AggregateRow>

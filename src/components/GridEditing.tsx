@@ -1,10 +1,12 @@
 import { useRef, useState } from 'react';
 import { Grid, type GridRef, Columns, Column, Aggregates, AggregateColumn, AggregateRow, type EditSettings } from '@syncfusion/react-grid';
 import { orderData } from '../dataSource'
-import { Checkbox } from '@syncfusion/react-buttons';
+import { Button, Checkbox } from '@syncfusion/react-buttons';
+import { NumericTextBox } from '@syncfusion/react-inputs';
 
 function GridEditing() {
     const gridRef = useRef<GridRef>(null);
+    const [rowIndex, setrowIndex] = useState(0);
     const [editSettings, setEditSettings] = useState<EditSettings>({ allowEdit: true, allowAdd: true, allowDelete: true });
     const load = () => {
         console.log('load');
@@ -56,6 +58,38 @@ function GridEditing() {
                     <div className='sidebar-items'>
                         <Checkbox defaultChecked={true} label='Allow Deleting' onChange={() => { setEditSettings({ ...gridRef.current?.editSettings, allowDelete: !gridRef.current?.editSettings?.allowDelete }); }} />
                     </div>
+                    <div>
+                        <span className="label">Enter the row index to select: </span>
+                        <span style={{ padding: '0 0 0 10px' }}>
+                            <NumericTextBox
+                                placeholder="Enter the index"
+                                width={150}
+                                defaultValue={0}
+                                min={0}
+                                max={11}
+                                onChange={(args) => { setrowIndex(args?.value as number) }}
+                            />
+                        </span>
+                    </div>
+                    <div style={{ padding: '10px 0 0 0' }}>
+                        <Button onClick={() => { gridRef.current?.selectRow?.(rowIndex) }}>Select Row</Button>
+                    </div>
+                    <div style={{ padding: '10px 0 0 0' }}>
+                        <Button onClick={() => { gridRef.current?.addRecord() }}>Add Record</Button>
+                    </div>
+                    <div style={{ padding: '10px 0 0 0' }}>
+                        <Button onClick={() => { gridRef.current?.startEdit() }}>Start Edit</Button>
+                    </div>
+                    <div style={{ padding: '10px 0 0 0' }}>
+                        <Button onClick={() => { gridRef.current?.endEdit() }}>End Edit</Button>
+                    </div>
+                    <div style={{ padding: '10px 0 0 0' }}>
+                        <Button onClick={() => { gridRef.current?.closeEdit() }}>Cancel Edit</Button>
+                    </div>
+                    <div style={{ padding: '10px 0 0 0' }}>
+                        <Button onClick={() => { gridRef.current?.deleteRecord() }}>Delete Record</Button>
+                    </div>
+
                 </aside>
                 <main className="sub-content">
                     <Grid
@@ -83,6 +117,7 @@ function GridEditing() {
                             <Column field='ShipCity' headerText='Ship City' width='120' />
                             <Column field='ShipAddress' headerText='Ship Address' width='160' />
                             <Column field='ShipName' headerText='Ship Name' width='140' />
+                            <Column field="Verified" headerText="Verified" edit={{ type: "booleanedit" }} width="90" displayAsCheckBox={true} />
                         </Columns>
                         <Aggregates>
                             <AggregateRow>

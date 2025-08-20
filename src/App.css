@@ -145,3 +145,11 @@ html, body, #root {
     text-align: center;
   }
 }
+
+.emptyRecordTemplate {
+    text-align: center;
+}
+.sf-emptyRecord {
+    display: block;
+    margin: 10px auto;
+}
